@@ -378,12 +378,8 @@
 /turf/open/indestructible/ground/outside/savannah/bottomleftcorner,
 /area/f13/legion)
 "abX" = (
-/obj/machinery/button/door{
-	id = "legionlock";
-	name = "Legion shutters";
-	pixel_y = 32
-	},
-/turf/open/floor/wood/f13/oak,
+/obj/structure/rack,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/legion)
 "abY" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -2079,8 +2075,15 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
 "ahR" = (
-/obj/structure/destructible/tribal_torch/lit,
-/turf/open/floor/wood/f13/oak,
+/mob/living/simple_animal/hostile/wolf{
+	desc = "Legion mongrels are dogs owned and bred by the Houndmasters of Caesar's Legion. Mongrels are mainly used in combat and scouting missions by the Legion.";
+	faction = list("neutral");
+	health = 200;
+	maxHealth = 200;
+	name = "Lupa";
+	tame = 1
+	},
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/legion)
 "ahS" = (
 /obj/effect/decal/remains/human,
@@ -10423,6 +10426,10 @@
 /obj/effect/landmark/start/f13/vaultdoctor,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/medical/medbay/central)
+"aEr" = (
+/obj/item/flag/legion,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/legion)
 "aEs" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -22679,7 +22686,14 @@
 /obj/machinery/button/door{
 	id = "legionlock";
 	name = "Legion shutters";
-	pixel_x = 16;
+	pixel_x = 6;
+	pixel_y = 32
+	},
+/obj/structure/chair/wood,
+/obj/machinery/button/door{
+	id = "legiongate";
+	name = "Gate button";
+	pixel_x = -6;
 	pixel_y = 32
 	},
 /turf/open/floor/wood/f13/oak,
@@ -23519,12 +23533,11 @@
 	},
 /area/f13/ncr)
 "bvq" = (
-/obj/structure/destructible/tribal_torch/lit,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
+/obj/structure/railing{
+	dir = 1
 	},
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "bvr" = (
 /turf/open/floor/wood/f13/old{
 	icon_state = "housewood2-broken"
@@ -32214,6 +32227,10 @@
 /obj/structure/nest/raider/ranged,
 /turf/open/floor/wood/f13/old,
 /area/f13/underground/mountain)
+"hvf" = (
+/obj/structure/bed/dogbed,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "hvs" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 8;
@@ -34045,6 +34062,13 @@
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plating,
 /area/f13/powerplant)
+"lOZ" = (
+/obj/item/flag/legion,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "lPb" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "rubblepillar"
@@ -34683,6 +34707,14 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
+"nBk" = (
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/legion)
 "nBn" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/f13{
@@ -36377,6 +36409,13 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/sunny_dale)
+"rDk" = (
+/obj/item/pet_carrier{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "rDK" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/f13/wood,
@@ -36780,11 +36819,6 @@
 /area/f13/ncr)
 "smp" = (
 /obj/structure/table/wood,
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
 /obj/machinery/door/poddoor/shutters{
 	id = "legion12"
 	},
@@ -36917,6 +36951,13 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/tunnel)
+"sBY" = (
+/obj/item/flag/legion,
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "sDD" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -38796,6 +38837,10 @@
 	icon_state = "outerpavementcorner"
 	},
 /area/f13/desert)
+"wQd" = (
+/obj/structure/stacklifter,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/legion)
 "wQi" = (
 /obj/structure/table,
 /obj/item/pda{
@@ -38978,6 +39023,14 @@
 	icon_state = "platingdmg3"
 	},
 /area/f13/powerplant)
+"xeI" = (
+/mob/living/simple_animal/hostile/wolf/alpha{
+	desc = "Legion mongrels are dogs owned and bred by the Houndmasters of Caesar's Legion. Mongrels are mainly used in combat and scouting missions by the Legion.";
+	faction = list("neutral");
+	name = "Brutus"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "xfA" = (
 /obj/structure/table/wood/settler,
 /turf/open/floor/wood/f13/stage_tr,
@@ -39385,6 +39438,15 @@
 /obj/item/multitool,
 /turf/open/floor/plating,
 /area/f13/powerplant)
+"yfU" = (
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/legion)
 "yjd" = (
 /obj/structure/timeddoor,
 /turf/closed/indestructible/rock,
@@ -134757,7 +134819,7 @@ aab
 aab
 aab
 aab
-aag
+aab
 aag
 aag
 aag
@@ -135159,7 +135221,7 @@ aab
 aab
 aab
 aab
-aag
+aab
 aag
 aag
 aag
@@ -135551,17 +135613,17 @@ akV
 akV
 akV
 akV
-akV
 aab
-akV
-akV
-akV
-akV
-akV
-akV
-akV
-abV
-aag
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aag
 aag
 aag
@@ -135953,17 +136015,17 @@ ack
 ack
 ack
 akV
-akV
-akV
-akV
-vMO
-add
-tDN
-aas
-agI
-mpE
-aag
-aag
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aag
 aag
 aag
@@ -136354,18 +136416,18 @@ ack
 bKX
 ack
 ack
-bnP
-acd
-bvq
 akV
-vMO
-vMO
-vMO
-vMO
-agI
-mpE
-aag
-aag
+akV
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aag
 aag
 aag
@@ -136752,22 +136814,22 @@ aas
 aOa
 acB
 ack
-ack
+wQd
 ack
 dGK
-bnP
-abK
-aUK
-aUK
-aXK
-vMO
-vMO
-vMO
-vMO
-agI
-mpE
-aag
-aag
+ack
+ack
+akV
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aag
 aag
 aag
@@ -137157,19 +137219,19 @@ ack
 ack
 ack
 ack
-bwC
-acj
-rYr
-rYr
+ack
+ack
 akV
-rRx
-vMO
-vMO
-vMO
-agI
-mpE
-aag
-aag
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aag
 aag
 aag
@@ -137556,20 +137618,20 @@ vMO
 vMO
 acB
 ack
+wQd
 ack
 ack
-ack
-bwC
-aho
-ack
+wQd
 ack
 akV
-vMO
-vMO
-vMO
-vMO
-agI
-mpE
+akV
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aag
 aag
 aag
@@ -137958,21 +138020,21 @@ vMO
 qgF
 acB
 ack
-bbR
 ack
 ack
-bwC
-aho
+ack
+ack
 ack
 ack
 akV
 akV
 akV
-abX
-vMO
-agI
-mpE
-aag
+akV
+akV
+akV
+akV
+akV
+lOZ
 aag
 aag
 aag
@@ -138359,22 +138421,22 @@ vMO
 abU
 aOa
 acB
-ack
-ack
-ack
-ack
-bwC
-aho
-ack
-ack
+bnP
+acd
+acd
+acd
+acd
+acd
+acd
+bre
 ack
 ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -138761,22 +138823,22 @@ acB
 acB
 acB
 acB
-ack
-bnP
-acd
-acd
-abK
+bwC
+bKQ
+bKQ
+abO
+bKQ
+bKQ
+aUK
 aih
-acd
-acd
 bre
 ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -139163,22 +139225,22 @@ bTm
 aas
 bEp
 acB
-ack
-bwC
-bKQ
-bKQ
-abO
-bKQ
-bKQ
+aby
+anB
+bBI
+anB
+anB
+anB
+bKZ
 aUK
-aih
-bvq
+ace
+acd
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -139565,22 +139627,22 @@ vMO
 vMO
 aNH
 acB
-ack
-aby
-anB
-bBI
-anB
-anB
-anB
-bKZ
+bpp
+aUK
+aUK
+aUK
+aUK
+aUK
+tvG
+aUK
 aUK
 aUK
 aXK
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -139967,22 +140029,22 @@ vMO
 vMO
 wSS
 acB
-ack
 bpp
 aUK
-aUK
+bTa
 aUK
 aUK
 aUK
 tvG
 aUK
 acj
+rYr
 akV
 rRx
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -140369,22 +140431,22 @@ qqS
 aaC
 wZy
 acB
-ack
 bpp
 aUK
-bTa
 aUK
 aUK
+abL
 aUK
-tvG
+aZw
 aUK
 aho
+ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -140771,22 +140833,22 @@ vMO
 vMO
 afc
 acB
-ack
-bpp
+aeh
 aUK
 aUK
 aUK
-abL
 aUK
-aZw
+aUK
+acc
 aUK
 aho
+ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aYw
 aag
 aag
@@ -141173,22 +141235,22 @@ mpE
 aaC
 aiq
 acB
-ack
-aeh
+bpp
+aUK
+afH
 aUK
 aUK
-aUK
-aUK
-aUK
-acc
+adR
+aZw
 aUK
 aho
+ack
 akV
 bsn
+tDN
 vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -141575,22 +141637,22 @@ aeK
 aMJ
 afe
 acB
-ack
 bpp
 aUK
-afH
 aUK
 aUK
-adR
-aZw
+aUK
+bTa
+tvG
 aUK
 aho
+ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -141977,22 +142039,22 @@ vMO
 abU
 bKV
 acB
-ack
-bpp
-aUK
-aUK
-aUK
-aUK
-bTa
-tvG
+agJ
+anB
+anB
+anB
+anB
+anB
+gTq
 aUK
 aho
+ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -142379,22 +142441,22 @@ acB
 acB
 acB
 acB
-ack
-agJ
-anB
-anB
-anB
-anB
-anB
-gTq
+bwC
+mmz
+mmz
+mmz
+mmz
+mmz
+aUK
 aUK
 aih
+acd
 akV
 rRx
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -142781,22 +142843,22 @@ laU
 laU
 laU
 xqm
-ack
-bwC
-mmz
-mmz
-mmz
-mmz
-mmz
+osl
+rYr
+upL
+aUK
+aUK
+aUK
+aUK
 aUK
 aUK
 aUK
 aXK
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -143184,21 +143246,21 @@ laU
 laU
 tmi
 bxU
+ack
 osl
-rYr
 upL
 aUK
 aUK
 aUK
 acj
-rYr
 aec
+rYr
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -143598,9 +143660,9 @@ ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -143962,7 +144024,7 @@ vMO
 aas
 akV
 akV
-ack
+aEr
 ack
 bwC
 aUK
@@ -144000,9 +144062,9 @@ ack
 akV
 vMO
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -144402,9 +144464,9 @@ aeC
 akV
 mnj
 vMO
+vMO
 agI
-mpE
-aag
+bvq
 aag
 aag
 aag
@@ -144806,7 +144868,7 @@ agI
 agI
 akV
 akV
-abV
+sBY
 aag
 aag
 aag
@@ -146776,7 +146838,7 @@ vMO
 vMO
 ail
 akV
-ack
+aEr
 bnP
 acd
 abK
@@ -148016,19 +148078,19 @@ ack
 ack
 afy
 ack
-bbR
+ack
+ack
+ack
+ack
+akV
 akV
 smp
 smp
-akV
-akV
 smp
 smp
-smp
-smp
-smp
-smp
-akV
+aag
+aag
+aag
 aag
 aag
 aag
@@ -148419,19 +148481,19 @@ acB
 ack
 ack
 ack
+ack
+ack
+ack
+akV
 akV
 vMO
 vMO
 vMO
-aas
-vMO
-vMO
-vMO
-vMO
-vMO
-vMO
+akV
 smp
-aag
+smp
+akV
+aYw
 aag
 aag
 aag
@@ -148821,15 +148883,15 @@ acB
 ack
 ack
 ack
+ack
+ack
+ack
 akV
 rRx
 vMO
 vMO
 vMO
-vMO
-vMO
-tDN
-vMO
+aas
 vMO
 vMO
 smp
@@ -149214,7 +149276,7 @@ uzV
 ack
 acB
 vMO
-vMO
+aeK
 vMO
 vMO
 vMO
@@ -149223,16 +149285,16 @@ acB
 ack
 ack
 ack
-aXK
+ack
+ack
+ack
+akV
 vMO
 vMO
 vMO
-sAz
-rRx
 vMO
-mgg
 vMO
-ahR
+vMO
 vMO
 smp
 aag
@@ -149625,16 +149687,16 @@ acB
 ack
 ack
 ack
-akV
+ack
+ack
+ack
+aXK
 vMO
 vMO
 vMO
-vMO
-vMO
-vMO
-vMO
-vMO
-vMO
+sAz
+tDN
+mgg
 vMO
 smp
 aag
@@ -150027,11 +150089,11 @@ acB
 ack
 ack
 ack
+ack
+ack
+ack
 akV
 vMO
-vMO
-vMO
-abU
 vMO
 vMO
 vMO
@@ -150428,19 +150490,19 @@ abP
 acB
 ack
 ack
-bbR
+ack
+ack
+ack
+ack
 akV
-akV
-akV
-akV
-akV
+rRx
+vMO
+vMO
+vMO
+abU
+vMO
+vMO
 smp
-smp
-smp
-smp
-smp
-smp
-akV
 aag
 aag
 aag
@@ -150833,17 +150895,17 @@ ack
 ack
 ack
 ack
+ack
 akV
 akV
+vMO
+vMO
+vMO
 akV
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-abV
+smp
+smp
+akV
+aYw
 aag
 aag
 aag
@@ -151235,13 +151297,13 @@ ack
 ack
 ack
 ack
+ack
 akV
 akV
-akV
-aag
-aag
-aag
-aag
+smp
+smp
+smp
+smp
 aag
 aag
 aag
@@ -151637,9 +151699,9 @@ ack
 ack
 afy
 ack
+ack
 akV
 akV
-akV
 aag
 aag
 aag
@@ -151648,7 +151710,7 @@ aag
 aag
 aag
 aag
-aYw
+aag
 aag
 aag
 aag
@@ -152039,7 +152101,7 @@ ack
 ack
 ack
 ack
-akV
+ack
 akV
 akV
 aag
@@ -153234,7 +153296,7 @@ uzV
 ack
 acB
 vMO
-vMO
+aeK
 vMO
 vMO
 bTe
@@ -155221,7 +155283,7 @@ rYr
 rYr
 rYr
 bqc
-ack
+lTj
 tMO
 aKh
 aKh
@@ -155622,8 +155684,8 @@ ack
 ack
 ack
 ack
-ack
-ack
+lTj
+lTj
 aKh
 aKh
 aKh
@@ -156022,11 +156084,11 @@ bqc
 ack
 ack
 ack
-dGK
-aab
-aab
-aab
-aab
+yfU
+lTj
+lTj
+lTj
+nBk
 aab
 aKh
 aKh
@@ -156424,11 +156486,11 @@ ack
 ack
 ack
 ack
-ack
-aab
-aab
-aab
-aab
+acB
+lTj
+lTj
+ahR
+acB
 aab
 aab
 aab
@@ -156825,12 +156887,12 @@ ady
 ady
 ady
 ady
-ady
-aab
-aab
-aab
-aab
-aab
+ack
+acB
+rDk
+lTj
+hvf
+acB
 aab
 aab
 aab
@@ -157228,11 +157290,11 @@ ack
 ack
 ack
 ack
-aab
-aab
-aab
-aab
-aab
+acB
+lTj
+lTj
+lTj
+acB
 aab
 aKh
 aKh
@@ -157630,11 +157692,11 @@ ack
 ack
 ack
 ack
-aab
-aab
-aab
-bog
-aab
+acB
+lTj
+lTj
+abX
+acB
 aKh
 aKh
 aKh
@@ -158031,12 +158093,12 @@ aik
 aik
 aik
 aik
-aik
-aab
-aab
-aab
-bog
-bog
+ack
+acB
+xeI
+hvf
+acB
+acB
 aKh
 iMJ
 eRW
@@ -158434,11 +158496,11 @@ aab
 aab
 aab
 aab
+acB
+acB
+acB
+acB
 aab
-aab
-aab
-bog
-bog
 aKh
 gIO
 laU
