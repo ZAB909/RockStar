@@ -378,7 +378,11 @@
 /turf/open/indestructible/ground/outside/savannah/bottomleftcorner,
 /area/f13/legion)
 "abX" = (
-/obj/structure/rack,
+/mob/living/simple_animal/hostile/wolf/alpha{
+	desc = "Legion mongrels are dogs owned and bred by the Houndmasters of Caesar's Legion. Mongrels are mainly used in combat and scouting missions by the Legion.";
+	faction = list("neutral");
+	name = "Brutus"
+	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/legion)
 "abY" = (
@@ -395,7 +399,7 @@
 	obj_integrity = 400;
 	req_access_txt = "123"
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
 "aca" = (
 /obj/effect/decal/cleanable/dirt,
@@ -575,7 +579,7 @@
 	color = "#c40e0e"
 	},
 /obj/structure/barricade/bars,
-/turf/open/floor/f13/wood,
+/turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "acX" = (
 /obj/machinery/smartfridge/bottlerack/alchemy_rack,
@@ -2075,16 +2079,12 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
 "ahR" = (
-/mob/living/simple_animal/hostile/wolf{
-	desc = "Legion mongrels are dogs owned and bred by the Houndmasters of Caesar's Legion. Mongrels are mainly used in combat and scouting missions by the Legion.";
-	faction = list("neutral");
-	health = 200;
-	maxHealth = 200;
-	name = "Lupa";
-	tame = 1
+/obj/item/flag/legion,
+/obj/structure/railing/corner{
+	dir = 4
 	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "ahS" = (
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/ground/inside/mountain,
@@ -10426,10 +10426,6 @@
 /obj/effect/landmark/start/f13/vaultdoctor,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/medical/medbay/central)
-"aEr" = (
-/obj/item/flag/legion,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/legion)
 "aEs" = (
 /obj/structure/spacevine{
 	name = "Mutant Vines"
@@ -14753,13 +14749,8 @@
 	},
 /area/f13/sunny_dale)
 "aTb" = (
-/obj/machinery/door/unpowered/securedoor{
-	damage_deflection = 28;
-	max_integrity = 400;
-	obj_integrity = 400;
-	req_access_txt = "123"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/white,
+/obj/structure/bed/dogbed,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/legion)
 "aTd" = (
 /obj/item/kitchen/knife,
@@ -22684,16 +22675,16 @@
 /area/f13/desert)
 "bsn" = (
 /obj/machinery/button/door{
-	id = "legionlock";
+	id = "legiongate";
 	name = "Legion shutters";
-	pixel_x = 6;
+	pixel_x = -7;
 	pixel_y = 32
 	},
 /obj/structure/chair/wood,
 /obj/machinery/button/door{
 	id = "legiongate";
 	name = "Gate button";
-	pixel_x = -6;
+	pixel_x = 7;
 	pixel_y = 32
 	},
 /turf/open/floor/wood/f13/oak,
@@ -29864,6 +29855,10 @@
 /obj/structure/stairs/south,
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
+"cah" = (
+/obj/structure/rack,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "cas" = (
 /obj/structure/closet,
 /obj/item/paper,
@@ -31787,6 +31782,14 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/f13/ncr)
+"gBs" = (
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/legion)
 "gCj" = (
 /obj/item/paper_bin,
 /obj/structure/table/wood,
@@ -32131,6 +32134,10 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"hlq" = (
+/obj/item/flag/legion,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/legion)
 "hlu" = (
 /obj/structure/decoration/smokeold{
 	pixel_x = -32
@@ -32227,10 +32234,6 @@
 /obj/structure/nest/raider/ranged,
 /turf/open/floor/wood/f13/old,
 /area/f13/underground/mountain)
-"hvf" = (
-/obj/structure/bed/dogbed,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "hvs" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 8;
@@ -32675,6 +32678,13 @@
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain2"
 	},
+/area/f13/desert)
+"iGU" = (
+/obj/item/flag/legion,
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
 "iHm" = (
 /obj/structure/closet/cabinet,
@@ -33922,6 +33932,13 @@
 	},
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/legion)
+"lzs" = (
+/obj/item/pet_carrier{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "lBu" = (
 /obj/machinery/power/smes,
 /obj/structure/cable,
@@ -34062,13 +34079,6 @@
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/plating,
 /area/f13/powerplant)
-"lOZ" = (
-/obj/item/flag/legion,
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "lPb" = (
 /turf/closed/wall/r_wall/f13composite{
 	icon_state = "rubblepillar"
@@ -34538,6 +34548,15 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/farmhouse)
+"nfe" = (
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/legion)
 "nfu" = (
 /obj/structure/railing{
 	dir = 1
@@ -34707,14 +34726,6 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
-"nBk" = (
-/obj/structure/decoration/rag{
-	icon_state = "skulls";
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/legion)
 "nBn" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/f13{
@@ -34948,7 +34959,7 @@
 /area/f13/ncr)
 "ohA" = (
 /obj/machinery/door/poddoor/gate{
-	id = "legionfg";
+	id = "legiongate";
 	name = "gate"
 	},
 /turf/open/indestructible/ground/outside/desert,
@@ -35737,6 +35748,17 @@
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall/r_wall/rust,
 /area/f13/powerplant)
+"pOr" = (
+/mob/living/simple_animal/hostile/wolf{
+	desc = "Legion mongrels are dogs owned and bred by the Houndmasters of Caesar's Legion. Mongrels are mainly used in combat and scouting missions by the Legion.";
+	faction = list("neutral");
+	health = 200;
+	maxHealth = 200;
+	name = "Lupa";
+	tame = 1
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "pPm" = (
 /obj/structure/rack,
 /obj/item/stack/crafting/armor_plate/ten,
@@ -36409,13 +36431,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/sunny_dale)
-"rDk" = (
-/obj/item/pet_carrier{
-	pixel_x = 4;
-	pixel_y = 7
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "rDK" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/f13/wood,
@@ -36951,13 +36966,6 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/tunnel)
-"sBY" = (
-/obj/item/flag/legion,
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "sDD" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -37719,6 +37727,10 @@
 	dir = 10;
 	icon_state = "dirt"
 	},
+/area/f13/legion)
+"uqh" = (
+/obj/structure/stacklifter,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/legion)
 "urb" = (
 /obj/structure/chair/comfy/modern{
@@ -38837,10 +38849,6 @@
 	icon_state = "outerpavementcorner"
 	},
 /area/f13/desert)
-"wQd" = (
-/obj/structure/stacklifter,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/legion)
 "wQi" = (
 /obj/structure/table,
 /obj/item/pda{
@@ -39023,14 +39031,6 @@
 	icon_state = "platingdmg3"
 	},
 /area/f13/powerplant)
-"xeI" = (
-/mob/living/simple_animal/hostile/wolf/alpha{
-	desc = "Legion mongrels are dogs owned and bred by the Houndmasters of Caesar's Legion. Mongrels are mainly used in combat and scouting missions by the Legion.";
-	faction = list("neutral");
-	name = "Brutus"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/legion)
 "xfA" = (
 /obj/structure/table/wood/settler,
 /turf/open/floor/wood/f13/stage_tr,
@@ -39438,15 +39438,6 @@
 /obj/item/multitool,
 /turf/open/floor/plating,
 /area/f13/powerplant)
-"yfU" = (
-/obj/structure/decoration/rag,
-/obj/structure/decoration/rag{
-	icon_state = "skulls";
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/legion)
 "yjd" = (
 /obj/structure/timeddoor,
 /turf/closed/indestructible/rock,
@@ -136404,7 +136395,7 @@ acB
 acB
 acB
 acB
-abZ
+aXK
 acB
 acB
 acB
@@ -136814,7 +136805,7 @@ aas
 aOa
 acB
 ack
-wQd
+uqh
 ack
 dGK
 ack
@@ -137618,10 +137609,10 @@ vMO
 vMO
 acB
 ack
-wQd
+uqh
 ack
 ack
-wQd
+uqh
 ack
 akV
 akV
@@ -138034,7 +138025,7 @@ akV
 akV
 akV
 akV
-lOZ
+ahR
 aag
 aag
 aag
@@ -144024,7 +144015,7 @@ vMO
 aas
 akV
 akV
-aEr
+hlq
 ack
 bwC
 aUK
@@ -144868,7 +144859,7 @@ agI
 agI
 akV
 akV
-sBY
+iGU
 aag
 aag
 aag
@@ -146838,7 +146829,7 @@ vMO
 vMO
 ail
 akV
-aEr
+hlq
 bnP
 acd
 abK
@@ -148474,7 +148465,7 @@ acB
 acB
 acB
 acB
-aTb
+aXK
 acN
 acN
 acB
@@ -151291,7 +151282,7 @@ qHQ
 aiC
 bTe
 vMO
-abZ
+aXK
 ack
 ack
 ack
@@ -156084,11 +156075,11 @@ bqc
 ack
 ack
 ack
-yfU
+nfe
 lTj
 lTj
 lTj
-nBk
+gBs
 aab
 aKh
 aKh
@@ -156489,7 +156480,7 @@ ack
 acB
 lTj
 lTj
-ahR
+pOr
 acB
 aab
 aab
@@ -156889,9 +156880,9 @@ ady
 ady
 ack
 acB
-rDk
+lzs
 lTj
-hvf
+aTb
 acB
 aab
 aab
@@ -157695,7 +157686,7 @@ ack
 acB
 lTj
 lTj
-abX
+cah
 acB
 aKh
 aKh
@@ -158095,8 +158086,8 @@ aik
 aik
 ack
 acB
-xeI
-hvf
+abX
+aTb
 acB
 acB
 aKh
