@@ -698,15 +698,6 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 
 	if(bridle && user.a_intent == INTENT_DISARM)
-		if(user != owner) //Brahmin thieves!
-			user.visible_message("[user] begins to remove the bridle gear from [src]!", "<span class='notice'>You begin to remove the bridle gear from [src]...</span>")
-			if(do_after(user,60, target = src))
-				new /obj/item/brahminbridle(user.loc)
-				bridle = FALSE
-				owner = null
-				tame = FALSE
-				return
-
 		bridle = FALSE
 		tame = FALSE
 		owner = null
