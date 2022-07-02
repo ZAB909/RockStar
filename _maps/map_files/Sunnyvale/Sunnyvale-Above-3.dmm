@@ -593,7 +593,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
 	name = "NCR Captain's Office";
-	req_access_txt = "121"
+	req_access_txt = "122"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
@@ -725,7 +725,7 @@
 "mA" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Medical Officer's Office";
-	req_access_txt = "121"
+	req_access_txt = "122"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
@@ -970,7 +970,7 @@
 "pR" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Logistics Officer's Office";
-	req_access_txt = "121"
+	req_access_txt = "122"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
@@ -1013,7 +1013,7 @@
 "rl" = (
 /obj/machinery/door/airlock/hatch{
 	name = "NCR Lieutenant's Office";
-	req_access_txt = "121"
+	req_access_txt = "122"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
@@ -1469,12 +1469,12 @@
 	},
 /area/f13/followers)
 "zx" = (
-/obj/structure/table/wood,
-/obj/item/storage/box/ration/ranger_lunch,
-/obj/structure/railing{
-	dir = 4
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "ncrrangershutters";
+	name = "Ranger Shutters"
 	},
-/turf/open/floor/wood/wood_large,
+/turf/closed/wall/f13/wood,
 /area/f13/ncr)
 "zy" = (
 /obj/structure/chair/comfy{
@@ -1639,11 +1639,6 @@
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
 "Cw" = (
-/obj/machinery/button/door{
-	id = "ncrrangershutters";
-	name = "Ranger Shutters";
-	pixel_y = 32
-	},
 /obj/structure/chair/wood/worn{
 	dir = 4
 	},
@@ -1964,6 +1959,11 @@
 /area/f13/tcoms)
 "Gn" = (
 /obj/item/kirbyplants/random,
+/turf/open/floor/wood/wood_large,
+/area/f13/ncr)
+"Gq" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/ration/ranger_lunch,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
 "Gs" = (
@@ -21661,7 +21661,7 @@ Xb
 Gn
 PT
 ak
-Xt
+zx
 Cw
 PT
 pH
@@ -22462,7 +22462,7 @@ sM
 sM
 sM
 Xb
-PT
+Gq
 PT
 PT
 lf
@@ -23266,8 +23266,8 @@ sM
 sM
 sM
 Xb
-Vm
-zx
+pH
+pH
 pH
 pH
 pH

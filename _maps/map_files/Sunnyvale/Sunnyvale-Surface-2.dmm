@@ -38983,7 +38983,7 @@
 "vHa" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Armory";
-	req_access_txt = "122"
+	req_access_txt = "121"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
@@ -39534,13 +39534,12 @@
 "wEB" = (
 /obj/machinery/button/door{
 	id = "ncrrgatehouseeast";
-	name = "North Gatehouse Shutters";
-	pixel_y = 32
+	name = "North Gatehouse Shutters"
 	},
-/obj/machinery/light{
-	dir = 1
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "wFq" = (
 /obj/structure/ladder/unbreakable{
@@ -53848,8 +53847,8 @@ aag
 bsr
 iSG
 fGx
-oFm
 wEB
+vvU
 iSG
 oFm
 oFm
