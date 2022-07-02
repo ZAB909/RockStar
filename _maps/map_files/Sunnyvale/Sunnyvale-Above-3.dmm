@@ -563,9 +563,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
-"iW" = (
-/turf/closed/mineral/random/high_chance,
-/area/f13/caves)
 "iY" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -121077,7 +121074,7 @@ op
 op
 op
 op
-iW
+op
 op
 op
 op
@@ -121479,7 +121476,7 @@ op
 op
 op
 op
-iW
+op
 op
 op
 op
@@ -121881,7 +121878,7 @@ op
 op
 op
 op
-iW
+op
 op
 op
 op
