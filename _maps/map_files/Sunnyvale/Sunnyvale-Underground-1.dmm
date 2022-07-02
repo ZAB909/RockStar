@@ -73,6 +73,14 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
+"aiC" = (
+/obj/structure/chair/left{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "aiW" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/desert,
@@ -222,6 +230,13 @@
 	icon_state = "reddirtyfull"
 	},
 /area/f13/bunker)
+"axf" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Guard's Quarters";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "axo" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -481,6 +496,11 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/bunker)
+"aRA" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 1
+	},
+/area/f13/underground/cave)
 "aSa" = (
 /obj/structure/chair/wood/worn{
 	dir = 4
@@ -644,6 +664,11 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/building)
+"beM" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 4
+	},
+/area/f13/underground/cave)
 "beO" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkdirtysolid"
@@ -662,6 +687,14 @@
 /obj/structure/window/fulltile/ruins,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"bhy" = (
+/obj/structure/chair/right{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "bie" = (
 /obj/structure/table/wood/settler,
 /obj/structure/railing{
@@ -729,6 +762,16 @@
 /obj/item/circuitboard/machine/chem_dispenser/drinks/beer,
 /turf/open/floor/mineral/uranium,
 /area/f13/building)
+"btZ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window{
+	dir = 4
+	},
+/obj/machinery/door/window{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/cave)
 "buw" = (
 /turf/open/floor/wood/f13/oak{
 	icon_state = "oakfloor1-broken"
@@ -913,6 +956,12 @@
 /obj/structure/nest/raider/boss,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
+"bKG" = (
+/obj/structure/chair/left,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "bLq" = (
 /turf/open/floor/plasteel/stairs,
 /area/f13/bunker)
@@ -927,6 +976,11 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"bOR" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 8
+	},
+/area/f13/underground/cave)
 "bPe" = (
 /obj/structure/barricade/tentclothedge,
 /turf/open/indestructible/ground/outside/dirt{
@@ -1198,6 +1252,15 @@
 /obj/structure/closet/crate/miningcar,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"ciN" = (
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "cjG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -2178,6 +2241,21 @@
 /obj/structure/wreck/trash/two_tire,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/bunker)
+"dIm" = (
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/manipulator/nano,
+/obj/item/stock_parts/capacitor/adv,
+/obj/item/stock_parts/capacitor/adv,
+/obj/item/stock_parts/capacitor/adv,
+/obj/item/stock_parts/capacitor/adv,
+/obj/structure/rack/shelf_metal,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "dIu" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2245,7 +2323,9 @@
 /turf/open/indestructible/ground/outside/water,
 /area/f13/tunnel)
 "dNv" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/airlock/vault{
+	req_one_access_txt = "134"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -2559,19 +2639,6 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/bunker)
-"efk" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor{
-	dir = 8;
-	req_access_txt = "1"
-	},
-/obj/machinery/door/window/brigdoor{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/underground/cave)
 "eft" = (
 /obj/machinery/light{
 	dir = 1
@@ -2611,11 +2678,6 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"ejp" = (
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
-/area/f13/underground/cave)
 "ejU" = (
 /mob/living/simple_animal/hostile/handy/robobrain,
 /turf/open/floor/f13{
@@ -2963,12 +3025,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/tunnel)
-"eRd" = (
-/obj/item/clothing/under/rank/prisoner,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/underground/cave)
 "eRE" = (
 /obj/structure/fence/wooden{
 	dir = 1;
@@ -3226,6 +3282,9 @@
 /mob/living/simple_animal/hostile/handy/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/bunker)
+"fsB" = (
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/cave)
 "fsS" = (
 /obj/machinery/chem_master/primitive,
 /turf/open/indestructible/ground/outside/dirt,
@@ -3332,10 +3391,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fBr" = (
-/obj/item/storage/belt,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
+/obj/structure/bed,
+/obj/item/bedsheet/sneedclave,
+/turf/open/floor/carpet/black,
 /area/f13/underground/cave)
 "fBD" = (
 /obj/structure/simple_door/room,
@@ -3350,6 +3408,10 @@
 /obj/structure/barricade/wooden/strong,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"fEw" = (
+/obj/machinery/mineral/equipment_vendor,
+/turf/open/floor/mineral/plastitanium,
+/area/f13/underground/cave)
 "fEL" = (
 /obj/structure/decoration/shock,
 /turf/closed/wall/r_wall/rust,
@@ -3393,10 +3455,26 @@
 /obj/structure/flora/rock/jungle,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"fJa" = (
+/obj/structure/bed,
+/obj/item/bedsheet/sneedclave,
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 5
+	},
+/area/f13/underground/cave)
 "fJi" = (
 /obj/structure/bookcase,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"fJs" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Bathroom";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "fKf" = (
 /obj/structure/fence{
 	dir = 8
@@ -3507,6 +3585,16 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"fRU" = (
+/obj/structure/chair/comfy/shuttle{
+	desc = "A comfortable, secure seat. It has a futuristic vouge feel.";
+	dir = 4;
+	name = "prewar lounge chair"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "fSD" = (
 /obj/structure/showcase/horrific_experiment{
 	icon_state = "pod_1"
@@ -3559,6 +3647,15 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/building)
+"fXQ" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Scientist's Quarters";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "fYu" = (
 /obj/item/bedsheet{
 	icon_state = "sheetgrey"
@@ -3612,6 +3709,12 @@
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/building)
+"gbE" = (
+/obj/structure/chair/right,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "gbL" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/underground/cave)
@@ -3865,6 +3968,11 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building)
+"gtf" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 8
+	},
+/area/f13/underground/cave)
 "gtY" = (
 /obj/structure/fence/wooden{
 	pixel_x = 15
@@ -4558,6 +4666,12 @@
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bunker)
+"hya" = (
+/obj/machinery/autolathe/ammo/unlocked,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "hyh" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/indestructible/ground/outside/desert,
@@ -4572,6 +4686,11 @@
 /obj/item/storage/toolbox/mechanical/old,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/sewer)
+"hAt" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 4
+	},
+/area/f13/underground/cave)
 "hAv" = (
 /obj/structure/flora/wasteplant/wild_fungus,
 /turf/open/indestructible/ground/inside/mountain,
@@ -4751,6 +4870,12 @@
 	},
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"hNu" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/f13/underground/cave)
 "hNB" = (
 /obj/structure/simple_door/metal/store{
 	icon_state = "brokenstore"
@@ -4904,6 +5029,20 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/bunker)
+"iaG" = (
+/obj/structure/table,
+/obj/machinery/cell_charger{
+	pixel_y = 6
+	},
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/item/stock_parts/cell/super,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "iaN" = (
 /mob/living/simple_animal/hostile/chinese/ranged/assault,
 /turf/open/floor/f13{
@@ -5159,12 +5298,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bunker)
-"iqo" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/underground/cave)
 "irn" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/mineral/uranium,
@@ -6055,6 +6188,9 @@
 /obj/item/clothing/under/f13/raider_leather,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
+"jGj" = (
+/turf/open/floor/mineral/plastitanium,
+/area/f13/underground/cave)
 "jGP" = (
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -6100,6 +6236,15 @@
 /obj/item/stack/f13Cash/random/aureus/high,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"jJR" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Canteen";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "jKg" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/f13{
@@ -6259,8 +6404,23 @@
 	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"jVa" = (
+/obj/machinery/door/airlock/hatch{
+	icon = 'icons/obj/doors/airlocks/centcom/centcom.dmi';
+	name = "Head Scientist's Quarters";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "jVc" = (
-/turf/closed/wall/r_wall,
+/obj/structure/rack/shelf_metal,
+/obj/item/storage/belt,
+/obj/item/storage/toolbox/electrical,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/underground/cave)
 "jVn" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
@@ -6568,6 +6728,12 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"krV" = (
+/obj/structure/table/booth,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "ksP" = (
 /obj/machinery/light/small/broken,
 /obj/structure/chair/stool/bar,
@@ -6697,6 +6863,10 @@
 /turf/open/indestructible/ground/outside/river,
 /area/f13/tunnel)
 "kBv" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering";
+	req_one_access_txt = "134"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -7230,6 +7400,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/tunnel,
 /area/f13/building)
+"lnz" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "lnM" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt{
@@ -7410,6 +7585,11 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"lBK" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1
+	},
+/area/f13/underground/cave)
 "lCx" = (
 /mob/living/simple_animal/hostile/radscorpion/black,
 /turf/open/indestructible/ground/inside/mountain,
@@ -7625,8 +7805,7 @@
 	},
 /area/f13/tunnel)
 "lXA" = (
-/obj/structure/barricade/bars,
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -8199,6 +8378,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/building)
+"mXD" = (
+/obj/machinery/autolathe,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "mYe" = (
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/mineral/uranium,
@@ -8606,6 +8791,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"nwv" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "nwz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/raider/ranged{
@@ -8721,6 +8912,13 @@
 "nCs" = (
 /turf/closed/wall/rust,
 /area/f13/building)
+"nCx" = (
+/obj/item/pickaxe/drill,
+/obj/item/clothing/glasses/meson,
+/obj/structure/rack/shelf_metal,
+/obj/item/mining_scanner,
+/turf/open/floor/mineral/plastitanium,
+/area/f13/underground/cave)
 "nCC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -8752,6 +8950,11 @@
 "nES" = (
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"nFj" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 6
+	},
+/area/f13/underground/cave)
 "nFY" = (
 /obj/structure/chair/wood/modern{
 	dir = 8
@@ -9403,6 +9606,9 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/building)
+"oFm" = (
+/turf/open/floor/plasteel/f13/vault_floor/purple/purplechess,
+/area/f13/underground/cave)
 "oFL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/wood{
@@ -9595,6 +9801,10 @@
 	icon_state = "floordirty"
 	},
 /area/f13/building)
+"oZL" = (
+/obj/item/clothing/under/rank/prisoner,
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess,
+/area/f13/underground/cave)
 "paa" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /obj/structure/flora/junglebush,
@@ -10123,6 +10333,9 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/tunnel)
+"pHa" = (
+/turf/closed/wall/r_wall,
+/area/f13/underground/cave)
 "pHn" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -10341,6 +10554,16 @@
 	},
 /turf/closed/mineral/random/low_chance/underground,
 /area/f13/underground/cave)
+"pUF" = (
+/obj/machinery/door/airlock/hatch{
+	icon = 'icons/obj/doors/airlocks/centcom/centcom.dmi';
+	name = "Head Scientist's Office";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "pUG" = (
 /obj/structure/spacevine{
 	name = "vines"
@@ -10388,10 +10611,7 @@
 /turf/open/water,
 /area/f13/tunnel)
 "pYg" = (
-/obj/item/broom,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/underground/cave)
 "pYu" = (
 /obj/structure/disposalpipe/segment{
@@ -10558,6 +10778,10 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/building)
+"qkU" = (
+/obj/machinery/mineral/ore_redemption,
+/turf/open/floor/mineral/plastitanium,
+/area/f13/underground/cave)
 "qlb" = (
 /obj/item/mine/explosive,
 /turf/open/indestructible/ground/outside/desert,
@@ -11846,6 +12070,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"rTP" = (
+/obj/structure/bed,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "rTW" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
 /turf/open/indestructible/ground/inside/mountain,
@@ -12054,6 +12284,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/tunnel,
 /area/f13/tunnel)
+"sjm" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side,
+/area/f13/underground/cave)
 "sjO" = (
 /obj/item/flashlight/lantern,
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -12142,6 +12375,12 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/bunker)
+"spK" = (
+/obj/machinery/autolathe/constructionlathe,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "spL" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -12510,6 +12749,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"sMn" = (
+/obj/structure/bed,
+/obj/item/bedsheet/sneedclave,
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 6
+	},
+/area/f13/underground/cave)
 "sMP" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood,
@@ -12667,12 +12913,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/building)
 "sZM" = (
-/obj/machinery/door/airlock/security{
-	name = "Brig";
-	req_access_txt = "134"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
 	},
 /area/f13/underground/cave)
 "tai" = (
@@ -12708,6 +12950,9 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/tunnel)
+"tdC" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/corner,
+/area/f13/underground/cave)
 "tdP" = (
 /obj/structure/window/fulltile/house{
 	dir = 2
@@ -13002,6 +13247,11 @@
 	},
 /turf/closed/wall,
 /area/f13/tcoms)
+"tzQ" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 5
+	},
+/area/f13/underground/cave)
 "tzU" = (
 /obj/structure/barricade/tentclothedge{
 	dir = 1;
@@ -13256,6 +13506,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"tSx" = (
+/obj/machinery/rnd/production/protolathe,
+/turf/open/floor/plasteel/f13/vault_floor/purple/purplechess,
+/area/f13/underground/cave)
 "tUk" = (
 /obj/structure/table,
 /obj/item/stack/medical/poultice/ten,
@@ -13274,6 +13528,12 @@
 /mob/living/simple_animal/hostile/stalker,
 /turf/open/floor/plating/dirt,
 /area/f13/tunnel)
+"tUZ" = (
+/obj/machinery/workbench/advanced,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "tVL" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
 /turf/open/indestructible/ground/inside/mountain,
@@ -13490,7 +13750,10 @@
 /turf/open/floor/plating/dirt,
 /area/f13/tunnel)
 "uls" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/obj/machinery/workbench/forge,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/underground/cave)
 "umi" = (
 /obj/structure/barricade/tentclothcorner{
@@ -13512,12 +13775,6 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
-"unH" = (
-/obj/structure/toilet{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
-/area/f13/underground/cave)
 "unN" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -13573,6 +13830,12 @@
 /obj/machinery/telecomms/processor/preset_two,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
+"uqp" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "uqt" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/small/broken{
@@ -13634,6 +13897,9 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/mineral/uranium,
 /area/f13/building)
+"ust" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess,
+/area/f13/underground/cave)
 "usu" = (
 /obj/structure/table/wood,
 /obj/structure/curtain{
@@ -13845,6 +14111,12 @@
 /obj/machinery/telecomms/message_server,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
+"uJH" = (
+/obj/structure/rack,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "uJX" = (
 /mob/living/simple_animal/hostile/legion/decan,
 /turf/open/floor/wood/f13/oak{
@@ -14065,7 +14337,9 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
 "vbo" = (
-/obj/machinery/smartfridge/chemistry,
+/obj/structure/table,
+/obj/machinery/recharger,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -14085,6 +14359,13 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/tunnel)
+"vdT" = (
+/obj/item/broom,
+/obj/structure/mopbucket,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "veq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/old{
@@ -14854,6 +15135,12 @@
 	icon_state = "horizontaloutermain0"
 	},
 /area/f13/bunker)
+"vZB" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "vZG" = (
 /obj/structure/fence/wooden{
 	dir = 4;
@@ -15091,6 +15378,15 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/building)
+"wpI" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Hydroponics";
+	req_one_access_txt = "134"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "wru" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/armor/random,
@@ -15431,6 +15727,11 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"wRm" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 10
+	},
+/area/f13/underground/cave)
 "wRt" = (
 /obj/structure/chair/f13chair2{
 	dir = 8
@@ -15590,6 +15891,11 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"xbH" = (
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 9
+	},
+/area/f13/underground/cave)
 "xcy" = (
 /mob/living/simple_animal/hostile/rat,
 /obj/effect/decal/cleanable/dirt{
@@ -15874,6 +16180,14 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/tunnel)
+"xwL" = (
+/obj/item/card/id/dogtag/enclave/officer{
+	pixel_x = -5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/underground/cave)
 "xwW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -16084,10 +16398,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "xIq" = (
-/obj/item/twohanded/required/kirbyplants/random,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
+/obj/structure/ore_box,
+/turf/open/floor/mineral/plastitanium,
 /area/f13/underground/cave)
 "xIr" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -16383,6 +16695,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
+"yeZ" = (
+/obj/machinery/smartfridge/chemistry/preloaded,
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/cave)
 "yfi" = (
 /obj/structure/reagent_dispensers/barrel/dangerous,
 /obj/effect/spawner/lootdrop/f13/armor/tier4,
@@ -77219,15 +77535,15 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+fUC
+fUC
 dPp
 fUC
 fUC
@@ -77617,19 +77933,19 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pHa
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+fUC
 fUC
 fUC
 fUC
@@ -78019,19 +78335,19 @@ fUC
 fUC
 fUC
 fUC
-jVc
-uls
-uls
-uls
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pYg
+pYg
+pYg
+lnz
+lnz
+lnz
+lnz
+lnz
+xwL
+lnz
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -78421,19 +78737,19 @@ fUC
 fUC
 fUC
 fUC
-jVc
-uls
-unH
-uls
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pYg
+hNu
+pYg
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -78823,19 +79139,19 @@ fUC
 fUC
 fUC
 fUC
-jVc
-uls
-uls
-uls
-jVc
-jVc
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
+pHa
+pYg
+pYg
+pYg
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+fBr
+pHa
 fUC
 fUC
 fUC
@@ -79225,19 +79541,19 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+jVa
+jVa
+pHa
+pHa
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -79617,36 +79933,36 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
 fUC
-fUC
-fUC
-fUC
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -80018,37 +80334,37 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
 fUC
-fUC
-fUC
+pHa
+pHa
+oFm
+oFm
+oFm
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+gbE
+krV
+aiC
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -80420,37 +80736,37 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
 fUC
-fUC
-fUC
+pHa
+oFm
+oFm
+oFm
+oFm
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+lnz
+lnz
+fRU
+lnz
+lnz
+lnz
+pHa
+bKG
+krV
+bhy
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 dPp
 fUC
 fUC
@@ -80822,37 +81138,37 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-iqo
-iqo
-iqo
-iqo
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
 fUC
-fUC
-fUC
+pHa
+oFm
+oFm
+oFm
+oFm
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+lnz
+lXA
+lXA
+lXA
+lXA
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -81224,37 +81540,37 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
 fUC
-fUC
-fUC
+pHa
+oFm
+oFm
+oFm
+oFm
+pHa
+oFm
+oFm
+oFm
+tSx
+oFm
+oFm
+oFm
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -81625,38 +81941,38 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
 fUC
-fUC
-fUC
+pHa
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+pUF
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -82027,36 +82343,36 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
 fUC
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
 fUC
 dPp
 fUC
@@ -82429,35 +82745,35 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+oFm
+pHa
+pHa
+pHa
+pUF
+pUF
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 dPp
@@ -82831,35 +83147,35 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-xIq
-kBv
-kBv
-kBv
-xIq
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
+nwv
+lnz
+lnz
+lnz
+nwv
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -83232,36 +83548,36 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pHa
+pYg
+pYg
+pYg
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -83634,36 +83950,36 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pYg
+pYg
+pYg
+pYg
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+jJR
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -84026,46 +84342,46 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
+fUC
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
-fUC
-jVc
-kBv
-kBv
+pHa
 pYg
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-kBv
-jVc
-jVc
-jVc
-dNv
-lXA
-vbo
-efk
-jVc
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+hNu
+pYg
+pYg
+fJs
+lnz
+lnz
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
+lnz
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -84428,46 +84744,46 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
-jVc
-kBv
-fBr
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pYg
+pYg
+pYg
+pYg
+pHa
+lnz
+lnz
+pHa
+pHa
+spK
+tUZ
+hya
+lnz
+lnz
+lnz
+uJH
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 fUC
@@ -84830,47 +85146,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
 fUC
 fUC
-fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
+pHa
+pYg
+pYg
+pYg
+pYg
+pHa
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+uJH
+pHa
+pHa
+pHa
+pHa
+lnz
+lnz
+pHa
+pHa
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -85232,47 +85548,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
-jVc
-jVc
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+pHa
+pHa
+pYg
+pYg
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+uJH
+pHa
+lnz
+lnz
+pHa
+lnz
+lnz
+pHa
+rTP
+lnz
+lnz
+lnz
+lnz
+rTP
+pHa
 fUC
 fUC
 fUC
@@ -85634,47 +85950,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+lnz
+lnz
+pHa
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 fUC
 dPp
@@ -86036,47 +86352,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+pHa
+rTP
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
 fUC
 dPp
 fUC
@@ -86438,47 +86754,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+dNv
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+fXQ
+lnz
+lnz
+lnz
+rTP
+lnz
+lnz
+pHa
 fUC
 dPp
 fUC
@@ -86840,47 +87156,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+mXD
+lnz
+uls
+pHa
+vZB
+vZB
+vZB
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+rTP
+pHa
 fUC
 fUC
 fUC
@@ -87242,47 +87558,47 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+jGj
+pHa
+pHa
+pHa
+lnz
+lnz
+lnz
+pHa
+vdT
+lnz
+lnz
+lnz
+pHa
+vZB
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+wpI
+lnz
+lnz
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -87644,45 +87960,45 @@ fUC
 fUC
 fUC
 fUC
-jVc
+fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+jGj
+jGj
+jGj
+fEw
+pHa
+lnz
+lnz
+lnz
 kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
+lnz
+lnz
+lnz
+vbo
+pHa
+vZB
+lnz
+lnz
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+lnz
+lnz
+pHa
+rTP
+lnz
+lnz
+rTP
+pHa
 fUC
 fUC
 fUC
@@ -88046,46 +88362,46 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-jVc
-jVc
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
 fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+qkU
+jGj
+jGj
+jGj
+pHa
+lBK
+fsB
+sjm
+pHa
+dIm
+lnz
+lnz
+iaG
+pHa
+vZB
+vZB
+vZB
+vZB
+vZB
+pHa
+pHa
+pHa
+xbH
+lnz
+lnz
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
 fUC
 fUC
 dPp
@@ -88448,46 +88764,46 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
 fUC
-fUC
-fUC
-fUC
-fUC
-fUC
+pHa
+lnz
+lnz
+lnz
+lnz
+pHa
+pHa
+jGj
+jGj
+jGj
+xIq
+pHa
+lBK
+fsB
+sjm
+pHa
+jVc
+lnz
+lnz
+uqp
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+xbH
+gtf
+aRA
+lnz
+lnz
+pHa
+sZM
+sZM
+sZM
+sZM
+sZM
+pHa
 fUC
 fUC
 dPp
@@ -88850,46 +89166,46 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
 fUC
-jVc
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+jGj
+jGj
+jGj
+xIq
+pHa
+lBK
+fsB
+sjm
+pHa
+pHa
 kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-fUC
-fUC
-fUC
-fUC
-fUC
-fUC
+pHa
+pHa
+pHa
+xbH
+gtf
+gtf
+gtf
+gtf
+gtf
+aRA
+tdC
+beM
+lnz
+lnz
+lnz
+sZM
+sZM
+sZM
+sZM
+sZM
+pHa
 fUC
 fUC
 dPp
@@ -89259,39 +89575,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-kBv
-jVc
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-uls
-uls
-uls
-fUC
-fUC
-fUC
+pHa
+pHa
+nCx
+nCx
+pHa
+pHa
+lBK
+fsB
+bOR
+gtf
+gtf
+fsB
+gtf
+gtf
+gtf
+aRA
+tdC
+beM
+beM
+beM
+beM
+beM
+nFj
+pHa
+yeZ
+btZ
+pHa
+sZM
+sZM
+sZM
+sZM
+sZM
+pHa
 fUC
 fUC
 dPp
@@ -89661,39 +89977,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-uls
-unH
-uls
 fUC
-fUC
-fUC
+pHa
+pHa
+pHa
+pHa
+xbH
+aRA
+tdC
+beM
+beM
+beM
+fsB
+beM
+beM
+beM
+beM
+nFj
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+pHa
 fUC
 fUC
 fUC
@@ -90065,37 +90381,37 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-uls
-uls
-uls
 fUC
 fUC
-fUC
+pHa
+lBK
+tdC
+nFj
+pHa
+pHa
+pHa
+axf
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+ust
+ust
+ust
+pHa
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+pHa
 fUC
 fUC
 fUC
@@ -90467,37 +90783,37 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
 fUC
 fUC
-fUC
-fUC
-fUC
-fUC
+pHa
+lBK
+sjm
+pHa
+pHa
+gtf
+gtf
+fsB
+gtf
+wRm
+pHa
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+sZM
+pHa
+pHa
+pHa
 fUC
 fUC
 fUC
@@ -90869,36 +91185,36 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
+fUC
+fUC
+pHa
+lBK
+sjm
+pHa
+xbH
+fsB
+fsB
+fsB
+fsB
+sjm
+pHa
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+sZM
+sZM
+sZM
+pHa
+fUC
 fUC
 fUC
 fUC
@@ -91271,36 +91587,36 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+pHa
+lBK
+sjm
+pHa
+lBK
+fsB
+fsB
+fsB
+fsB
+sjm
+pHa
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+gtf
+gtf
+pHa
+xbH
+sZM
+sZM
+sZM
+pHa
+fUC
 fUC
 fUC
 fUC
@@ -91673,39 +91989,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-ejp
-ejp
-ejp
-ejp
-jVc
-jVc
-jVc
-jVc
+fUC
+fUC
+pHa
+lBK
+sjm
+pHa
+fJa
+beM
+beM
+beM
+beM
+sMn
+pHa
+ust
+ust
+ust
+oZL
+ust
+ust
+ust
+ciN
+fsB
+fsB
+ciN
+fsB
+sZM
+sZM
+sZM
+pHa
+fUC
+fUC
+fUC
+fUC
 dPp
 fUC
 fUC
@@ -92075,39 +92391,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+pHa
+lBK
+sjm
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+ciN
+fsB
+fsB
+ciN
+fsB
+sZM
+sZM
+sZM
+pHa
+fUC
+fUC
+fUC
+fUC
 dPp
 fUC
 fUC
@@ -92477,39 +92793,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-jVc
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+pHa
+lBK
+bOR
+gtf
+gtf
+wRm
+pHa
+gtf
+gtf
+pHa
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+beM
+beM
+pHa
+tzQ
+sZM
+sZM
+sZM
+pHa
+fUC
+fUC
+fUC
+fUC
 dPp
 fUC
 fUC
@@ -92879,39 +93195,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-kBv
-kBv
-jVc
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+pHa
+lBK
+fsB
+fsB
+fsB
+fsB
+ciN
+fsB
+fsB
+ciN
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+fUC
+fUC
+fUC
+fUC
 dPp
 fUC
 fUC
@@ -93281,39 +93597,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+pHa
+tzQ
+beM
+hAt
+fsB
+fsB
+ciN
+fsB
+fsB
+ciN
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -93683,39 +93999,39 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+pHa
+pHa
+pHa
+tzQ
+beM
+nFj
+pHa
+beM
+beM
+pHa
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+ust
+pHa
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -94086,38 +94402,38 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-sZM
-kBv
-kBv
-sZM
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-sZM
-kBv
-kBv
-sZM
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+fUC
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+pHa
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -94493,33 +94809,33 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-sZM
-kBv
-kBv
-sZM
-kBv
-kBv
-kBv
-eRd
-kBv
-kBv
-kBv
-sZM
-kBv
-kBv
-sZM
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -94895,33 +95211,33 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-kBv
-kBv
-jVc
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-ejp
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -95297,33 +95613,33 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -95705,15 +96021,15 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -96107,15 +96423,15 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -96509,15 +96825,15 @@ fUC
 fUC
 fUC
 fUC
-jVc
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-kBv
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
@@ -96911,15 +97227,15 @@ fUC
 fUC
 fUC
 fUC
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
-jVc
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
+fUC
 fUC
 fUC
 fUC
