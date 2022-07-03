@@ -724,6 +724,10 @@
 	dir = 5
 	},
 /area/f13/underground/cave)
+"bjT" = (
+/obj/item/twohanded/required/kirbyplants/random,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/underground/cave)
 "bkr" = (
 /obj/structure/table/wood,
 /obj/item/door_key{
@@ -9674,6 +9678,12 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
+"ont" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/underground/cave)
 "onJ" = (
 /obj/structure/closet/crate/miningcar,
 /turf/open/indestructible/ground/inside/mountain,
@@ -12900,6 +12910,13 @@
 /obj/structure/nest/ghoul,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/sewer)
+"sur" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/card/enclave{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/underground/cave)
 "suG" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -13871,6 +13888,14 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"tJV" = (
+/obj/structure/table/reinforced,
+/obj/item/documents/syndicate/blue{
+	desc = "Top Secret Documents detailing sensitive Enclave operational intelligence. These documents are verified with the Enclave Research and Development wax seal.";
+	name = "Enclave Research and Development Reports"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/underground/cave)
 "tKx" = (
 /mob/living/simple_animal/hostile/chinese/ranged/assault,
 /turf/open/floor/f13{
@@ -14578,6 +14603,14 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"uFt" = (
+/obj/machinery/radioterminal/enclave{
+	dir = 8;
+	pixel_x = 27;
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/underground/cave)
 "uFM" = (
 /obj/structure/chair/sofa/left{
 	dir = 1
@@ -15160,6 +15193,14 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"vrA" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/fancy/cigarettes/cigars/havana,
+/obj/item/lighter/gold{
+	desc = "A shiny and relatively expensive zippo lighter. There's a small etched in verse on the bottom that reads, 'God Bless the Enclave and Nobody Else.'"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/whitebluefull,
+/area/f13/underground/cave)
 "vrD" = (
 /obj/structure/barricade/bars,
 /turf/open/indestructible/ground/inside/subway,
@@ -81373,11 +81414,11 @@ fUC
 fUC
 fUC
 fUC
-fUC
-fUC
-fUC
-fUC
-fUC
+xwL
+xwL
+xwL
+xwL
+xwL
 fUC
 fUC
 fUC
@@ -81774,13 +81815,13 @@ fUC
 fUC
 fUC
 fUC
-fUC
 xwL
 xwL
 xwL
 xwL
 xwL
-fUC
+xwL
+xwL
 dPp
 fUC
 fUC
@@ -82177,11 +82218,11 @@ xwL
 xwL
 xwL
 xwL
-xwL
-xwL
-xwL
-xwL
-xwL
+vrA
+pJI
+pJI
+pJI
+pJI
 xwL
 xwL
 fUC
@@ -83785,11 +83826,11 @@ bFZ
 bFZ
 bFZ
 xwL
-pJI
-pJI
-pJI
-pJI
-pJI
+xwL
+qqb
+qqb
+xwL
+xwL
 pJI
 ktq
 xwL
@@ -84187,10 +84228,10 @@ xwL
 xwL
 xwL
 xwL
-xwL
-qqb
-qqb
-xwL
+tJV
+pJI
+pJI
+pJI
 xwL
 xwL
 xwL
@@ -84588,12 +84629,12 @@ xwL
 xwL
 xwL
 xwL
-xwL
 pJI
 pJI
 pJI
 pJI
-xwL
+pJI
+pJI
 xwL
 xwL
 xwL
@@ -84993,7 +85034,7 @@ xwL
 pJI
 pJI
 pJI
-pJI
+sur
 pJI
 pJI
 xwL
@@ -85393,9 +85434,9 @@ hIb
 oxd
 xwL
 pJI
-pJI
+uFt
 tBu
-pJI
+aPt
 pJI
 pJI
 xwL
@@ -85795,10 +85836,10 @@ hIb
 oxd
 xwL
 pJI
+pJI
 aPt
 aPt
-aPt
-aPt
+pJI
 pJI
 xwL
 hIb
@@ -86198,8 +86239,8 @@ oxd
 xwL
 pJI
 pJI
-pJI
-pJI
+ont
+ont
 pJI
 pJI
 xwL
@@ -87000,12 +87041,12 @@ hIb
 hIb
 oxd
 xwL
+bjT
 pJI
 pJI
 pJI
 pJI
-pJI
-pJI
+bjT
 xwL
 hIb
 hIb
