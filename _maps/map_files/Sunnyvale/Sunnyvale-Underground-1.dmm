@@ -626,6 +626,9 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"aWL" = (
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "aWZ" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress4"
@@ -672,6 +675,10 @@
 	pixel_y = 12
 	},
 /turf/open/floor/carpet/red,
+/area/f13/building)
+"aZy" = (
+/obj/structure/simple_door/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "bao" = (
 /turf/open/indestructible/ground/outside/road{
@@ -866,7 +873,7 @@
 "btu" = (
 /obj/item/storage/trash_stack,
 /obj/item/circuitboard/machine/chem_dispenser/drinks/beer,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "btZ" = (
 /obj/machinery/door/window{
@@ -923,6 +930,12 @@
 	},
 /turf/open/floor/wood,
 /area/f13/enclave)
+"bxs" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "bxF" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/bunker)
@@ -2262,7 +2275,7 @@
 "dkT" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical/old,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "dln" = (
 /obj/structure/fence/wooden{
@@ -3168,7 +3181,7 @@
 /obj/item/stack/sheet/mineral/uranium{
 	amount = 25
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "evg" = (
 /turf/open/indestructible/ground/outside/desert{
@@ -3196,7 +3209,7 @@
 /area/f13/sewer)
 "ewp" = (
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "ewA" = (
 /turf/open/floor/wood/f13/carpet,
@@ -3278,7 +3291,7 @@
 "eDl" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "eDB" = (
 /obj/structure/table/wood/bar,
@@ -4091,7 +4104,7 @@
 "fLf" = (
 /obj/structure/table/wood/settler,
 /obj/item/book/granter/crafting_recipe/gunsmithing/gunsmith_one,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "fLV" = (
 /obj/machinery/autolathe,
@@ -4467,7 +4480,7 @@
 "gnr" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/metal/twenty,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "gnw" = (
 /obj/structure/barricade/wooden,
@@ -5165,7 +5178,7 @@
 /area/f13/tunnel)
 "hgk" = (
 /obj/item/flashlight/flare/torch,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "hhd" = (
 /obj/structure/table/wood/settler,
@@ -6023,7 +6036,7 @@
 /area/f13/building)
 "iho" = (
 /obj/machinery/power/port_gen/pacman/super,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "ihE" = (
 /obj/structure/rack,
@@ -6186,7 +6199,7 @@
 /area/f13/enclave)
 "irn" = (
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "itk" = (
 /obj/structure/closet/crate/wooden,
@@ -7007,7 +7020,7 @@
 "juq" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/microwave,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "juE" = (
 /obj/structure/flora/grass/wasteland{
@@ -7107,7 +7120,7 @@
 	dir = 8
 	},
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "jAz" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -8082,7 +8095,7 @@
 /obj/item/ammo_box/m44,
 /obj/item/ammo_box/m44,
 /obj/item/clothing/suit/armor/f13/raider/combatduster/patrolduster{
-	armor = list("melee"=45,"bullet"=60,"laser"=25,"bio"=0,"rad"=0,"fire"=25,"acid"=25);
+	armor = list("melee" = 45, "bullet" = 60, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25);
 	name = "Lawman Duster"
 	},
 /turf/open/floor/plating/tunnel{
@@ -8149,7 +8162,7 @@
 "kMj" = (
 /obj/structure/closet/cabinet,
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "kMS" = (
 /obj/machinery/door/airlock/hatch{
@@ -8213,7 +8226,7 @@
 /area/f13/building)
 "kSu" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "kSW" = (
 /obj/effect/decal/cleanable/oil/slippery,
@@ -8619,7 +8632,7 @@
 "lqb" = (
 /obj/structure/table/wood/settler,
 /obj/item/flashlight/lamp,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "lqf" = (
 /obj/effect/decal/remains{
@@ -9133,6 +9146,10 @@
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
 /area/f13/bunker)
+"meQ" = (
+/obj/structure/table/wood/settler,
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "meX" = (
 /obj/effect/mob_spawn/human/corpse/raiderboss,
 /turf/open/floor/f13{
@@ -9555,7 +9572,7 @@
 /area/f13/enclave)
 "mJG" = (
 /mob/living/simple_animal/hostile/ghoul/reaver,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "mJM" = (
 /obj/structure/rack,
@@ -9736,7 +9753,7 @@
 /area/f13/enclave)
 "mYe" = (
 /obj/item/reagent_containers/glass/bucket,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "mYG" = (
 /turf/closed/indestructible/vaultdoor,
@@ -10685,7 +10702,7 @@
 /area/f13/enclave)
 "obN" = (
 /obj/structure/bed/mattress,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "ocH" = (
 /obj/machinery/door/airlock/vault,
@@ -10945,6 +10962,10 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
+"orT" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/mineral/uranium,
+/area/f13/building)
 "osj" = (
 /obj/structure/sign/poster/contraband/punch_shit,
 /turf/closed/wall/mineral/concrete,
@@ -11572,7 +11593,7 @@
 "pkN" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "plQ" = (
 /obj/structure/cable{
@@ -12077,7 +12098,7 @@
 /area/f13/bunker)
 "pMs" = (
 /obj/structure/chair/wood,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "pML" = (
 /obj/structure/table,
@@ -12672,7 +12693,7 @@
 "qvE" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "qxk" = (
 /obj/structure/disposalpipe/segment{
@@ -13338,7 +13359,7 @@
 	name = "Legionized combat armor"
 	},
 /obj/item/clothing/suit/armor/f13/legion/vet/explorercanada{
-	armor = list("melee"=60,"bullet"=50,"laser"=45,"energy"=10,"bomb"=40,"bio"=20,"rad"=20,"fire"=25,"acid"=0,"wound"=40);
+	armor = list("melee" = 60, "bullet" = 50, "laser" = 45, "energy" = 10, "bomb" = 40, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40);
 	name = "Obsidian legion armor"
 	},
 /obj/item/clothing/under/f13/exile/legion,
@@ -13479,7 +13500,7 @@
 /obj/structure/sink/kitchen{
 	pixel_y = 27
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "rwJ" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -15291,7 +15312,7 @@
 "twS" = (
 /obj/structure/chair/stool/bar,
 /mob/living/simple_animal/hostile/ghoul,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "txj" = (
 /obj/structure/cable{
@@ -16061,7 +16082,7 @@
 /area/f13/building)
 "urK" = (
 /obj/structure/chair/stool/bar,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "urO" = (
 /obj/structure/rack,
@@ -17977,7 +17998,7 @@
 /obj/structure/chair/wood{
 	dir = 4
 	},
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "wxw" = (
 /obj/structure/flora/junglebush/large,
@@ -18083,7 +18104,7 @@
 /obj/structure/rack,
 /obj/item/electronics/apc,
 /obj/item/stack/cable_coil,
-/turf/open/floor/f13/wood,
+/turf/open/floor/mineral/uranium,
 /area/f13/building)
 "wEz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -83083,20 +83104,20 @@ fUC
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
 aJA
-nES
+aWL
 wxv
-nES
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -83485,20 +83506,20 @@ dPp
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
 aJA
 pMs
 lqb
-nES
+aWL
 mJG
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -83887,20 +83908,20 @@ dPp
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 hgk
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -84289,20 +84310,20 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 mJG
-nES
+aWL
 obN
 aJA
 fUC
 aJA
-nES
-nES
-nES
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -84691,9 +84712,9 @@ fUC
 fUC
 fUC
 aJA
-qHU
-nES
-nES
+meQ
+aWL
+aWL
 obN
 aJA
 fUC
@@ -84703,7 +84724,7 @@ aJA
 tya
 aJA
 aJA
-tya
+aZy
 aJA
 aJA
 fUC
@@ -85093,8 +85114,8 @@ fUC
 fUC
 fUC
 aJA
-qHU
-nES
+meQ
+aWL
 hgk
 obN
 aJA
@@ -85495,9 +85516,9 @@ fUC
 fUC
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 aJA
 fUC
@@ -85897,9 +85918,9 @@ fUC
 fUC
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 tya
 uDw
 uDw
@@ -87501,11 +87522,11 @@ aJA
 aGm
 ptZ
 tya
-nES
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
+aWL
 wxv
 aJA
 uDw
@@ -87903,12 +87924,12 @@ aJA
 ckj
 nES
 aJA
-nES
-nES
-nES
-nES
-nES
-qHU
+aWL
+aWL
+aWL
+aWL
+aWL
+meQ
 aJA
 uDw
 uDw
@@ -88305,11 +88326,11 @@ aJA
 aJA
 aJA
 aJA
-nES
+aWL
 eDl
 eDl
 urK
-nES
+aWL
 jzF
 aJA
 uDw
@@ -88708,13 +88729,13 @@ fUC
 fUC
 aJA
 rwq
-nES
+aWL
 lqb
-nES
-nES
-nES
+aWL
+aWL
+aWL
 tya
-njv
+uDw
 uDw
 uDw
 uDw
@@ -89109,12 +89130,12 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 kSu
 eDl
 urK
-nES
-nES
+aWL
+aWL
 aJA
 uDw
 uDw
@@ -89511,12 +89532,12 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 kSu
 fLf
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 uDw
 uDw
@@ -89917,7 +89938,7 @@ qvE
 pkN
 eDl
 urK
-nES
+aWL
 wxv
 aJA
 cWR
@@ -89930,8 +89951,8 @@ uDw
 uDw
 uDw
 aJA
-nES
-nES
+aWL
+aWL
 eJU
 eJU
 eJU
@@ -90315,12 +90336,12 @@ fUC
 fUC
 fUC
 aJA
-qHU
+meQ
 kSu
 lqb
-nES
-nES
-qHU
+aWL
+aWL
+meQ
 aJA
 uDw
 uDw
@@ -90332,9 +90353,9 @@ uDw
 hQg
 uDw
 tya
-nES
-nES
-nES
+aWL
+aWL
+aWL
 iho
 eJU
 cDs
@@ -90718,11 +90739,11 @@ fUC
 fUC
 aJA
 juq
-nES
-qHU
+aWL
+meQ
 twS
-nES
-rcK
+aWL
+bxs
 aJA
 uDw
 uDw
@@ -90734,10 +90755,10 @@ uDw
 uDw
 uDw
 aJA
-nES
+aWL
 btu
-nES
-nES
+aWL
+aWL
 eJU
 cDs
 cDs
@@ -91136,10 +91157,10 @@ uDw
 hbt
 uDw
 aJA
-nES
-nES
-nES
-nES
+aWL
+aWL
+aWL
+aWL
 eJU
 cDs
 cDs
@@ -92328,10 +92349,10 @@ fUC
 fUC
 aJA
 obN
-nES
+aWL
 tya
-nES
-nES
+aWL
+aWL
 tya
 uDw
 uDw
@@ -92729,11 +92750,11 @@ dPp
 fUC
 fUC
 aJA
-oUY
+orT
 mYe
 aJA
-nES
-nES
+aWL
+aWL
 aJA
 aJA
 aJA
@@ -93134,18 +93155,18 @@ aJA
 aJA
 aJA
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 wxv
 aJA
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
-oUY
+orT
 obN
 aJA
 fUC
@@ -93534,21 +93555,21 @@ fUC
 fUC
 aJA
 obN
-nES
+aWL
 tya
 irn
-nES
-nES
-qHU
+aWL
+aWL
+meQ
 aJA
 fUC
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 mYe
-nES
+aWL
 aJA
 fUC
 fUC
@@ -93935,19 +93956,19 @@ fUC
 fUC
 fUC
 aJA
-oUY
+orT
 mYe
 aJA
-nES
+aWL
 hgk
-nES
-rcK
+aWL
+bxs
 aJA
 fUC
 aJA
-nES
+aWL
 mJG
-nES
+aWL
 aJA
 aJA
 tya
@@ -94340,19 +94361,19 @@ aJA
 aJA
 aJA
 aJA
-nES
-nES
-nES
+aWL
+aWL
+aWL
 wxv
 aJA
 fUC
 aJA
 lqb
-nES
+aWL
 hgk
-nES
-nES
-nES
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -94740,21 +94761,21 @@ fUC
 fUC
 aJA
 obN
-nES
+aWL
 tya
-nES
-nES
+aWL
+aWL
 irn
-qHU
+meQ
 aJA
 fUC
 aJA
-rcK
-nES
-nES
-nES
-nES
-nES
+bxs
+aWL
+aWL
+aWL
+aWL
+aWL
 aJA
 fUC
 fUC
@@ -95141,13 +95162,13 @@ fUC
 fUC
 fUC
 aJA
-oUY
+orT
 mYe
 aJA
-nES
-nES
-nES
-rcK
+aWL
+aWL
+aWL
+bxs
 aJA
 fUC
 aJA
