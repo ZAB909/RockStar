@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ae" = (
+/obj/machinery/door/airlock/security/glass{
+	name = "Gatehouse";
+	req_access_txt = "121"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
 "ag" = (
 /obj/structure/guncase,
 /obj/item/gun/ballistic/shotgun/police,
@@ -18,12 +25,16 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
 "ak" = (
-/obj/structure/table{
-	layer = 2.9
+/turf/open/floor/f13{
+	icon_state = "floordirty"
 	},
-/obj/item/storage/box/handcuffs,
-/obj/item/storage/box/handcuffs,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/prison)
+"aA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/wood/wood_large,
 /area/f13/ncr)
 "aE" = (
 /obj/structure/table/wood/fancy/royalblack,
@@ -89,19 +100,9 @@
 	},
 /area/f13/followers)
 "bc" = (
-/obj/structure/table/reinforced,
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/obj/machinery/door/poddoor/shutters{
-	id = "ncrrgatehousesouth"
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
@@ -187,9 +188,9 @@
 /area/f13/den)
 "cx" = (
 /turf/open/floor/f13{
-	icon_state = "floordirty"
+	icon_state = "floorrusty"
 	},
-/area/f13/prison)
+/area/f13/powerplant)
 "cy" = (
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/f13/tcoms)
@@ -241,6 +242,21 @@
 "da" = (
 /turf/open/floor/wood,
 /area/f13/farmhouse)
+"dh" = (
+/obj/machinery/button/door{
+	id = "ncrrgatehousesouth";
+	name = "South Gatehouse Shutters";
+	pixel_x = 6;
+	pixel_y = 32
+	},
+/obj/machinery/button/door{
+	id = "NCRSgate";
+	name = "South Gate button";
+	pixel_x = -6;
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
 "di" = (
 /obj/machinery/light{
 	dir = 8
@@ -269,7 +285,7 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
 "dv" = (
-/turf/closed/mineral/uranium,
+/turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "dw" = (
 /obj/structure/table/wood,
@@ -550,14 +566,20 @@
 /turf/closed/wall/f13/wood,
 /area/f13/ncr)
 "hE" = (
-/obj/item/paper_bin,
-/obj/item/pen,
-/obj/structure/table,
+/obj/structure/chair/f13foldupchair{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "hO" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/den)
+"id" = (
+/obj/effect/decal/cleanable/blood/gibs{
+	icon_state = "gibtorso"
+	},
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "iJ" = (
 /obj/item/bedsheet/cmo,
 /obj/machinery/light{
@@ -572,20 +594,8 @@
 /turf/open/floor/wood,
 /area/f13/ncr_main)
 "iT" = (
-/obj/machinery/button/door{
-	id = "ncrrgatehousesouth";
-	name = "South Gatehouse Shutters";
-	pixel_x = 6;
-	pixel_y = 32
-	},
-/obj/machinery/button/door{
-	id = "NCRSgate";
-	name = "South Gate button";
-	pixel_x = -6;
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/tunnel)
 "iY" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -605,11 +615,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"jX" = (
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/powerplant)
+"jR" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "kc" = (
 /obj/structure/table,
 /obj/item/multitool,
@@ -617,6 +626,10 @@
 	dir = 9
 	},
 /area/f13/tcoms)
+"kq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legion)
 "kt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -799,10 +812,6 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/ncr)
-"ns" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legion)
 "nw" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/paper_bin,
@@ -839,6 +848,12 @@
 	req_access_txt = "121"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
+"nY" = (
+/obj/structure/chair/wood/worn{
+	dir = 8
+	},
+/turf/open/floor/wood/wood_large,
 /area/f13/ncr)
 "ob" = (
 /turf/open/floor/carpet/green,
@@ -892,13 +907,15 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/ncr)
 "oB" = (
-/obj/structure/table{
-	layer = 2.9
+/obj/structure/table/reinforced,
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
 	},
-/obj/item/restraints/legcuffs,
-/obj/item/restraints/legcuffs,
-/obj/item/restraints/legcuffs,
-/obj/item/restraints/legcuffs,
+/obj/machinery/door/poddoor/shutters{
+	id = "ncrrgatehousesouth"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "oC" = (
@@ -929,13 +946,6 @@
 /obj/item/ammo_box/shotgun/rubber,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
-"oG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
 "pe" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -967,21 +977,14 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/f13/tcoms)
-"pG" = (
-/obj/structure/table/reinforced,
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/obj/machinery/door/poddoor/shutters{
-	id = "ncrrgatehousesouth"
-	},
+"pH" = (
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/structure/table,
+/obj/item/dice/d20,
+/obj/item/toy/cards/deck,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"pH" = (
-/turf/open/floor/wood/f13/old,
-/area/f13/caves)
 "pJ" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/wood_tiled,
@@ -1045,6 +1048,10 @@
 "qA" = (
 /turf/open/floor/wood,
 /area/f13/prison)
+"qB" = (
+/obj/structure/flora/grass/wasteland,
+/turf/open/transparent/openspace,
+/area/f13/wasteland)
 "qM" = (
 /obj/machinery/mineral/wasteland_vendor/followerterminal,
 /turf/open/floor/plasteel/blueyellow,
@@ -1057,6 +1064,14 @@
 /area/f13/ncr)
 "ra" = (
 /obj/structure/barricade/sandbags,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
+"rb" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/structure/table/wood,
+/obj/item/binoculars,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "rl" = (
@@ -1322,7 +1337,15 @@
 	},
 /area/f13/den)
 "wx" = (
-/obj/structure/dresser,
+/obj/structure/table{
+	layer = 2.9
+	},
+/obj/item/restraints/legcuffs,
+/obj/item/restraints/legcuffs,
+/obj/item/restraints/legcuffs,
+/obj/item/restraints/legcuffs,
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "wB" = (
@@ -1409,12 +1432,6 @@
 /obj/item/toy/beach_ball/holoball,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"ya" = (
-/obj/effect/decal/cleanable/blood/gibs{
-	icon_state = "gibtorso"
-	},
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "yl" = (
 /obj/machinery/light{
 	dir = 8
@@ -1588,12 +1605,6 @@
 /obj/item/pda,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"AO" = (
-/obj/structure/chair/wood/worn{
-	dir = 8
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "AV" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hop,
@@ -1685,10 +1696,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"Cv" = (
-/obj/effect/decal/cleanable/blood/splatter,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "Cw" = (
 /obj/machinery/button/door{
 	id = "ncrrangershutters";
@@ -1746,6 +1753,9 @@
 "CX" = (
 /turf/open/transparent/openspace,
 /area/f13/followers)
+"Dg" = (
+/turf/closed/mineral/plasma,
+/area/f13/caves)
 "Dj" = (
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
@@ -1819,6 +1829,23 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
+"DS" = (
+/obj/structure/table/reinforced,
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "ncrrgatehousesouth"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
 "DU" = (
 /obj/structure/table/glass,
 /obj/item/paper_bin,
@@ -1924,10 +1951,6 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"Fg" = (
-/obj/structure/flora/grass/wasteland,
-/turf/open/transparent/openspace,
-/area/f13/wasteland)
 "Fp" = (
 /turf/open/floor/wood,
 /area/f13/powerplant)
@@ -2046,6 +2069,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
+"GJ" = (
+/obj/item/kirbyplants/random{
+	pixel_y = 8
+	},
+/turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
 "GW" = (
 /obj/machinery/light{
@@ -2178,13 +2207,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"Jv" = (
-/obj/machinery/door/airlock/security/glass{
-	name = "Gatehouse";
-	req_access_txt = "121"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
 "Jw" = (
 /obj/structure/table/wood,
 /obj/machinery/msgterminal/ncr{
@@ -2258,12 +2280,11 @@
 "KX" = (
 /turf/open/transparent/openspace,
 /area/f13/den)
-"La" = (
-/turf/closed/mineral/plasma,
-/area/f13/caves)
-"Lc" = (
-/turf/open/transparent/openspace,
-/area/f13/powerplant)
+"Lf" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/prison)
 "Lh" = (
 /obj/structure/guncase,
 /obj/effect/decal/fakelattice{
@@ -2331,6 +2352,9 @@
 	sunlight_state = 1
 	},
 /area/f13/den)
+"LS" = (
+/turf/open/transparent/openspace,
+/area/f13/powerplant)
 "LT" = (
 /obj/effect/decal/fakelattice{
 	pixel_y = -17
@@ -2393,14 +2417,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"MS" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/structure/table/wood,
-/obj/item/binoculars,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
 "MT" = (
 /obj/structure/grille/indestructable,
 /obj/effect/spawner/structure/window/reinforced,
@@ -2446,19 +2462,6 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
-"Nn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"Nq" = (
-/obj/structure/chair/wood/worn{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
 "Nv" = (
 /obj/structure/table/wood,
 /obj/machinery/cell_charger,
@@ -2477,12 +2480,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "NG" = (
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/ncr)
+/turf/closed/mineral/uranium,
+/area/f13/caves)
 "NH" = (
 /obj/structure/table/wood,
 /obj/item/stack/f13Cash/ncr{
@@ -2493,9 +2492,7 @@
 /turf/open/floor/carpet/red,
 /area/f13/ncr)
 "NI" = (
-/obj/structure/simple_door/room{
-	name = "Heavy Trooper Bunks"
-	},
+/obj/structure/simple_door/room,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "NN" = (
@@ -2701,10 +2698,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/ncr)
-"QG" = (
-/obj/structure/chair/wood/worn,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "QH" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowbottom"
@@ -2724,6 +2717,10 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/den)
+"QV" = (
+/obj/structure/chair/wood/worn,
+/turf/open/floor/wood/wood_large,
+/area/f13/ncr)
 "Re" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars/cohiba{
@@ -3028,9 +3025,6 @@
 /obj/effect/landmark/start/f13/ncrcaptain,
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"Vh" = (
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
 "Vm" = (
 /obj/structure/railing{
 	dir = 4
@@ -3167,6 +3161,12 @@
 	},
 /turf/open/floor/plasteel/blueyellow,
 /area/f13/followers)
+"Yc" = (
+/obj/structure/chair/wood/worn{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
 "Ye" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -3220,9 +3220,6 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
-"Zf" = (
-/turf/closed/wall/f13/ruins,
-/area/f13/caves)
 "Zp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/unpowered/securedoor{
@@ -3267,11 +3264,6 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
-"ZN" = (
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/prison)
 "ZS" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -3303,6 +3295,9 @@
 /obj/item/clothing/head/f13/town/officer,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/den)
+"ZY" = (
+/turf/closed/wall/f13/ruins,
+/area/f13/caves)
 
 (1,1,1) = {"
 vr
@@ -4898,16 +4893,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -5276,13 +5271,13 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -5300,16 +5295,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -5678,16 +5673,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -5702,16 +5697,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -6080,16 +6075,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -6104,16 +6099,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -6421,9 +6416,9 @@ sM
 Ia
 Yl
 Wg
-Wg
+sq
 Yl
-ak
+Wg
 PN
 BB
 BB
@@ -6482,16 +6477,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -6506,16 +6501,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -6823,8 +6818,8 @@ sM
 Ia
 Yl
 Wg
-NG
-Yl
+Jf
+nS
 Wg
 WR
 Yo
@@ -6884,17 +6879,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -6904,20 +6899,20 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -7227,7 +7222,7 @@ Yl
 cZ
 Wg
 Yl
-oB
+Wg
 Wg
 Wg
 rI
@@ -7286,17 +7281,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -7306,20 +7301,20 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -7688,17 +7683,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -7708,20 +7703,20 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -8090,17 +8085,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -8110,20 +8105,20 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -8431,14 +8426,14 @@ sM
 Ia
 Yl
 Wg
-Wg
+sq
 Yl
 oz
 zA
 Of
 zA
 Yl
-Us
+pH
 Wg
 Se
 NT
@@ -8492,18 +8487,18 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -8512,20 +8507,20 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -8840,7 +8835,7 @@ OP
 FO
 RV
 Yl
-Wg
+Us
 cZ
 Se
 NT
@@ -8895,17 +8890,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -8918,16 +8913,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 vr
@@ -9297,17 +9292,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -9699,17 +9694,17 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -10102,16 +10097,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -10504,16 +10499,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -10882,7 +10877,7 @@ sM
 Ia
 Ia
 Ia
-Jv
+ae
 Ia
 Ia
 Ia
@@ -10906,16 +10901,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -11287,7 +11282,7 @@ Wg
 Wg
 Wg
 Wg
-pG
+oB
 sM
 sM
 sM
@@ -11308,16 +11303,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -11678,18 +11673,18 @@ sM
 sM
 sM
 sM
-Fg
+qB
 sM
 sM
 sM
 sM
-Jv
+ae
 Wg
-oG
+bc
 Wg
-Nq
+Yc
 cZ
-pG
+oB
 sM
 sM
 sM
@@ -11710,16 +11705,16 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -12088,10 +12083,10 @@ sM
 Ia
 Wg
 Ia
-iT
-MS
+dh
+rb
 Wg
-pG
+oB
 sM
 sM
 sM
@@ -12115,13 +12110,13 @@ op
 op
 op
 op
-pH
-pH
-pH
-pH
-pH
-pH
-pH
+dv
+dv
+dv
+dv
+dv
+dv
+dv
 op
 op
 op
@@ -12493,7 +12488,7 @@ cZ
 Wg
 Wg
 Wg
-pG
+oB
 sM
 sM
 sM
@@ -12890,12 +12885,12 @@ sM
 sM
 Ia
 Ia
-pG
-pG
-pG
-pG
-pG
-bc
+oB
+oB
+oB
+oB
+oB
+DS
 sM
 sM
 sM
@@ -14466,7 +14461,7 @@ Ih
 aJ
 bV
 tb
-tb
+GJ
 Yl
 sM
 sM
@@ -15667,7 +15662,7 @@ Wg
 PN
 BB
 Wg
-Yl
+Hl
 tb
 tb
 zF
@@ -16950,7 +16945,7 @@ op
 op
 op
 op
-ya
+id
 op
 op
 op
@@ -20519,7 +20514,7 @@ Xb
 Xb
 Xb
 Xb
-AO
+nY
 PT
 Ct
 lZ
@@ -22127,7 +22122,7 @@ Xb
 PT
 PT
 Ct
-QG
+QV
 dw
 PT
 lZ
@@ -22933,7 +22928,7 @@ PT
 xF
 PT
 Ct
-Nn
+aA
 lZ
 sM
 sM
@@ -41423,10 +41418,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -41825,10 +41820,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -42227,10 +42222,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -42629,10 +42624,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -43031,10 +43026,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -43433,10 +43428,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -43835,10 +43830,10 @@ sM
 sM
 sM
 sM
-jX
-jX
-jX
-jX
+cx
+cx
+cx
+cx
 sM
 sM
 sM
@@ -46296,10 +46291,10 @@ Fp
 Fp
 Fp
 Fp
-Lc
-Lc
-Lc
-Lc
+LS
+LS
+LS
+LS
 sM
 sM
 sM
@@ -74824,16 +74819,16 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -75226,16 +75221,16 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -75628,16 +75623,16 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -76030,19 +76025,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 kv
 kv
@@ -76432,19 +76427,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 op
 op
@@ -76834,19 +76829,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 op
 op
@@ -77236,19 +77231,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 op
 op
@@ -77638,19 +77633,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 op
 op
@@ -78040,19 +78035,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 op
 op
@@ -78442,19 +78437,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 op
 op
@@ -78844,19 +78839,19 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 kv
 kv
 kv
@@ -79246,18 +79241,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -79648,18 +79643,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -80050,23 +80045,23 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
 op
-Cv
+jR
 op
 op
 op
@@ -80452,18 +80447,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -80854,18 +80849,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -81256,18 +81251,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -81658,18 +81653,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -82060,18 +82055,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -82462,18 +82457,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -82864,18 +82859,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -83266,18 +83261,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -83668,18 +83663,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -84070,18 +84065,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -84472,18 +84467,18 @@ sM
 sM
 sM
 sM
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
-cx
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 op
 op
 op
@@ -87690,7 +87685,7 @@ vr
 vr
 vr
 vr
-Zf
+ZY
 op
 op
 op
@@ -88092,7 +88087,7 @@ vr
 vr
 vr
 op
-Zf
+ZY
 op
 op
 op
@@ -89293,7 +89288,7 @@ vr
 vr
 vr
 vr
-dv
+NG
 vr
 op
 op
@@ -89700,7 +89695,7 @@ vr
 op
 op
 op
-Zf
+ZY
 op
 op
 op
@@ -90106,9 +90101,9 @@ op
 op
 op
 op
-Zf
-Zf
-Zf
+ZY
+ZY
+ZY
 op
 op
 op
@@ -94932,9 +94927,9 @@ op
 op
 op
 op
-dv
-dv
-dv
+NG
+NG
+NG
 op
 op
 op
@@ -96141,7 +96136,7 @@ op
 op
 op
 op
-La
+Dg
 op
 op
 op
@@ -96945,7 +96940,7 @@ op
 op
 op
 op
-dv
+NG
 op
 op
 op
@@ -97326,11 +97321,11 @@ sM
 sM
 sM
 sM
-ZN
-ZN
-ZN
-ZN
-ZN
+Lf
+Lf
+Lf
+Lf
+Lf
 sM
 sM
 sM
@@ -97347,7 +97342,7 @@ op
 op
 op
 op
-dv
+NG
 op
 op
 op
@@ -97728,11 +97723,11 @@ sM
 sM
 sM
 sM
-ZN
-ZN
-ZN
-ZN
-ZN
+Lf
+Lf
+Lf
+Lf
+Lf
 sM
 sM
 sM
@@ -97748,7 +97743,7 @@ vr
 op
 op
 op
-dv
+NG
 op
 op
 op
@@ -98130,11 +98125,11 @@ sM
 sM
 sM
 sM
-ZN
-ZN
-ZN
-ZN
-ZN
+Lf
+Lf
+Lf
+Lf
+Lf
 sM
 sM
 sM
@@ -98149,8 +98144,8 @@ vr
 vr
 vr
 op
-dv
-dv
+NG
+NG
 op
 op
 op
@@ -98532,11 +98527,11 @@ sM
 sM
 sM
 sM
-ZN
-ZN
-ZN
-ZN
-ZN
+Lf
+Lf
+Lf
+Lf
+Lf
 sM
 sM
 sM
@@ -98551,7 +98546,7 @@ vr
 vr
 vr
 vr
-dv
+NG
 op
 op
 op
@@ -98934,11 +98929,11 @@ sM
 sM
 sM
 sM
-ZN
-ZN
-ZN
-ZN
-ZN
+Lf
+Lf
+Lf
+Lf
+Lf
 sM
 sM
 sM
@@ -104249,7 +104244,7 @@ pf
 pf
 pf
 pf
-ns
+kq
 pf
 pf
 sM
@@ -106684,7 +106679,7 @@ pf
 pf
 pf
 pf
-ns
+kq
 pf
 pf
 sM
@@ -107087,7 +107082,7 @@ pf
 pf
 pf
 pf
-ns
+kq
 pf
 sM
 sM
@@ -110244,7 +110239,7 @@ op
 op
 op
 fu
-ns
+kq
 pf
 pf
 pf
@@ -112305,7 +112300,7 @@ sM
 pf
 pf
 pf
-ns
+kq
 pf
 pf
 sM
@@ -119906,9 +119901,9 @@ sM
 sM
 sM
 ze
-Vh
-Vh
-Vh
+iT
+iT
+iT
 ze
 op
 op
@@ -120308,9 +120303,9 @@ sM
 sM
 sM
 ze
-Vh
-Vh
-Vh
+iT
+iT
+iT
 ze
 op
 op
@@ -120710,9 +120705,9 @@ sM
 sM
 sM
 ze
-Vh
-Vh
-Vh
+iT
+iT
+iT
 ze
 op
 op
@@ -121112,9 +121107,9 @@ sM
 sM
 sM
 ze
-Vh
-Vh
-Vh
+iT
+iT
+iT
 ze
 op
 op
@@ -121514,9 +121509,9 @@ sM
 sM
 sM
 ze
-Vh
-Vh
-Vh
+iT
+iT
+iT
 ze
 op
 op
@@ -121916,8 +121911,8 @@ sM
 sM
 sM
 ze
-Vh
-Vh
+iT
+iT
 ze
 ze
 op
