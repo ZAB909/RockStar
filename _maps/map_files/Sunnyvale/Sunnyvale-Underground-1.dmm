@@ -5828,9 +5828,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/aug_manipulator{
-	pixel_x = 2
-	},
+/obj/machinery/aug_manipulator,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side,
 /area/f13/enclave)
 "hIK" = (
@@ -6750,7 +6748,9 @@
 	name = "Head Scientist's Office";
 	req_one_access_txt = "134"
 	},
-/turf/closed/wall/r_wall,
+/turf/open/floor/plasteel/f13/vault_floor/purple/white{
+	dir = 3
+	},
 /area/f13/enclave)
 "iUc" = (
 /obj/structure/disposalpipe/junction/yjunction{
@@ -8600,7 +8600,7 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
 "kZq" = (
-/obj/machinery/computer/rdconsole/core/bos,
+/obj/machinery/computer/rdconsole/core/vault,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 1
 	},
@@ -11600,14 +11600,14 @@
 /obj/structure/table{
 	layer = 2.9
 	},
-/obj/machinery/computer/rdconsole/core/bos{
-	dir = 8;
-	icon_keyboard = "terminal_key";
-	icon_screen = "terminal_on_alt";
-	icon_state = "terminal"
-	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/computer/rdconsole/core/vault{
+	icon_keyboard = "terminal_key";
+	icon_screen = "terminal_on_alt";
+	icon_state = "terminal";
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 4
