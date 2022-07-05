@@ -12622,6 +12622,7 @@
 /area/f13/enclave)
 "pWw" = (
 /obj/structure/rack,
+/obj/item/stack/sheet/metal/twenty,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
 	dir = 6
 	},
