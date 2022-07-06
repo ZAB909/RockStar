@@ -597,7 +597,7 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 /mob/living/simple_animal/cow/brahmin/attackby(obj/item/I, mob/user)
 	. = ..()
 	if(istype(I,/obj/item/brahminbags))
-		if(STAT == DEAD)
+		if(stat == DEAD)
 			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
 			return
 		if(bags)
@@ -613,7 +613,7 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 
 	if(istype(I,/obj/item/brahmincollar))
-		if(STAT == DEAD)
+		if(stat == DEAD)
 			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
 			return
 		if(user != owner)
@@ -632,7 +632,7 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 
 	if(istype(I,/obj/item/brahminbridle))
-		if(STAT == DEAD)
+		if(stat == DEAD)
 			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
 			return
 		if(bridle)
@@ -647,7 +647,7 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 	
 	if(istype(I,/obj/item/brahminsaddle))
-		if(STAT == DEAD)
+		if(stat == DEAD)
 			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
 			return
 		if(saddle)
