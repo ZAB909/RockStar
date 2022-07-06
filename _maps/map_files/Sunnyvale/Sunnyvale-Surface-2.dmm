@@ -74,7 +74,7 @@
 /area/f13/tunnel)
 "aav" = (
 /obj/machinery/door/poddoor/gate{
-	id = "legiongate";
+	id = "legionsouthgate";
 	name = "gate"
 	},
 /turf/open/indestructible/ground/outside/dirt,
@@ -320,19 +320,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
 "abR" = (
-/obj/machinery/button/door{
-	id = "legion12";
-	name = "Legion shutters";
-	pixel_x = 32
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
 	},
-/obj/structure/chair/wood{
-	dir = 8
-	},
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/legion)
+/turf/open/floor/wood/f13/stage_br,
+/area/f13/desert)
 "abS" = (
 /obj/structure/fence/wooden{
 	dir = 1;
@@ -824,13 +817,6 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/wood/f13/old,
 /area/f13/klamat)
-"adM" = (
-/obj/structure/table/wood,
-/obj/item/pda,
-/obj/item/pda,
-/obj/item/pda,
-/turf/open/floor/wood/f13/oak,
-/area/f13/legion)
 "adN" = (
 /obj/item/fishyegg/shrimp,
 /obj/effect/decal/riverbank,
@@ -2071,12 +2057,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/medical/medbay/central)
-"ahQ" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "ahR" = (
 /obj/structure/fence/wooden{
 	dir = 4;
@@ -13069,15 +13049,6 @@
 /obj/item/paper,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
-"aNH" = (
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirt"
-	},
-/area/f13/desert)
 "aNI" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/machinery/light{
@@ -21773,7 +21744,7 @@
 "bpp" = (
 /obj/structure/table/wood,
 /obj/machinery/door/poddoor/shutters{
-	id = "legionlock"
+	id = "legiontowershut"
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
@@ -22114,16 +22085,11 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
 "bqF" = (
-/obj/structure/table/wood,
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
+/obj/machinery/door/poddoor/gate{
+	id = "legionnorthgate";
+	name = "gate"
 	},
-/obj/machinery/door/poddoor/shutters{
-	id = "legiontowershut"
-	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
 "bqG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23412,7 +23378,6 @@
 /area/f13/sunny_dale)
 "bwq" = (
 /obj/structure/table/wood,
-/obj/item/pda,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
 	},
@@ -29816,12 +29781,12 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "dVg" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8;
-	light_power = 2
+/obj/structure/fence/wooden{
+	dir = 4;
+	icon_state = "post_wood"
 	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/legion)
+/turf/open/floor/wood/f13/stage_bl,
+/area/f13/desert)
 "dVo" = (
 /obj/structure/table/wood,
 /obj/item/megaphone,
@@ -32488,7 +32453,7 @@
 	obj_integrity = 800
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "legionlock"
+	id = "legionwestlock"
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
@@ -33912,11 +33877,18 @@
 /turf/open/indestructible/ground/outside/water,
 /area/f13/desert)
 "mgg" = (
-/obj/structure/railing/corner{
-	dir = 4
+/obj/machinery/button/door{
+	id = "legion12";
+	name = "Legion shutters";
+	pixel_x = 32
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
+/obj/machinery/button/door{
+	id = "legion12";
+	name = "Legion east shutters";
+	pixel_y = 26
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/legion)
 "mhv" = (
 /obj/structure/table,
 /obj/item/clothing/neck/apron/chef,
@@ -36808,8 +36780,8 @@
 /area/f13/sunny_dale)
 "rYg" = (
 /obj/machinery/button/door{
-	id = "legionlock";
-	name = "Legion shutters";
+	id = "legionwestlock";
+	name = "Legion west shutters";
 	pixel_y = 32
 	},
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -37749,13 +37721,6 @@
 /mob/living/simple_animal/hostile/raider/baseball,
 /turf/open/water,
 /area/f13/underground/mountain)
-"tJw" = (
-/obj/structure/destructible/tribal_torch/lit,
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "tKl" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /obj/machinery/light{
@@ -38200,7 +38165,7 @@
 	pixel_x = 9;
 	pixel_y = 14
 	},
-/turf/open/indestructible/ground/outside/savannah/leftcenter,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
 "uxO" = (
 /obj/structure/table/wood/settler,
@@ -136279,7 +136244,7 @@ bVu
 aeA
 bre
 dcM
-adM
+afj
 aeA
 ujT
 agg
@@ -137867,7 +137832,7 @@ aab
 aab
 aab
 aeA
-bqc
+afj
 aiy
 uBK
 aeA
@@ -138719,7 +138684,7 @@ akV
 akV
 akV
 akV
-mgg
+aag
 aag
 aag
 aag
@@ -139121,7 +139086,7 @@ agg
 aas
 blL
 jtW
-ahQ
+aag
 aag
 aag
 aag
@@ -139523,7 +139488,7 @@ aMJ
 aip
 blL
 jtW
-ahQ
+aag
 aag
 aag
 aag
@@ -139925,7 +139890,7 @@ rYg
 blL
 agg
 jtW
-ahQ
+aag
 aag
 aag
 aag
@@ -140327,7 +140292,7 @@ agg
 jqE
 agg
 jtW
-ahQ
+aag
 aag
 aag
 aag
@@ -140729,7 +140694,7 @@ ahp
 vYd
 blL
 jtW
-ahQ
+aag
 aag
 aag
 aag
@@ -141131,7 +141096,7 @@ agg
 jqE
 agg
 jtW
-ahQ
+aag
 aag
 aag
 aag
@@ -141532,8 +141497,8 @@ akV
 agg
 agg
 dcM
-bqF
-ahQ
+jtW
+aag
 aag
 aag
 aag
@@ -143943,7 +143908,7 @@ bUI
 akV
 agg
 agg
-dcM
+agg
 bLi
 iOM
 agg
@@ -144324,8 +144289,8 @@ aZw
 bKU
 bKU
 bKU
-izM
-mrM
+bKU
+dVg
 bSN
 nRb
 nRb
@@ -144344,7 +144309,7 @@ bUd
 bUd
 dlB
 agg
-abH
+agg
 ahz
 ahp
 agF
@@ -144727,7 +144692,7 @@ bKU
 bKU
 bKU
 bKU
-mrM
+aMY
 adN
 nRb
 nRb
@@ -144747,7 +144712,7 @@ bUF
 akV
 agg
 agg
-dVg
+agg
 agg
 iOM
 agg
@@ -145128,8 +145093,8 @@ bxH
 bKU
 bKU
 bKU
-ksK
-mrM
+bKU
+abR
 bSN
 mfm
 nRb
@@ -146355,7 +146320,7 @@ bUd
 akV
 aec
 agg
-agg
+dcM
 agg
 iOM
 agg
@@ -147156,7 +147121,7 @@ bUd
 bUd
 bUd
 bUd
-aav
+bqF
 bUd
 bUd
 bUd
@@ -147532,9 +147497,9 @@ bVt
 bUF
 bUF
 bUF
-bUF
-bUF
-bUF
+aeB
+bUd
+bVt
 bUF
 aeB
 bUd
@@ -147934,9 +147899,9 @@ bUH
 bUI
 bUI
 bUI
-bUI
-bUI
-bUI
+dhg
+bUd
+bUH
 bUI
 aiB
 bUd
@@ -148337,7 +148302,7 @@ mxZ
 mxZ
 tDN
 tDN
-mxZ
+bHj
 tDN
 tDN
 tDN
@@ -148368,7 +148333,7 @@ bbU
 bbU
 bbU
 akV
-aNH
+bUF
 bUF
 bUF
 bUF
@@ -148770,7 +148735,7 @@ agg
 blL
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -149172,7 +149137,7 @@ agg
 blL
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -149574,7 +149539,7 @@ agg
 agg
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -149976,7 +149941,7 @@ bTa
 bFO
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -150378,7 +150343,7 @@ akV
 bsz
 blL
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -150780,7 +150745,7 @@ dlB
 agg
 blL
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -151182,7 +151147,7 @@ akV
 agg
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -151584,7 +151549,7 @@ akV
 bfT
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -151986,7 +151951,7 @@ blL
 blL
 blL
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -152383,12 +152348,12 @@ bKY
 bUF
 bUF
 akV
-agg
+mgg
 aip
 blL
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -152738,7 +152703,7 @@ aab
 aag
 aag
 aeA
-bqc
+afj
 agg
 uBK
 aeA
@@ -152785,12 +152750,12 @@ aag
 aag
 aag
 akV
+aMJ
 agg
-agg
-abR
+dcM
 agg
 smp
-ahQ
+aag
 aag
 aag
 aag
@@ -153192,7 +153157,7 @@ akV
 akV
 akV
 akV
-tJw
+xvM
 aag
 aag
 aag
