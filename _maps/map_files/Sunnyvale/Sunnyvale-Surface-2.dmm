@@ -34343,6 +34343,16 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating,
 /area/f13/powerplant)
+"nia" = (
+/obj/structure/simple_door/metal/fence{
+	dir = 8;
+	req_access_txt = "123";
+	req_one_access_txt = null;
+	name = "Iron Gate";
+	color = "#515249"
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/legion)
 "nin" = (
 /obj/item/tank/internals/anesthetic,
 /obj/item/tank/internals/anesthetic,
@@ -148310,7 +148320,7 @@ mxZ
 mxZ
 tDN
 tDN
-bHj
+nia
 tDN
 tDN
 tDN
