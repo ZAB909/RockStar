@@ -719,11 +719,11 @@
 /area/f13/building)
 "bdj" = (
 /obj/structure/rack/shelf_metal,
-/obj/item/stack/sheet/mineral/titanium/fifty,
-/obj/item/stack/sheet/glass/ten,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/mineral/titanium/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 8
 	},
@@ -7192,10 +7192,11 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "jtV" = (
-/obj/item/stack/sheet/plasteel/five,
-/obj/item/stack/sheet/metal/twenty,
 /obj/structure/rack/shelf_metal,
-/obj/item/stack/sheet/metal/twenty,
+/obj/item/stack/sheet/plasteel/twenty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/plastic/twenty,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 8
 	},
@@ -12622,7 +12623,7 @@
 /area/f13/enclave)
 "pWw" = (
 /obj/structure/rack,
-/obj/item/stack/sheet/metal/twenty,
+/obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
 	dir = 6
 	},
