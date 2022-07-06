@@ -597,6 +597,9 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 /mob/living/simple_animal/cow/brahmin/attackby(obj/item/I, mob/user)
 	. = ..()
 	if(istype(I,/obj/item/brahminbags))
+		if(STAT == DEAD)
+			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
+			return
 		if(bags)
 			to_chat(user, "<span class='warning'>The brahmin already has bags attached!</span>")
 			return
@@ -610,6 +613,9 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 
 	if(istype(I,/obj/item/brahmincollar))
+		if(STAT == DEAD)
+			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
+			return
 		if(user != owner)
 			to_chat(user, "<span class='warning'>You need to claim the brahmin with a bridle before you can rename it!</span>")
 			return
@@ -626,6 +632,9 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 
 	if(istype(I,/obj/item/brahminbridle))
+		if(STAT == DEAD)
+			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
+			return
 		if(bridle)
 			to_chat(user, "<span class='warning'>This brahmin already has a bridle!</span>")
 			return
@@ -638,6 +647,9 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		return
 	
 	if(istype(I,/obj/item/brahminsaddle))
+		if(STAT == DEAD)
+			to_chat(user, "<span class='warning'>You cannot add anything to a dead brahmin!</span>")
+			return
 		if(saddle)
 			to_chat(user, "<span class='warning'>This brahmin already has a saddle!</span>")
 			return
@@ -665,6 +677,14 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 
 		if(!brand)
 			return
+
+/mob/living/simple_animal/cow/brahmin/death(gibbed)
+	. = ..()
+	if(can_buckle)
+		can_buckle = FALSE
+	if(buckled_mobs)
+		for(var/mob/living/M in buckled_mobs)
+			unbuckle_mob(M)
 
 /datum/component/storage/concrete/brahminbag
 	max_w_class = WEIGHT_CLASS_HUGE //Allows the storage of shotguns and other two handed items.
