@@ -29440,6 +29440,10 @@
 /obj/structure/dresser,
 /turf/open/floor/wood/f13/old,
 /area/f13/underground/mountain)
+"dkl" = (
+/obj/structure/railing/corner,
+/turf/closed/wall/r_wall/rust,
+/area/f13/ncr)
 "dkp" = (
 /obj/structure/table/wood,
 /obj/item/clothing/neck/apron/chef,
@@ -33113,6 +33117,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/f13/den)
+"kGS" = (
+/obj/structure/railing,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
 "kHt" = (
 /obj/machinery/chem_dispenser/drinks,
 /obj/structure/table,
@@ -35345,6 +35353,9 @@
 	pixel_x = -6;
 	pixel_y = 32
 	},
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
 "pdC" = (
@@ -36465,6 +36476,12 @@
 	icon_state = "housewood1-broken"
 	},
 /area/f13/farmhouse)
+"rur" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/ncr)
 "ruu" = (
 /obj/structure/railing{
 	dir = 4
@@ -38537,11 +38554,10 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/underground/mountain)
 "vez" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small{
+/obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/closed/wall/r_wall/rust,
 /area/f13/ncr)
 "vfc" = (
 /obj/structure/fence{
@@ -47740,8 +47756,8 @@ oSG
 bpF
 bpF
 wSG
-wSG
-wSG
+dkl
+vez
 oan
 wSG
 wSG
@@ -48142,8 +48158,8 @@ cEw
 bpF
 bpF
 wSG
-iSG
-iSG
+kGS
+dAZ
 iSG
 iSG
 iSG
@@ -48544,8 +48560,8 @@ bPu
 bpF
 bpF
 oan
-iSG
-vez
+rur
+rrz
 iSG
 eQs
 boS
