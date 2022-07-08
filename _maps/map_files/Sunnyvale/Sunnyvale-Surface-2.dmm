@@ -16584,6 +16584,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "legionwestshut"
 	},
+/obj/structure/barricade/sandbags,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "aYR" = (
@@ -17643,6 +17644,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "legioneastshut"
 	},
+/obj/structure/barricade/sandbags,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "bbV" = (
@@ -21768,6 +21770,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "legiontowershut"
 	},
+/obj/structure/barricade/sandbags,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "bps" = (
@@ -32209,6 +32212,11 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "legionbackupshut"
 	},
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "iPg" = (
@@ -33336,6 +33344,11 @@
 	icon_state = "housewood1-broken"
 	},
 /area/f13/farmhouse)
+"ldp" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/stack/sheet/mineral/sandbags,
+/turf/open/floor/wood/f13/oak,
+/area/f13/legion)
 "lds" = (
 /obj/structure/railing{
 	dir = 1
@@ -153931,7 +153944,7 @@ blL
 blL
 xiy
 aeA
-avl
+ldp
 agg
 blL
 agg
