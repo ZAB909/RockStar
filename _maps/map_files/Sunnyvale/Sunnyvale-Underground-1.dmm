@@ -19859,6 +19859,9 @@
 	icon_state = "purplefull"
 	},
 /area/f13/bunker)
+"xSS" = (
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/enclave)
 "xSU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
@@ -84932,9 +84935,9 @@ dPp
 fUC
 fUC
 dPp
-fUC
-fUC
-fUC
+bjT
+bjT
+bjT
 fUC
 fUC
 iAS
@@ -85333,11 +85336,11 @@ bjT
 fUC
 fUC
 fUC
-dPp
 bjT
 bjT
 bjT
-fUC
+bjT
+bjT
 fUC
 iAS
 "}
@@ -85734,11 +85737,11 @@ vNi
 bjT
 bjT
 fUC
-fUC
+bjT
 bjT
 dWa
 dAW
-uVM
+bjT
 bjT
 fUC
 iAS
@@ -86136,7 +86139,7 @@ rFf
 bjT
 bjT
 fUC
-fUC
+bjT
 bjT
 uCn
 eZJ
@@ -86537,7 +86540,7 @@ qjs
 ktq
 bjT
 bjT
-fUC
+bjT
 bjT
 hes
 uVM
@@ -86942,9 +86945,9 @@ bjT
 bjT
 bjT
 bjT
-uVM
 xGI
 cqf
+xSS
 bjT
 fUC
 iAS
@@ -87344,9 +87347,9 @@ bjT
 bjT
 bjT
 bjT
-bjT
 cqf
 ajZ
+xSS
 bjT
 fUC
 iAS
