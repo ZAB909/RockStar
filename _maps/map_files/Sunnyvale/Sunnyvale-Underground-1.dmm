@@ -6563,6 +6563,13 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/building)
+"iDV" = (
+/obj/structure/simple_door/house{
+	icon_state = "room";
+	name = "Matrix"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/area/f13/enclave)
 "iEl" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress4"
@@ -16096,6 +16103,9 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/bunker)
+"tLv" = (
+/turf/closed/indestructible/f13/matrix,
+/area/f13/enclave)
 "tLC" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
@@ -90194,7 +90204,7 @@ fUC
 fUC
 fUC
 fUC
-fUC
+bjT
 bjT
 bjT
 vID
@@ -90595,8 +90605,8 @@ fUC
 fUC
 fUC
 fUC
-fUC
-fUC
+bjT
+bjT
 bjT
 bjT
 bjT
@@ -90996,13 +91006,13 @@ bjT
 bjT
 fUC
 fUC
-fUC
-fUC
 bjT
 bjT
 tBA
 bjT
 tBA
+bjT
+tLv
 bjT
 spK
 fmL
@@ -91398,13 +91408,13 @@ bjT
 bjT
 bjT
 fUC
-fUC
-bjT
 bjT
 bjT
 fHf
 bjT
 fHf
+bjT
+iDV
 bjT
 mcj
 heD
@@ -91800,12 +91810,12 @@ vWX
 vWX
 bjT
 bjT
-fUC
-bjT
 bjT
 uxC
 sjm
 qQu
+sjm
+sjm
 sjm
 pHt
 oAs
@@ -92202,7 +92212,7 @@ kpX
 dvb
 bjT
 bjT
-fUC
+bjT
 bjT
 bjT
 bjT
@@ -92604,7 +92614,7 @@ kpX
 oxU
 kpX
 bjT
-fUC
+bjT
 bjT
 bjT
 jAf
