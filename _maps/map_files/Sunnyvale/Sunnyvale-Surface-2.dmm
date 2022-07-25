@@ -3618,9 +3618,14 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aok" = (
-/obj/effect/decal/remains/human,
-/turf/closed/mineral/random/low_chance,
-/area/f13/underground/mountain)
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating/f13/outside/road{
+	dir = 4;
+	icon_state = "outerpavement"
+	},
+/area/f13/desert)
 "aom" = (
 /obj/structure/bed/old,
 /obj/item/bedsheet/black,
@@ -3920,22 +3925,6 @@
 /obj/item/pen/fountain,
 /turf/open/floor/f13,
 /area/f13/sunny_dale)
-"aqE" = (
-/obj/structure/fluff/railing,
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 1;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/fluff/railing{
-	dir = 1
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "aqG" = (
 /turf/closed/wall/f13/store/constructed,
 /area/f13/den)
@@ -4728,6 +4717,16 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
+"ayR" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 10;
+	pixel_x = 7
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "azk" = (
 /obj/machinery/door/poddoor/preopen{
 	id = "den"
@@ -5087,6 +5086,10 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/den)
+"aDp" = (
+/obj/structure/timeddoor,
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/mountain)
 "aDr" = (
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
@@ -5963,31 +5966,6 @@
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/desert)
-"aJb" = (
-/obj/machinery/light/floor,
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 6
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 4;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "aJd" = (
 /obj/item/broken_bottle,
 /turf/open/floor/wood/f13/oak,
@@ -6025,9 +6003,6 @@
 	},
 /area/f13/sunny_dale)
 "aJj" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
 /turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aJm" = (
@@ -9430,6 +9405,31 @@
 /obj/structure/barricade/sandbags,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
+"aYR" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing/corner{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fluff/railing{
+	dir = 10
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "aYS" = (
 /obj/structure/chair,
 /mob/living/simple_animal/hostile/handy/protectron,
@@ -10129,14 +10129,10 @@
 	},
 /area/f13/underground/mountain)
 "bbl" = (
-/mob/living/simple_animal/hostile/cazador{
-	dir = 1
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
 	},
-/turf/open/floor/plating/f13/outside/road{
-	dir = 8;
-	icon_state = "outerpavement"
-	},
-/area/f13/desert)
+/area/f13/underground/mountain)
 "bbn" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
@@ -11493,6 +11489,12 @@
 /obj/item/paper_bin,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"bhX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "bhZ" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -14840,6 +14842,9 @@
 /turf/open/floor/carpet,
 /area/f13/sunny_dale)
 "bDz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "bDA" = (
@@ -16637,13 +16642,9 @@
 	},
 /area/f13/den)
 "bVX" = (
-/mob/living/simple_animal/hostile/cazador{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "platingdmg1"
-	},
-/area/f13/sunny_dale)
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "bVZ" = (
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/f13/rustedcowboyhat,
@@ -16837,13 +16838,6 @@
 /obj/item/gun/ballistic/automatic/smg/greasegun,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"cgz" = (
-/obj/machinery/door/airlock/hatch,
-/obj/structure/barricade/wooden,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "cgA" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -16884,6 +16878,12 @@
 	color = "000000"
 	},
 /turf/open/floor/wood/f13/old,
+/area/f13/underground/mountain)
+"cmO" = (
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
 /area/f13/underground/mountain)
 "cmR" = (
 /obj/structure/nest/raider/ranged{
@@ -16942,6 +16942,22 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/f13/wood,
 /area/f13/farmhouse)
+"crA" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "csk" = (
 /obj/structure/car/rubbish1,
 /turf/open/indestructible/ground/outside/desert,
@@ -17257,10 +17273,6 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/legion)
-"dam" = (
-/obj/structure/barricade/wooden/strong,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "dca" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
@@ -17312,15 +17324,6 @@
 	},
 /obj/item/pen/fountain,
 /turf/open/floor/wood/f13,
-/area/f13/desert)
-"diu" = (
-/obj/structure/fence{
-	dir = 4
-	},
-/obj/structure/sign/warning/securearea{
-	name = "MILITARIZED ZONE AHEAD"
-	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
 "div" = (
 /turf/closed/wall/r_wall/rust,
@@ -17473,6 +17476,24 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/powerplant)
+"dCw" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "dCO" = (
 /obj/structure/table/booth,
 /obj/effect/decal/cleanable/dirt,
@@ -17511,27 +17532,6 @@
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/ncr)
-"dIg" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 1
-	},
-/obj/structure/fluff/railing,
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/fence/handrail{
-	density = 0;
-	dir = 4;
-	pixel_x = -12
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "dIE" = (
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt{
@@ -17652,22 +17652,6 @@
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
-"dRn" = (
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/fluff/railing,
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 1
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "dSy" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -17768,6 +17752,24 @@
 /obj/item/lock_construct,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"edp" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "edr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/decoration/rag{
@@ -17934,6 +17936,13 @@
 	icon_state = "housewood2"
 	},
 /area/f13/sunny_dale)
+"eAn" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "eAT" = (
 /obj/structure/closet/crate/coffin/blackcoffin,
 /obj/item/grenade/f13/plasma,
@@ -18091,6 +18100,13 @@
 	},
 /turf/open/floor/wood,
 /area/f13/farmhouse)
+"eVi" = (
+/obj/structure/simple_door/metal/fence,
+/turf/open/floor/plating/f13/outside/road{
+	dir = 8;
+	icon_state = "outerpavement"
+	},
+/area/f13/desert)
 "eVy" = (
 /obj/machinery/light/lampost{
 	pixel_y = 16
@@ -18501,24 +18517,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
-"fOa" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 4
-	},
-/obj/structure/fluff/railing{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 4;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "fOs" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -18738,11 +18736,6 @@
 /obj/item/storage/box/ration/menu_eleven,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"gtz" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "gtV" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/random,
@@ -18865,6 +18858,10 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"gHX" = (
+/obj/structure/simple_door/metal/fence,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "gIe" = (
 /obj/structure/barricade/sandbags,
 /turf/open/floor/plasteel/f13{
@@ -18919,27 +18916,6 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/ncr)
-"gKZ" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 4
-	},
-/obj/structure/fluff/railing{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 8;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "gLa" = (
 /obj/structure/fence{
 	dir = 4
@@ -19033,27 +19009,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
-"gXA" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 4
-	},
-/obj/structure/fluff/railing{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 8;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "gXT" = (
 /obj/structure/nest/raider/ranged{
 	max_mobs = 2;
@@ -19097,22 +19052,6 @@
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"haO" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing,
-/obj/structure/fluff/railing{
-	dir = 1
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 1;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "hbm" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/desert,
@@ -19308,6 +19247,15 @@
 	icon_state = "floordirty"
 	},
 /area/f13/sunny_dale)
+"hqF" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "hqI" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/f13/desert)
@@ -19936,6 +19884,22 @@
 "iUz" = (
 /turf/closed/wall/f13/store/constructed,
 /area/f13/powerplant)
+"iUF" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "iXK" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -20126,6 +20090,10 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"jzY" = (
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/underground/mountain)
 "jAz" = (
 /obj/structure/barricade/tentclothedge{
 	dir = 4
@@ -20521,10 +20489,6 @@
 	icon_state = "greendirtyfull"
 	},
 /area/f13/followers)
-"kvN" = (
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "kxP" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/waterbottle{
@@ -20611,6 +20575,22 @@
 /obj/structure/chair/wood/normal,
 /turf/open/floor/wood/f13,
 /area/f13/desert)
+"kEV" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "kFY" = (
 /obj/structure/table/wood/fancy,
 /obj/item/statuebust,
@@ -20874,6 +20854,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"liA" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "liB" = (
 /obj/machinery/light/small/broken{
 	dir = 1
@@ -20891,6 +20879,12 @@
 /obj/item/ammo_box/magazine/m9mm,
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
+"llw" = (
+/obj/structure/table_frame,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "lmp" = (
 /obj/structure/car/rubbish3,
 /turf/open/indestructible/ground/outside/desert,
@@ -20950,13 +20944,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
-"ltu" = (
-/obj/structure/table,
-/obj/item/paper_bin,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "lvo" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -21134,6 +21121,15 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"lSy" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/structure/sign/warning/securearea{
+	name = "MILITARIZED ZONE AHEAD"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "lTj" = (
 /obj/structure/fence{
 	color = "#515249";
@@ -21353,6 +21349,15 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/ncr)
+"moP" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "mpp" = (
 /obj/structure/table,
 /obj/item/storage/backpack/satchel/leather,
@@ -21505,6 +21510,31 @@
 /obj/effect/landmark/start/f13/ncrrearechelon,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/ncr)
+"mHI" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 5
+	},
+/obj/structure/fluff/railing/corner{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "mIy" = (
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/farm)
@@ -21593,6 +21623,10 @@
 /mob/living/simple_animal/hostile/radscorpion/black,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"nez" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "neC" = (
 /obj/effect/landmark/start/f13/settler,
 /turf/open/floor/plating/f13/outside/road{
@@ -21856,11 +21890,6 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/desert)
-"nHA" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "nHV" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/clothing_low,
@@ -22146,6 +22175,14 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"ott" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "ouw" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -22302,10 +22339,6 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
-"oHt" = (
-/obj/structure/barricade/wooden,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "oIj" = (
 /obj/effect/decal/waste{
 	pixel_x = 18;
@@ -22314,10 +22347,6 @@
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"oIu" = (
-/obj/structure/simple_door/metal/fence,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "oIv" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
@@ -22542,6 +22571,13 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
+"pkZ" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "plY" = (
 /obj/structure/chair/sofa/corp,
 /obj/effect/decal/cleanable/dirt{
@@ -22568,6 +22604,27 @@
 /obj/item/ammo_box/magazine/m9mm,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"poc" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "pod" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/f13{
@@ -22594,11 +22651,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
-"ptU" = (
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "puk" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
@@ -22733,15 +22785,6 @@
 /obj/structure/window/fulltile/wood_window,
 /turf/open/floor/wood/f13/old,
 /area/f13/followers)
-"pHY" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 9
-	},
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "pIo" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,
@@ -23061,6 +23104,11 @@
 	icon_state = "whitebluerustychess"
 	},
 /area/f13/sunny_dale)
+"quH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "qvP" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
@@ -23117,11 +23165,6 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
-"qFn" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "qGN" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
@@ -23133,6 +23176,27 @@
 /obj/structure/flora/junglebush/c,
 /turf/open/indestructible/ground/outside/water,
 /area/f13/desert)
+"qHw" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "qHQ" = (
 /obj/effect/overlay/junk/toilet{
 	dir = 4;
@@ -23164,6 +23228,14 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/desert)
+"qKK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "qLw" = (
 /obj/structure/rack,
 /obj/item/clothing/head/f13/ncr/standard/conscript,
@@ -23177,24 +23249,6 @@
 "qLG" = (
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/desert)
-"qLW" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 4
-	},
-/obj/structure/fluff/railing{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 8;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "qLZ" = (
 /obj/machinery/smartfridge/drying_rack,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -23323,6 +23377,10 @@
 /mob/living/simple_animal/hostile/ghoul/legendary,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"reV" = (
+/obj/structure/barricade/wooden/strong,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "rfh" = (
 /obj/structure/chair,
 /obj/machinery/light{
@@ -23383,27 +23441,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
-"rkC" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 1
-	},
-/obj/structure/fence/handrail{
-	density = 0;
-	dir = 4;
-	pixel_x = 12
-	},
-/obj/structure/fluff/railing,
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "rkQ" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/curtain{
@@ -23437,6 +23474,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"rso" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/barricade/wooden,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "rsG" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/drinks/bottle/vodka,
@@ -23486,31 +23530,11 @@
 "rvF" = (
 /turf/open/indestructible/ground/outside/road,
 /area/f13/powerplant)
-"rwl" = (
-/obj/machinery/light/floor,
-/obj/structure/lattice{
-	density = 1
+"rvW" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
 	},
-/obj/structure/fluff/railing/corner{
-	dir = 4
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 8;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/fluff/railing{
-	dir = 10
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
+/area/f13/desert)
 "rwo" = (
 /obj/structure/mirror{
 	pixel_x = 30
@@ -23532,6 +23556,9 @@
 /obj/structure/wreck/trash/four_barrels,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/ncr)
+"ryv" = (
+/turf/closed/wall/f13/supermart,
+/area/f13/desert)
 "rzn" = (
 /obj/structure/car/rubbish2,
 /turf/open/indestructible/ground/outside/road{
@@ -23637,14 +23664,6 @@
 /obj/item/seeds/cannabis,
 /turf/open/floor/f13/wood,
 /area/f13/farmhouse)
-"rIZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "rJb" = (
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/closed/wall/r_wall/rust,
@@ -23654,6 +23673,31 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
+"rJH" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 6
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "rKH" = (
 /obj/structure/simple_door/interior,
 /turf/open/floor/f13/wood,
@@ -23735,15 +23779,6 @@
 	icon_state = "floordirty"
 	},
 /area/f13/sunny_dale)
-"rTu" = (
-/obj/structure/closet/crate{
-	anchored = 1;
-	can_be_unanchored = 1
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "rTR" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -23785,12 +23820,6 @@
 	icon_state = "horizontaltopborderbottom2"
 	},
 /area/f13/desert)
-"rXm" = (
-/obj/effect/turf_decal/caution/stand_clear,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "rXp" = (
 /obj/machinery/light{
 	dir = 8
@@ -24014,6 +24043,27 @@
 /obj/item/reagent_containers/pill/patch/healpoultice,
 /turf/open/floor/f13,
 /area/f13/sunny_dale)
+"smJ" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fence/handrail{
+	density = 0;
+	dir = 4;
+	pixel_x = -12
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "smQ" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
@@ -24239,27 +24289,6 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/powerplant)
-"sPd" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 4
-	},
-/obj/structure/fluff/railing{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 4;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "sPr" = (
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert,
@@ -24384,12 +24413,6 @@
 /obj/machinery/smartfridge/bottlerack/grownbin,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/desert)
-"tbj" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "tdm" = (
 /obj/structure/flora/grass/wasteland,
 /turf/open/indestructible/ground/outside/desert,
@@ -24421,22 +24444,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/followers)
-"tiM" = (
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 1
-	},
-/obj/structure/fluff/railing,
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "tjE" = (
 /obj/structure/wreck/car/bike{
 	dir = 9
@@ -24517,31 +24524,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/farmhouse)
-"tto" = (
-/obj/machinery/light/floor,
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/railing/corner{
-	dir = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 6
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 0;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 4;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "ttP" = (
 /obj/structure/fence{
 	dir = 4
@@ -24647,29 +24629,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/farm)
-"tGZ" = (
-/obj/machinery/light/floor,
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 9
-	},
-/obj/structure/fluff/railing/corner,
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 8;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 1;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "tIv" = (
 /obj/structure/rack,
 /obj/item/radio/headset/headset_ncr,
@@ -24714,10 +24673,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
-"tJQ" = (
-/obj/structure/timeddoor,
-/turf/closed/mineral/random/low_chance,
-/area/f13/underground/mountain)
 "tKl" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /obj/machinery/light{
@@ -24735,31 +24690,6 @@
 /obj/structure/reagent_dispensers/compostbin,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/ncr)
-"tOY" = (
-/obj/machinery/light/floor,
-/obj/structure/lattice{
-	density = 1
-	},
-/obj/structure/fluff/railing{
-	dir = 5
-	},
-/obj/structure/fluff/railing/corner{
-	dir = 8
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 1;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 4;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
-	},
-/turf/open/floor/plating/tunnel,
-/area/f13/underground/mountain)
 "tPf" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -24796,13 +24726,6 @@
 	icon_state = "floordirty"
 	},
 /area/f13/sunny_dale)
-"tUR" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "tVy" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_large,
@@ -25292,6 +25215,27 @@
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"uPo" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "uPT" = (
 /turf/open/floor/f13{
 	icon_state = "freezerfloor"
@@ -25318,15 +25262,6 @@
 /obj/structure/kitchenspike,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
-"uTS" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 6
-	},
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "uWq" = (
 /obj/item/multitool,
 /turf/open/floor/plasteel/f13{
@@ -25476,6 +25411,31 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/sunny_dale)
+"vky" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 6
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "vkP" = (
 /obj/structure/junk/small/tv{
 	desc = "Advertisements would've played on this tv before the bombs dropped.";
@@ -25505,6 +25465,15 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/farmhouse)
+"voC" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "voQ" = (
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plating,
@@ -25707,19 +25676,19 @@
 /obj/structure/mopbucket,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"vKm" = (
+"vJR" = (
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fluff/railing,
 /obj/structure/lattice{
 	density = 1
 	},
 /obj/structure/fluff/railing{
 	dir = 1
-	},
-/obj/structure/fluff/railing,
-/obj/structure/window/reinforced/spawner{
-	color = "#777777";
-	dir = 1;
-	max_integrity = 5000;
-	name = "ultra-reinforced window"
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
@@ -26310,11 +26279,25 @@
 	icon_state = "bar"
 	},
 /area/f13/underground/mountain)
+"wQU" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "wRp" = (
 /turf/open/floor/f13/wood{
 	icon_state = "housebase"
 	},
 /area/f13/sunny_dale)
+"wSF" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "wSG" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/ncr)
@@ -26366,14 +26349,6 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/underground/mountain)
-"wWz" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "wWA" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -26488,16 +26463,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
-"xgv" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 10;
-	pixel_x = 7
-	},
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
-	},
-/area/f13/underground/mountain)
 "xgA" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -26638,6 +26603,27 @@
 "xwb" = (
 /turf/closed/wall/f13/wood/house/broken,
 /area/f13/sunny_dale)
+"xyq" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fence/handrail{
+	density = 0;
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "xAz" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal{
@@ -26752,6 +26738,22 @@
 /obj/structure/stacklifter,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
+"xOA" = (
+/obj/structure/fluff/railing,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "xOL" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -26767,21 +26769,29 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
-"xRi" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 5
-	},
+"xRw" = (
 /obj/machinery/light/floor,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "yellowrustysolid"
+/obj/structure/lattice{
+	density = 1
 	},
+/obj/structure/fluff/railing{
+	dir = 9
+	},
+/obj/structure/fluff/railing/corner,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
-"xRt" = (
-/obj/structure/table_frame,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
-/area/f13/desert)
 "xST" = (
 /obj/structure/chair{
 	dir = 4
@@ -26829,10 +26839,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/ncr)
-"xXC" = (
-/obj/structure/timeddoor,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/underground/mountain)
 "xXJ" = (
 /obj/structure/table,
 /obj/item/storage/box/syringes,
@@ -26921,14 +26927,6 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/wood/f13/old,
-/area/f13/desert)
-"yha" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
 /area/f13/desert)
 "yhd" = (
 /obj/structure/flora/grass/wasteland{
@@ -28374,7 +28372,7 @@ aab
 aab
 aab
 aab
-mkF
+aab
 aag
 aag
 aag
@@ -28780,7 +28778,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aab
 aab
@@ -29182,7 +29180,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -29584,7 +29582,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -29986,7 +29984,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -30388,7 +30386,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -30790,7 +30788,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -31192,7 +31190,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -31594,7 +31592,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -31996,7 +31994,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 eVF
 aag
 aag
@@ -32398,7 +32396,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aag
 aag
@@ -32770,7 +32768,6 @@ aag
 aag
 aag
 aag
-dhk
 aag
 aag
 aag
@@ -32801,6 +32798,7 @@ aag
 aag
 aag
 aag
+ryv
 aag
 aag
 aag
@@ -33177,6 +33175,16 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
 aag
 aag
 aag
@@ -33192,17 +33200,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aag
 aag
@@ -33576,6 +33574,22 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
 aag
 aag
 aag
@@ -33588,23 +33602,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aag
 aag
@@ -33894,11 +33892,11 @@ bGU
 bGU
 aix
 byM
-aJj
+bDz
 aVC
 aUC
 byM
-aJj
+bDz
 aVC
 aix
 bgR
@@ -33974,6 +33972,12 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+aag
+szL
+szL
 aag
 aag
 aag
@@ -33986,6 +33990,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -33998,15 +34004,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aag
 aag
@@ -34356,60 +34354,60 @@ aag
 aag
 aag
 aag
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
-bzo
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
+szL
+aag
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+ryv
+aag
 bzo
 bzo
 bzo
@@ -34740,6 +34738,13 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -34758,60 +34763,53 @@ aag
 aag
 aag
 aag
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
-aSK
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+ryv
+aag
 aSK
 aSK
 aSK
@@ -35137,6 +35135,21 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+aag
+szL
+szL
 aag
 aag
 aag
@@ -35159,61 +35172,46 @@ aag
 aag
 aag
 aag
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
-acv
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+ryv
+aag
 acv
 acv
 acv
@@ -35537,6 +35535,26 @@ aag
 aag
 aag
 aag
+szL
+aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
+szL
 aag
 aag
 aag
@@ -35560,62 +35578,42 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
 aag
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
-baE
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
 baE
 baE
 baE
@@ -35894,25 +35892,25 @@ aaa
 aaa
 aaa
 aaa
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
 aab
 aaa
 iug
@@ -35938,6 +35936,50 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
 aag
 aag
 aag
@@ -35962,50 +36004,6 @@ aag
 aag
 aag
 aag
-aag
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
-szL
 szL
 szL
 szL
@@ -36296,25 +36294,25 @@ aab
 aab
 aab
 aaa
-bDz
-tGZ
-gKZ
-qLW
-qLW
-qLW
-qLW
-qLW
-gXA
-rwl
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+xRw
+poc
+dCw
+dCw
+dCw
+dCw
+dCw
+qHw
+aYR
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
 aab
 aaa
 iug
@@ -36340,6 +36338,50 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
 aag
 aag
 aag
@@ -36364,62 +36406,18 @@ aag
 aag
 aag
 aag
-aag
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
-aMq
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
+szL
 aMq
 szL
 szL
@@ -36698,25 +36696,25 @@ aab
 aab
 aab
 aaa
-bDz
-vKm
-uTS
-nHA
-nHA
-nHA
-nHA
-nHA
-xRi
-dRn
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+iUF
+wQU
+bbl
+bbl
+bbl
+bbl
+bbl
+moP
+vJR
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
 aab
 aaa
 iug
@@ -36742,6 +36740,48 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
 aag
 aag
 aag
@@ -36767,61 +36807,19 @@ aag
 aag
 aag
 aag
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
-acy
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+ryv
+aag
 acy
 bhP
 brn
@@ -37100,25 +37098,25 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-nHA
-rXm
-nHA
-nHA
-nHA
-rXm
-nHA
-rkC
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+xOA
+bbl
+cmO
+bbl
+bbl
+bbl
+cmO
+bbl
+xyq
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
 aab
 aaa
 iug
@@ -37146,6 +37144,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -37165,6 +37164,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -37180,6 +37181,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -37217,12 +37220,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aFW
 aen
@@ -37502,25 +37500,25 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-nHA
-nHA
-nHA
-nHA
-nHA
-nHA
-nHA
-kvN
-kvN
-qFn
-qFn
-qFn
-bDz
-byM
 aJj
-aVC
+xOA
+bbl
+bbl
+bbl
+bbl
+bbl
+bbl
+bbl
+bVX
+bVX
+quH
+quH
+quH
+aJj
+byM
 bDz
+aVC
+aJj
 aab
 aaa
 iug
@@ -37548,6 +37546,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -37570,6 +37569,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -37582,6 +37582,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -37621,10 +37622,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aFW
 aen
@@ -37904,25 +37902,25 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-tbj
-nHA
-tbj
-tbj
-nHA
-nHA
-tbj
-kvN
-kvN
-qFn
-qFn
-qFn
-bDz
+aJj
+xOA
+bhX
+bbl
+bhX
+bhX
+bbl
+bbl
+bhX
+bVX
+bVX
+quH
+quH
+quH
+aJj
 aog
 aZK
 aZY
-bDz
+aJj
 aab
 aaa
 iug
@@ -37950,6 +37948,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -37972,6 +37971,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -37982,11 +37982,9 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -38026,7 +38024,7 @@ aag
 aag
 aag
 aag
-aag
+ryv
 aag
 aFW
 aen
@@ -38306,26 +38304,26 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-tbj
-nHA
-tbj
-nHA
-nHA
-nHA
-nHA
-kvN
-kvN
-qFn
-qFn
-qFn
-bDz
+aJj
+xOA
+bhX
+bbl
+bhX
+bbl
+bbl
+bbl
+bbl
+bVX
+bVX
+quH
+quH
+quH
+aJj
 aWh
 bRA
 bgX
-bDz
-tJQ
+aJj
+aDp
 aaa
 iug
 iug
@@ -38376,6 +38374,18 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
 aag
 aag
 aag
@@ -38416,19 +38426,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aFW
 aen
@@ -38708,25 +38706,25 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-nHA
-rXm
-nHA
-tbj
-nHA
-rXm
-nHA
-dIg
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+xOA
+bbl
+cmO
+bbl
+bhX
+bbl
+cmO
+bbl
+smJ
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
 bgR
 aiR
 iug
@@ -38754,6 +38752,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -38777,6 +38776,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -38784,6 +38785,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -38825,12 +38828,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aFW
 aen
@@ -39110,26 +39108,26 @@ aab
 aab
 aab
 aaa
-bDz
-haO
-xgv
-rIZ
-nHA
-nHA
-nHA
-nHA
-pHY
-tiM
-bDz
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-xXC
+aJj
+crA
+ayR
+qKK
+bbl
+bbl
+bbl
+bbl
+hqF
+kEV
+aJj
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+jzY
 aiR
 rZM
 rZM
@@ -39156,6 +39154,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -39181,10 +39180,15 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
 aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -39226,13 +39230,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+ryv
 aag
 aFW
 aen
@@ -39512,26 +39510,26 @@ aab
 aab
 aab
 aaa
-bDz
-tOY
-sPd
-fOa
-fOa
-fOa
-fOa
-fOa
-sPd
-aJb
-bDz
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-xXC
+aJj
+mHI
+uPo
+edp
+edp
+edp
+edp
+edp
+uPo
+vky
+aJj
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+jzY
 mkF
 aag
 rZM
@@ -39558,6 +39556,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -39582,17 +39582,15 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -39634,7 +39632,7 @@ bzo
 bzo
 bzo
 bzo
-bzo
+ryv
 bzo
 aeg
 aen
@@ -39914,26 +39912,26 @@ aab
 aab
 aab
 aaa
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
-xXC
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
+jzY
 mkF
 aag
 aag
@@ -39960,6 +39958,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -39984,15 +39984,13 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -40316,26 +40314,26 @@ aab
 aab
 aab
 aaa
-bDz
-byM
 aJj
-aVC
-bDz
-bDz
-bDz
 byM
-aJj
+bDz
 aVC
-bDz
-kvN
-kvN
-kvN
-bDz
+aJj
+aJj
+aJj
 byM
-aJj
-aVC
 bDz
-xXC
+aVC
+aJj
+bVX
+bVX
+bVX
+aJj
+byM
+bDz
+aVC
+aJj
+jzY
 aab
 aag
 aag
@@ -40362,6 +40360,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -40389,12 +40389,10 @@ aag
 aag
 aag
 aag
+szL
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -40718,26 +40716,26 @@ aab
 aab
 aab
 aaa
-bDz
+aJj
 aog
 aZK
 aZY
-bDz
-bDz
-bDz
+aJj
+aJj
+aJj
 aog
 aZK
 aZY
-bDz
-kvN
-kvN
-kvN
-bDz
+aJj
+bVX
+bVX
+bVX
+aJj
 aog
 aZK
 aZY
-bDz
-tJQ
+aJj
+aDp
 aab
 iug
 aag
@@ -40793,9 +40791,9 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -41120,26 +41118,26 @@ aab
 aab
 aab
 aaa
-bDz
+aJj
 aWh
 bRA
 bgX
-bDz
-bDz
-bDz
+aJj
+aJj
+aJj
 aWh
 bRA
 bgX
-bDz
-kvN
-kvN
-kvN
-bDz
+aJj
+bVX
+bVX
+bVX
+aJj
 aWh
 bRA
 bgX
-bDz
-tJQ
+aJj
+aDp
 aab
 iug
 aag
@@ -41167,6 +41165,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -41195,8 +41194,7 @@ aag
 aag
 aag
 aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -41522,26 +41520,26 @@ aab
 aab
 aab
 aaa
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
-tJQ
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
+aDp
 aab
 iug
 aag
@@ -41569,6 +41567,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -41597,8 +41596,7 @@ aag
 aag
 aag
 aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -41924,33 +41922,33 @@ aab
 aab
 aab
 aaa
-bDz
-tGZ
-gKZ
-qLW
-qLW
-qLW
-qLW
-qLW
-gXA
-rwl
-bDz
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-xXC
+aJj
+xRw
+poc
+dCw
+dCw
+dCw
+dCw
+dCw
+qHw
+aYR
+aJj
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+jzY
 aab
 iug
 aag
-oHt
+nez
 aag
-gtz
-dam
+wSF
+reV
 aag
 ajf
 aag
@@ -42001,7 +41999,7 @@ aag
 aag
 aag
 aag
-aag
+szL
 aag
 aag
 aag
@@ -42326,37 +42324,35 @@ aab
 aab
 aab
 aaa
-bDz
-vKm
-uTS
-nHA
-nHA
-nHA
-nHA
-nHA
-xRi
-dRn
-bDz
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-kvN
-xXC
+aJj
+iUF
+wQU
+bbl
+bbl
+bbl
+bbl
+bbl
+moP
+vJR
+aJj
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+bVX
+jzY
 mkF
 iug
 aag
-gtz
+wSF
 aag
-dam
-aag
-aag
-oIu
+reV
 aag
 aag
+gHX
 aag
 aag
 aag
@@ -42405,6 +42401,8 @@ aag
 aag
 aag
 aag
+aag
+szL
 aag
 aag
 aag
@@ -42728,37 +42726,35 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-nHA
-rXm
-nHA
-nHA
-nHA
-rXm
-nHA
-rkC
-bDz
-kvN
-kvN
-kvN
-bDz
-bDz
-bDz
-bDz
-bDz
-xXC
+aJj
+xOA
+bbl
+cmO
+bbl
+bbl
+bbl
+cmO
+bbl
+xyq
+aJj
+bVX
+bVX
+bVX
+aJj
+aJj
+aJj
+aJj
+aJj
+jzY
 mkF
 aag
 aag
 aag
-gtz
-oHt
-gtz
+wSF
+nez
+wSF
 aag
-diu
-aag
-aag
+lSy
 aag
 aag
 aag
@@ -42776,7 +42772,7 @@ aag
 aag
 aag
 aag
-aag
+szL
 aag
 aag
 aag
@@ -42808,6 +42804,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -43130,37 +43128,35 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-nHA
-nHA
-nHA
-nHA
-nHA
-nHA
-nHA
-kvN
-kvN
-qFn
-qFn
-qFn
-bDz
-byM
 aJj
-aVC
+xOA
+bbl
+bbl
+bbl
+bbl
+bbl
+bbl
+bbl
+bVX
+bVX
+quH
+quH
+quH
+aJj
+byM
 bDz
-xXC
+aVC
+aJj
+jzY
 mkF
 aag
 aag
-oHt
+nez
 aag
-dam
-aag
-aag
-oIu
+reV
 aag
 aag
+gHX
 aag
 aag
 aag
@@ -43178,7 +43174,7 @@ aag
 aag
 aag
 aag
-aag
+szL
 aag
 aag
 aag
@@ -43210,7 +43206,9 @@ aag
 aag
 aag
 aag
-aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -43532,33 +43530,33 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-tbj
-nHA
-tbj
-tbj
-nHA
-nHA
-tbj
-kvN
-kvN
-qFn
-qFn
-qFn
-bDz
+aJj
+xOA
+bhX
+bbl
+bhX
+bhX
+bbl
+bbl
+bhX
+bVX
+bVX
+quH
+quH
+quH
+aJj
 aog
 aZK
 aZY
-bDz
+aJj
 bgR
 aiR
 aag
 aag
-gtz
+wSF
 aag
-oHt
-gtz
+nez
+wSF
 aag
 ajf
 aag
@@ -43578,6 +43576,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -43610,9 +43609,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -43934,34 +43932,34 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-tbj
-nHA
-tbj
-nHA
-nHA
-nHA
-nHA
-kvN
-kvN
-qFn
-qFn
-qFn
-bDz
+aJj
+xOA
+bhX
+bbl
+bhX
+bbl
+bbl
+bbl
+bbl
+bVX
+bVX
+quH
+quH
+quH
+aJj
 aWh
 bRA
 bgX
-bDz
+aJj
 aaa
 aiR
 rZM
-oHt
-oHt
+nez
+nez
 rZM
 rZM
 rZM
-tUR
+eAn
 rZM
 aag
 aag
@@ -43978,6 +43976,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -44012,12 +44012,10 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
+szL
+szL
 aag
 aag
 aag
@@ -44336,34 +44334,34 @@ aab
 aab
 aab
 aaa
-bDz
-aqE
-nHA
-rXm
-nHA
-tbj
-nHA
-rXm
-nHA
-dIg
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+xOA
+bbl
+cmO
+bbl
+bhX
+bbl
+cmO
+bbl
+smJ
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
 aaa
 aab
 aag
 aag
-oHt
+nez
 aag
-cgz
-ptU
-ltu
+rso
+rvW
+pkZ
 rZM
 aag
 aag
@@ -44380,6 +44378,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -44417,11 +44417,9 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -44738,34 +44736,34 @@ aab
 aab
 aab
 aaa
-bDz
-haO
-xgv
-rIZ
-nHA
-nHA
-nHA
-nHA
-pHY
-tiM
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+crA
+ayR
+qKK
+bbl
+bbl
+bbl
+bbl
+hqF
+kEV
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
 aaa
 aab
 aag
 aag
 aag
-oHt
+nez
 rZM
-ptU
-wWz
+rvW
+ott
 rZM
 aag
 aag
@@ -44780,6 +44778,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -44821,11 +44821,9 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -45140,25 +45138,25 @@ aab
 aab
 aab
 aaa
-bDz
-tOY
-sPd
-fOa
-fOa
-fOa
-fOa
-fOa
-sPd
-tto
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+mHI
+uPo
+edp
+edp
+edp
+edp
+edp
+uPo
+rJH
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
 aaa
 aab
 iug
@@ -45166,8 +45164,8 @@ iug
 aag
 aag
 rZM
-yha
-ptU
+liA
+rvW
 rZM
 aag
 aag
@@ -45182,6 +45180,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -45225,9 +45225,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -45542,25 +45540,25 @@ aab
 aab
 aab
 aaa
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
-bDz
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
+aJj
 aaa
 aab
 iug
@@ -45568,9 +45566,23 @@ aag
 aag
 aag
 rZM
-ptU
-xRt
-tUR
+rvW
+llw
+eAn
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -45615,22 +45627,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -45970,8 +45968,8 @@ aag
 aag
 aag
 rZM
-rTu
-ptU
+voC
+rvW
 rZM
 aag
 aag
@@ -45984,6 +45982,9 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -46029,11 +46030,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -46435,8 +46433,8 @@ aag
 aag
 aag
 aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -46457,7 +46455,7 @@ aag
 aag
 aag
 aiW
-acz
+eVi
 acz
 acz
 acz
@@ -46805,6 +46803,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -46835,10 +46835,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -46859,7 +46857,7 @@ bzo
 bzo
 bzo
 bzo
-bzo
+aok
 bzo
 bzo
 ahj
@@ -47207,6 +47205,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -47239,10 +47239,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -47611,6 +47609,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -47642,9 +47641,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -48013,6 +48011,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -48044,9 +48043,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -48415,6 +48413,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -48446,8 +48445,7 @@ aag
 aag
 aag
 aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -48817,6 +48815,9 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -48845,11 +48846,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -49220,6 +49218,9 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -49247,10 +49248,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -49623,6 +49621,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -49650,9 +49650,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -50026,6 +50024,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -50052,9 +50051,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -50428,6 +50426,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -50454,9 +50453,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -50830,6 +50828,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -50855,9 +50854,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -51232,6 +51230,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -51255,10 +51255,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -51634,6 +51632,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -51659,8 +51658,7 @@ aag
 aag
 aag
 aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -52036,6 +52034,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -52060,9 +52060,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -52439,6 +52437,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -52462,9 +52461,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -52841,6 +52839,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -52864,9 +52863,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -53243,6 +53241,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -53265,9 +53265,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
+szL
 aag
 aag
 aag
@@ -53645,6 +53643,9 @@ aag
 aag
 aag
 aag
+szL
+aag
+szL
 aag
 aag
 aag
@@ -53665,11 +53666,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -54045,6 +54043,11 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+aag
+szL
 aag
 aag
 aag
@@ -54064,13 +54067,8 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+szL
+szL
 aag
 aag
 aag
@@ -54446,6 +54444,32 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
+szL
+aag
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
+szL
+aag
+aag
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -54457,33 +54481,7 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
 aZF
 bes
 bek
@@ -54847,6 +54845,32 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+szL
+szL
+aag
+szL
+szL
+szL
+szL
 aag
 aag
 aag
@@ -54857,35 +54881,9 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
 aLh
 bii
 bdq
@@ -55248,6 +55246,31 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
+aag
+aag
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -55259,35 +55282,10 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
 aZF
 aZF
 aZF
@@ -55649,6 +55647,26 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -55665,31 +55683,11 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
 aZN
 aZM
@@ -56050,6 +56048,25 @@ aag
 aag
 aag
 aag
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+aag
+aag
+aag
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -56068,32 +56085,13 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
-bVX
+aZM
 baZ
 baZ
 beq
@@ -56451,6 +56449,25 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+aag
+szL
+aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -56470,30 +56487,11 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
 rsZ
 aZF
@@ -56852,6 +56850,25 @@ aag
 aag
 aag
 aag
+szL
+szL
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+aag
+szL
+szL
 aag
 aag
 aag
@@ -56872,30 +56889,11 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
 big
 bah
@@ -57200,9 +57198,9 @@ aab
 aKh
 aKh
 aKh
-aKh
-aKh
-aKh
+aab
+aab
+aab
 aKh
 aKh
 aKh
@@ -57253,6 +57251,9 @@ aag
 aag
 aag
 aag
+szL
+szL
+szL
 aag
 aag
 aag
@@ -57290,14 +57291,11 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
 big
 bbA
@@ -57602,8 +57600,8 @@ aab
 aab
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aKh
 aab
@@ -57611,26 +57609,26 @@ aab
 aKh
 aKh
 aKh
+aab
+aab
+aab
+bog
+aab
 aKh
 aKh
 aKh
+aKh
+aaa
+aaa
+aaa
+aaa
+bog
 bog
 aKh
 aKh
 aKh
 aKh
 aKh
-aaa
-aaa
-aaa
-aaa
-bog
-bog
-aKh
-aKh
-aKh
-aKh
-aKh
 aab
 aKh
 aKh
@@ -57655,6 +57653,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -57694,12 +57693,11 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
 hgL
 aYD
@@ -58004,7 +58002,7 @@ bog
 aab
 aKh
 aKh
-aKh
+aab
 aKh
 aKh
 aKh
@@ -58014,10 +58012,10 @@ aKh
 aKh
 aaa
 aaa
-aKh
+aab
 bog
 bog
-aKh
+aab
 aKh
 aKh
 aKh
@@ -58056,6 +58054,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -58096,12 +58095,11 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aFW
+iug
+iug
+iug
+iug
+iug
 aZF
 aZF
 aZF
@@ -58416,7 +58414,7 @@ aKh
 aKh
 aaa
 aKh
-aKh
+aab
 aaa
 aaa
 aKh
@@ -58458,6 +58456,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -58497,16 +58496,15 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aiW
-acz
-bbl
-acz
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
 afb
 aZF
 aZF
@@ -58818,9 +58816,9 @@ aKh
 aKh
 aaa
 aKh
-aKh
+aab
 aaa
-aKh
+aab
 aKh
 aKh
 aab
@@ -58860,6 +58858,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -58898,17 +58898,15 @@ aag
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
 aiW
 acz
 acz
@@ -59220,9 +59218,9 @@ aKh
 aKh
 aaa
 aaa
-aKh
-aKh
-aKh
+aab
+aab
+aab
 aKh
 aKh
 aab
@@ -59262,6 +59260,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -59292,26 +59292,24 @@ aag
 aag
 aag
 aag
-aag
-aag
-aab
-aab
-aab
-aab
-aab
-aag
+mkF
+mkF
+mkF
+mkF
+mkF
 aag
 aag
 aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
+iug
 aag
 aag
 aag
@@ -59665,6 +59663,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -59687,34 +59686,33 @@ aag
 aag
 aag
 aag
-aag
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+iug
+iug
+iug
+adQ
+iug
+adQ
+adQ
+iug
+iug
+iug
+iug
 aag
 aag
 aiW
@@ -60067,6 +60065,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -60086,38 +60085,37 @@ aag
 aag
 aag
 aag
-aag
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+iug
+iug
+adQ
+adQ
+adQ
+adQ
+adQ
+iug
+iug
+iug
+iug
+iug
 aag
 aag
 aFW
@@ -60469,6 +60467,7 @@ aag
 aag
 aag
 aag
+szL
 aag
 aag
 aag
@@ -60488,38 +60487,37 @@ aag
 aag
 aag
 aag
-aag
-aab
-aab
-aab
-aFN
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+aKh
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+iug
+iug
+adQ
+iug
+iug
+adQ
+iug
+iug
+iug
+iug
+iug
+iug
 aag
 aag
 aFW
@@ -60871,6 +60869,8 @@ aag
 aag
 aag
 aag
+szL
+szL
 aag
 aag
 aag
@@ -60889,37 +60889,35 @@ aag
 aag
 aag
 aag
-aag
-aag
+mkF
+mkF
+mkF
+mkF
 aab
 aab
 aab
 aab
 aab
+aKh
+aKh
+aKh
 aab
+mkF
+mkF
+mkF
+mkF
+mkF
 aab
+iug
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aag
-aab
-aag
-aag
-aag
-aag
-aag
-aag
-aag
-aag
+adQ
+iug
+iug
+adQ
+adQ
+adQ
+iug
+iug
 aag
 aag
 aag
@@ -61215,7 +61213,7 @@ bog
 aab
 aab
 aKh
-aKh
+aab
 aKh
 aaa
 aaa
@@ -61291,30 +61289,30 @@ aag
 aag
 aag
 aag
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+aab
+aab
+aab
+aab
+aab
+aKh
+aab
+aKh
+aab
+mkF
+mkF
 aab
 aab
 aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
 aab
 aab
 aJg
@@ -61596,8 +61594,8 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aKh
 aKh
@@ -61617,42 +61615,42 @@ bog
 aab
 aab
 aKh
-aKh
+aab
 aKh
 aab
 aKh
 aKh
 aKh
 aKh
+aab
+bog
+aab
+aab
+aKh
+aKh
+aaa
+aaa
+aaa
+aaa
+aKh
+aKh
+aaa
+aaa
+aaa
+aKh
+aKh
+aKh
+aab
+bog
+bog
+aab
+aab
 aab
 bog
 aab
 aab
 aKh
 aKh
-aaa
-aaa
-aaa
-aaa
-aKh
-aKh
-aaa
-aaa
-aaa
-aKh
-aKh
-aKh
-aab
-bog
-bog
-aab
-aab
-aab
-bog
-aab
-aab
-aKh
-aKh
 aKh
 aaa
 aaa
@@ -61693,6 +61691,20 @@ aag
 aag
 aag
 aag
+mkF
+mkF
+mkF
+mkF
+mkF
+mkF
+aab
+aab
+aab
+aab
+aab
+aKh
+aab
+aKh
 aab
 aab
 aab
@@ -61701,22 +61713,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aen
@@ -61999,40 +61997,40 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aKh
-aKh
-aKh
-aaa
-bog
-bog
-bog
-aaa
-bog
-bog
-aKh
-aKh
-aKh
-aKh
-bog
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aab
-aKh
-aKh
-aab
-aKh
-aKh
-aab
 aab
 aKh
 aKh
 aKh
 aaa
+bog
+bog
+bog
+aaa
+bog
+bog
+aKh
+aKh
+aKh
+aKh
+bog
+aab
+aab
+aKh
+aKh
+aKh
+aKh
+aab
+aKh
+aKh
+aab
+aKh
+aKh
+aab
+aab
+aKh
+aKh
+aKh
+aaa
 aab
 bog
 aaa
@@ -62054,7 +62052,7 @@ aab
 bog
 aKh
 aKh
-aKh
+aab
 aKh
 aKh
 aKh
@@ -62095,6 +62093,21 @@ aag
 aag
 aag
 aag
+mkF
+mkF
+mkF
+mkF
+mkF
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -62102,23 +62115,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aen
@@ -62456,8 +62454,8 @@ aab
 aab
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aKh
 aaa
@@ -62497,6 +62495,8 @@ aag
 aag
 aag
 aag
+mkF
+mkF
 aab
 aab
 aab
@@ -62507,19 +62507,17 @@ aab
 aab
 aab
 aab
+aKh
+aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
@@ -62857,9 +62855,9 @@ aab
 aab
 aab
 aKh
-aKh
-aKh
-aKh
+aab
+aab
+aab
 aKh
 aKh
 aKh
@@ -62899,6 +62897,12 @@ aag
 aag
 aag
 aag
+mkF
+mkF
+aab
+aab
+aab
+aFN
 aab
 aab
 aab
@@ -62908,19 +62912,13 @@ aab
 aab
 aab
 aab
+aKh
+aKh
+aKh
+aKh
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -63193,7 +63191,7 @@ aab
 aab
 aab
 aKh
-aKh
+aab
 aKh
 aKh
 aaa
@@ -63243,29 +63241,29 @@ aaa
 aaa
 aaa
 aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aKh
-aKh
-aab
-aab
-aab
 aab
 aKh
 aKh
 aKh
 aKh
 aKh
+aab
+aab
+aKh
+aKh
+aab
+aab
+aab
+aab
 aKh
 aKh
 aKh
 aKh
+aKh
+aKh
+aKh
+aKh
+aKh
 aag
 aag
 aag
@@ -63301,18 +63299,8 @@ aag
 aag
 aag
 aag
-aab
-aab
-aab
-aab
-aok
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+mkF
+mkF
 aab
 aab
 aab
@@ -63324,6 +63312,16 @@ aab
 aab
 aab
 aab
+aab
+aab
+aab
+aab
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -63595,8 +63593,8 @@ aab
 aab
 aab
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aaa
 bog
@@ -63646,7 +63644,7 @@ aab
 aKh
 aKh
 aKh
-aKh
+aab
 aKh
 aKh
 aKh
@@ -63725,7 +63723,7 @@ aab
 aab
 aab
 aab
-aab
+aKh
 aab
 aab
 aab
@@ -63997,8 +63995,8 @@ aab
 aab
 aab
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aaa
 aaa
@@ -64057,11 +64055,11 @@ aKh
 aKh
 aKh
 aKh
+aab
 aKh
-aKh
-aKh
-aKh
-aKh
+aab
+aab
+aab
 aKh
 aKh
 aab
@@ -64100,11 +64098,11 @@ aag
 aag
 aag
 aag
-aab
-aab
-aab
-aab
-aab
+mkF
+mkF
+mkF
+mkF
+mkF
 aab
 aab
 aab
@@ -64400,7 +64398,7 @@ aab
 aab
 aKh
 aKh
-aKh
+aab
 aKh
 aKh
 aaa
@@ -64458,12 +64456,12 @@ aaa
 aaa
 aaa
 aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
+aab
+aab
+aab
+aab
+aab
+aab
 aKh
 aab
 aab
@@ -64502,11 +64500,11 @@ aag
 aag
 aag
 aag
-aab
-aab
-aab
-aab
-aab
+mkF
+mkF
+mkF
+mkF
+mkF
 aab
 aab
 aab
@@ -64906,9 +64904,9 @@ aag
 aag
 aag
 aag
-aab
-aab
-aab
+mkF
+mkF
+mkF
 aab
 aab
 aab
@@ -65223,8 +65221,8 @@ aaa
 bog
 aaa
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aKh
 aKh
@@ -65241,7 +65239,7 @@ aaa
 aKh
 aKh
 aKh
-aKh
+aab
 aKh
 aaa
 bog
@@ -65603,8 +65601,8 @@ aab
 aab
 aab
 aab
-aab
-aab
+aKh
+aKh
 aKh
 aKh
 aaa
@@ -65625,7 +65623,7 @@ bog
 bog
 aaa
 aKh
-aKh
+aab
 aKh
 aKh
 aKh
@@ -65643,7 +65641,7 @@ aab
 aaa
 aKh
 aKh
-aKh
+aab
 aKh
 aaa
 aaa
@@ -66005,7 +66003,7 @@ aab
 aab
 aab
 aab
-aab
+aKh
 aab
 aab
 aKh
@@ -66407,7 +66405,7 @@ aab
 aab
 aab
 aab
-aab
+aKh
 aab
 aab
 aKh
@@ -66422,8 +66420,8 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aaa
 bog
 aab
@@ -66825,7 +66823,7 @@ aKh
 aKh
 aKh
 aKh
-aKh
+aab
 aaa
 bog
 bog
@@ -68419,15 +68417,15 @@ aab
 aab
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aaa
 bog
 aab
 aaa
 aKh
-aKh
+aab
 aKh
 aKh
 bog
@@ -68822,14 +68820,14 @@ aab
 aKh
 aKh
 aKh
-aKh
+aab
 aKh
 aaa
 aaa
 aaa
 aaa
 aKh
-aKh
+aab
 aKh
 aaa
 aab
@@ -68870,8 +68868,8 @@ aab
 aab
 aaa
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aKh
 aab
@@ -69272,8 +69270,8 @@ aaa
 aaa
 aaa
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aab
 aab
