@@ -3615,7 +3615,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aok" = (
 /obj/effect/decal/remains/human,
@@ -3920,6 +3920,22 @@
 /obj/item/pen/fountain,
 /turf/open/floor/f13,
 /area/f13/sunny_dale)
+"aqE" = (
+/obj/structure/fluff/railing,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "aqG" = (
 /turf/closed/wall/f13/store/constructed,
 /area/f13/den)
@@ -4911,7 +4927,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aCs" = (
 /obj/structure/table,
@@ -5947,6 +5963,31 @@
 /obj/structure/window/fulltile/wood_window,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/desert)
+"aJb" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 6
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "aJd" = (
 /obj/item/broken_bottle,
 /turf/open/floor/wood/f13/oak,
@@ -5984,9 +6025,10 @@
 	},
 /area/f13/sunny_dale)
 "aJj" = (
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aJm" = (
 /turf/closed/wall/f13/tunnel,
@@ -8533,7 +8575,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aVD" = (
 /obj/machinery/vending/coffee,
@@ -8705,7 +8747,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aWi" = (
 /obj/structure/cable{
@@ -9606,9 +9648,7 @@
 /area/f13/sunny_dale)
 "aZK" = (
 /obj/machinery/porta_turret/syndicate,
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
-	},
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aZM" = (
 /turf/open/floor/plasteel/f13{
@@ -9677,7 +9717,7 @@
 /area/f13/den)
 "aZY" = (
 /obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "aZZ" = (
 /turf/open/floor/plating/f13/outside/road{
@@ -11283,7 +11323,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "bgY" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -11512,7 +11552,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "bit" = (
 /obj/structure/chair{
@@ -14316,7 +14356,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "byN" = (
 /obj/structure/rack,
@@ -14800,10 +14840,7 @@
 /turf/open/floor/carpet,
 /area/f13/sunny_dale)
 "bDz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "bDA" = (
 /obj/machinery/light{
@@ -15771,7 +15808,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/plating/tunnel,
 /area/f13/underground/mountain)
 "bRB" = (
 /obj/structure/flora/grass/wasteland,
@@ -16800,6 +16837,13 @@
 /obj/item/gun/ballistic/automatic/smg/greasegun,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"cgz" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/barricade/wooden,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "cgA" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -17213,6 +17257,10 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/legion)
+"dam" = (
+/obj/structure/barricade/wooden/strong,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "dca" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
@@ -17264,6 +17312,15 @@
 	},
 /obj/item/pen/fountain,
 /turf/open/floor/wood/f13,
+/area/f13/desert)
+"diu" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/obj/structure/sign/warning/securearea{
+	name = "MILITARIZED ZONE AHEAD"
+	},
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
 "div" = (
 /turf/closed/wall/r_wall/rust,
@@ -17454,6 +17511,27 @@
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/ncr)
+"dIg" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fence/handrail{
+	density = 0;
+	dir = 4;
+	pixel_x = -12
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "dIE" = (
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt{
@@ -17574,6 +17652,22 @@
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
+"dRn" = (
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fluff/railing,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "dSy" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -18407,6 +18501,24 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/sunny_dale)
+"fOa" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "fOs" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -18626,6 +18738,11 @@
 /obj/item/storage/box/ration/menu_eleven,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"gtz" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "gtV" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/random,
@@ -18802,6 +18919,27 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/ncr)
+"gKZ" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "gLa" = (
 /obj/structure/fence{
 	dir = 4
@@ -18895,6 +19033,27 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
+"gXA" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "gXT" = (
 /obj/structure/nest/raider/ranged{
 	max_mobs = 2;
@@ -18938,6 +19097,22 @@
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"haO" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "hbm" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/desert,
@@ -20346,6 +20521,10 @@
 	icon_state = "greendirtyfull"
 	},
 /area/f13/followers)
+"kvN" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "kxP" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/waterbottle{
@@ -20771,6 +20950,13 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/underground/enclave_base)
+"ltu" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "lvo" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -21670,6 +21856,11 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/desert)
+"nHA" = (
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "nHV" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/clothing_low,
@@ -22111,6 +22302,10 @@
 	},
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"oHt" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "oIj" = (
 /obj/effect/decal/waste{
 	pixel_x = 18;
@@ -22119,6 +22314,10 @@
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"oIu" = (
+/obj/structure/simple_door/metal/fence,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "oIv" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
@@ -22395,6 +22594,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
+"ptU" = (
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "puk" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/waterbottle,
@@ -22529,6 +22733,15 @@
 /obj/structure/window/fulltile/wood_window,
 /turf/open/floor/wood/f13/old,
 /area/f13/followers)
+"pHY" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "pIo" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,
@@ -22904,6 +23117,11 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/wood/f13/old,
 /area/f13/sunny_dale)
+"qFn" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "qGN" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/item/storage/box/drinkingglasses,
@@ -22959,6 +23177,24 @@
 "qLG" = (
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/desert)
+"qLW" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "qLZ" = (
 /obj/machinery/smartfridge/drying_rack,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -23147,6 +23383,27 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
+"rkC" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fence/handrail{
+	density = 0;
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "rkQ" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/curtain{
@@ -23229,6 +23486,31 @@
 "rvF" = (
 /turf/open/indestructible/ground/outside/road,
 /area/f13/powerplant)
+"rwl" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing/corner{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/fluff/railing{
+	dir = 10
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "rwo" = (
 /obj/structure/mirror{
 	pixel_x = 30
@@ -23355,6 +23637,14 @@
 /obj/item/seeds/cannabis,
 /turf/open/floor/f13/wood,
 /area/f13/farmhouse)
+"rIZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "rJb" = (
 /mob/living/simple_animal/hostile/ghoul/glowing,
 /turf/closed/wall/r_wall/rust,
@@ -23445,6 +23735,15 @@
 	icon_state = "floordirty"
 	},
 /area/f13/sunny_dale)
+"rTu" = (
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "rTR" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -23486,6 +23785,12 @@
 	icon_state = "horizontaltopborderbottom2"
 	},
 /area/f13/desert)
+"rXm" = (
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "rXp" = (
 /obj/machinery/light{
 	dir = 8
@@ -23934,6 +24239,27 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/powerplant)
+"sPd" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 4
+	},
+/obj/structure/fluff/railing{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "sPr" = (
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert,
@@ -24058,6 +24384,12 @@
 /obj/machinery/smartfridge/bottlerack/grownbin,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/desert)
+"tbj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "tdm" = (
 /obj/structure/flora/grass/wasteland,
 /turf/open/indestructible/ground/outside/desert,
@@ -24089,6 +24421,22 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/followers)
+"tiM" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "tjE" = (
 /obj/structure/wreck/car/bike{
 	dir = 9
@@ -24169,6 +24517,31 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/farmhouse)
+"tto" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 6
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 0;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "ttP" = (
 /obj/structure/fence{
 	dir = 4
@@ -24274,6 +24647,29 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/farm)
+"tGZ" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 9
+	},
+/obj/structure/fluff/railing/corner,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 8;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "tIv" = (
 /obj/structure/rack,
 /obj/item/radio/headset/headset_ncr,
@@ -24318,6 +24714,10 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
+"tJQ" = (
+/obj/structure/timeddoor,
+/turf/closed/mineral/random/low_chance,
+/area/f13/underground/mountain)
 "tKl" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /obj/machinery/light{
@@ -24335,6 +24735,31 @@
 /obj/structure/reagent_dispensers/compostbin,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/ncr)
+"tOY" = (
+/obj/machinery/light/floor,
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 5
+	},
+/obj/structure/fluff/railing/corner{
+	dir = 8
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 4;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "tPf" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -24371,6 +24796,13 @@
 	icon_state = "floordirty"
 	},
 /area/f13/sunny_dale)
+"tUR" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "tVy" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_large,
@@ -24886,6 +25318,15 @@
 /obj/structure/kitchenspike,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/desert)
+"uTS" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "uWq" = (
 /obj/item/multitool,
 /turf/open/floor/plasteel/f13{
@@ -25266,6 +25707,22 @@
 /obj/structure/mopbucket,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"vKm" = (
+/obj/structure/lattice{
+	density = 1
+	},
+/obj/structure/fluff/railing{
+	dir = 1
+	},
+/obj/structure/fluff/railing,
+/obj/structure/window/reinforced/spawner{
+	color = "#777777";
+	dir = 1;
+	max_integrity = 5000;
+	name = "ultra-reinforced window"
+	},
+/turf/open/floor/plating/tunnel,
+/area/f13/underground/mountain)
 "vMi" = (
 /obj/machinery/door/window/eastright{
 	dir = 8
@@ -25909,6 +26366,14 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/underground/mountain)
+"wWz" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "wWA" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -26023,6 +26488,16 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/ncr)
+"xgv" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 10;
+	pixel_x = 7
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
 "xgA" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -26292,6 +26767,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/sunny_dale)
+"xRi" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "yellowrustysolid"
+	},
+/area/f13/underground/mountain)
+"xRt" = (
+/obj/structure/table_frame,
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
+/area/f13/desert)
 "xST" = (
 /obj/structure/chair{
 	dir = 4
@@ -26339,6 +26829,10 @@
 	icon_state = "dirt"
 	},
 /area/f13/ncr)
+"xXC" = (
+/obj/structure/timeddoor,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/underground/mountain)
 "xXJ" = (
 /obj/structure/table,
 /obj/item/storage/box/syringes,
@@ -26427,6 +26921,14 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/wood/f13/old,
+/area/f13/desert)
+"yha" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13{
+	icon_state = "floorgrime"
+	},
 /area/f13/desert)
 "yhd" = (
 /obj/structure/flora/grass/wasteland{
@@ -26970,7 +27472,7 @@ aiR
 aiR
 bgR
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -27372,7 +27874,7 @@ aix
 aix
 bgR
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -27774,7 +28276,7 @@ bbk
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -28176,7 +28678,7 @@ bsl
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -28578,7 +29080,7 @@ aST
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -28980,7 +29482,7 @@ aDl
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -29382,7 +29884,7 @@ aBV
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -29784,7 +30286,7 @@ aix
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -30186,7 +30688,7 @@ atl
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -30588,7 +31090,7 @@ bGy
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -30990,7 +31492,7 @@ aiN
 aix
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -31392,7 +31894,7 @@ aix
 bgR
 bgR
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -31794,7 +32296,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -32196,7 +32698,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -32598,7 +33100,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -33000,7 +33502,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -33392,17 +33894,17 @@ bGU
 bGU
 aix
 byM
-bDz
+aJj
 aVC
 aUC
 byM
-bDz
+aJj
 aVC
 aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -33804,7 +34306,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -34206,7 +34708,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -34608,7 +35110,7 @@ aix
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -35010,7 +35512,7 @@ bgR
 bgR
 aab
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -35392,27 +35894,27 @@ aaa
 aaa
 aaa
 aaa
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
 aab
-aab
+aaa
 iug
 iug
 iug
@@ -35793,28 +36295,28 @@ aaa
 aab
 aab
 aab
+aaa
+bDz
+tGZ
+gKZ
+qLW
+qLW
+qLW
+qLW
+qLW
+gXA
+rwl
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
 iug
 iug
 iug
@@ -35822,7 +36324,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -36195,28 +36697,28 @@ aaa
 aab
 aab
 aab
+aaa
+bDz
+vKm
+uTS
+nHA
+nHA
+nHA
+nHA
+nHA
+xRi
+dRn
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
 iug
 iug
 iug
@@ -36224,7 +36726,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -36597,28 +37099,28 @@ aaa
 aab
 aab
 aab
+aaa
+bDz
+aqE
+nHA
+rXm
+nHA
+nHA
+nHA
+rXm
+nHA
+rkC
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
 iug
 iug
 iug
@@ -36626,7 +37128,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -36999,28 +37501,28 @@ aaa
 aab
 aab
 aab
+aaa
+bDz
+aqE
+nHA
+nHA
+nHA
+nHA
+nHA
+nHA
+nHA
+kvN
+kvN
+qFn
+qFn
+qFn
+bDz
+byM
+aJj
+aVC
+bDz
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
 iug
 iug
 iug
@@ -37028,7 +37530,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -37401,28 +37903,28 @@ aaa
 aab
 aab
 aab
+aaa
+bDz
+aqE
+tbj
+nHA
+tbj
+tbj
+nHA
+nHA
+tbj
+kvN
+kvN
+qFn
+qFn
+qFn
+bDz
+aog
+aZK
+aZY
+bDz
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
 iug
 iug
 iug
@@ -37430,7 +37932,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -37803,28 +38305,28 @@ aaa
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
+bDz
+aqE
+tbj
+nHA
+tbj
+nHA
+nHA
+nHA
+nHA
+kvN
+kvN
+qFn
+qFn
+qFn
+bDz
+aWh
+bRA
+bgX
+bDz
+tJQ
+aaa
 iug
 iug
 iug
@@ -37832,7 +38334,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -38205,28 +38707,28 @@ aaa
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
+bDz
+aqE
+nHA
+rXm
+nHA
+tbj
+nHA
+rXm
+nHA
+dIg
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
+bgR
+aiR
 iug
 iug
 iug
@@ -38234,7 +38736,7 @@ iug
 iug
 iug
 iug
-iug
+aag
 aag
 aag
 aag
@@ -38607,30 +39109,30 @@ aaa
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
-iug
-iug
+aaa
+bDz
+haO
+xgv
+rIZ
+nHA
+nHA
+nHA
+nHA
+pHY
+tiM
+bDz
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+xXC
+aiR
+rZM
+rZM
 iug
 iug
 iug
@@ -39009,32 +39511,32 @@ aaa
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
+aaa
+bDz
+tOY
+sPd
+fOa
+fOa
+fOa
+fOa
+fOa
+sPd
+aJb
+bDz
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+xXC
 mkF
-aab
-iug
-iug
-iug
-iug
+aag
+rZM
+rZM
+rZM
 iug
 aag
 aag
@@ -39411,32 +39913,32 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
+aaa
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
+xXC
 mkF
-mkF
 aag
 aag
 aag
-iug
+rZM
 iug
 aag
 aag
@@ -39813,35 +40315,35 @@ aab
 aab
 aab
 aab
+aaa
+bDz
+byM
+aJj
+aVC
+bDz
+bDz
+bDz
+byM
+aJj
+aVC
+bDz
+kvN
+kvN
+kvN
+bDz
+byM
+aJj
+aVC
+bDz
+xXC
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-mkF
-mkF
 aag
 aag
 aag
+rZM
 iug
 iug
-iug
-iug
+aag
 aag
 aag
 aag
@@ -40215,35 +40717,35 @@ aab
 aab
 aab
 aab
+aaa
+bDz
+aog
+aZK
+aZY
+bDz
+bDz
+bDz
+aog
+aZK
+aZY
+bDz
+kvN
+kvN
+kvN
+bDz
+aog
+aZK
+aZY
+bDz
+tJQ
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+iug
 aag
 aag
+rZM
+iug
+iug
 aag
-iug
-iug
-iug
-iug
 aag
 aag
 aag
@@ -40617,35 +41119,35 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
+aaa
+bDz
+aWh
+bRA
+bgX
+bDz
+bDz
+bDz
+aWh
+bRA
+bgX
+bDz
+kvN
+kvN
+kvN
+bDz
+aWh
+bRA
+bgX
+bDz
+tJQ
 aab
 iug
 aag
 aag
+rZM
 iug
 iug
-iug
-iug
+aag
 aag
 aag
 aag
@@ -41019,36 +41521,36 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
+aaa
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
+tJQ
 aab
 iug
 aag
 aag
-iug
-iug
-iug
-iug
-aag
+rZM
+rZM
+rZM
+bUQ
+aio
 aag
 aag
 aag
@@ -41421,36 +41923,36 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
+aaa
+bDz
+tGZ
+gKZ
+qLW
+qLW
+qLW
+qLW
+qLW
+gXA
+rwl
+bDz
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+xXC
 aab
 iug
 aag
+oHt
 aag
-iug
-iug
-iug
-iug
+gtz
+dam
 aag
+ajf
 aag
 aag
 aag
@@ -41823,36 +42325,36 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
+bDz
+vKm
+uTS
+nHA
+nHA
+nHA
+nHA
+nHA
+xRi
+dRn
+bDz
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+kvN
+xXC
+mkF
 iug
 aag
+gtz
+aag
+dam
 aag
 aag
-iug
-iug
-iug
-aag
+oIu
 aag
 aag
 aag
@@ -42225,36 +42727,36 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
+aaa
+bDz
+aqE
+nHA
+rXm
+nHA
+nHA
+nHA
+rXm
+nHA
+rkC
+bDz
+kvN
+kvN
+kvN
+bDz
+bDz
+bDz
+bDz
+bDz
+xXC
 mkF
-aab
-iug
 aag
 aag
 aag
+gtz
+oHt
+gtz
 aag
-iug
-iug
-aag
+diu
 aag
 aag
 aag
@@ -42627,36 +43129,36 @@ aab
 aab
 aab
 aab
-aab
+aaa
+bDz
+aqE
+nHA
+nHA
+nHA
+nHA
+nHA
+nHA
+nHA
+kvN
+kvN
+qFn
+qFn
+qFn
+bDz
+byM
 aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
+aVC
+bDz
+xXC
 mkF
-aab
 aag
 aag
+oHt
+aag
+dam
 aag
 aag
-iug
-iug
-aag
-aag
+oIu
 aag
 aag
 aag
@@ -43029,36 +43531,36 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-mkF
-mkF
+aaa
+bDz
+aqE
+tbj
+nHA
+tbj
+tbj
+nHA
+nHA
+tbj
+kvN
+kvN
+qFn
+qFn
+qFn
+bDz
+aog
+aZK
+aZY
+bDz
+bgR
+aiR
 aag
 aag
+gtz
 aag
+oHt
+gtz
 aag
-iug
-aag
-aag
-aag
+ajf
 aag
 aag
 aag
@@ -43431,40 +43933,40 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aaa
+bDz
+aqE
+tbj
+nHA
+tbj
+nHA
+nHA
+nHA
+nHA
+kvN
+kvN
+qFn
+qFn
+qFn
+bDz
+aWh
+bRA
+bgX
+bDz
+aaa
+aiR
+rZM
+oHt
+oHt
+rZM
+rZM
+rZM
+tUR
+rZM
 aag
 aag
 aag
 aag
-iug
-aag
-aag
-iug
-iug
-iug
-iug
-iug
 aag
 aag
 aag
@@ -43833,40 +44335,40 @@ aab
 aab
 aab
 aab
+aaa
+bDz
+aqE
+nHA
+rXm
+nHA
+tbj
+nHA
+rXm
+nHA
+dIg
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+aaa
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aag
+aag
+oHt
+aag
+cgz
+ptU
+ltu
+rZM
 aag
 aag
 aag
 aag
-aag
-aag
-aag
-iug
-iug
-iug
-iug
-iug
 aag
 aag
 aag
@@ -44235,40 +44737,40 @@ aab
 aab
 aab
 aab
+aaa
+bDz
+haO
+xgv
+rIZ
+nHA
+nHA
+nHA
+nHA
+pHY
+tiM
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+aaa
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
+aag
+aag
+aag
+oHt
+rZM
+ptU
+wWz
+rZM
 aag
 aag
 aag
 aag
-aag
-aag
-aag
-iug
-iug
-iug
-iug
-iug
 aag
 aag
 aag
@@ -44637,40 +45139,40 @@ aab
 aab
 aab
 aab
-aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
+aaa
+bDz
+tOY
+sPd
+fOa
+fOa
+fOa
+fOa
+fOa
+sPd
+tto
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+aaa
 aab
 iug
 iug
 aag
 aag
+rZM
+yha
+ptU
+rZM
 aag
-iug
-iug
-iug
-iug
-iug
-iug
-iug
+aag
+aag
+aag
 aag
 aag
 aag
@@ -45039,40 +45541,40 @@ aab
 aab
 aab
 aab
+aaa
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+bDz
+aaa
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
 iug
 aag
 aag
 aag
+rZM
+ptU
+xRt
+tUR
 aag
-iug
-iug
-iug
-iug
-iug
-iug
-iug
+aag
+aag
+aag
 aag
 aag
 aag
@@ -45441,40 +45943,40 @@ aab
 aab
 aab
 aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aab
-aab
 iug
 aag
 aag
 aag
+rZM
+rTu
+ptU
+rZM
 aag
-iug
-iug
-iug
-iug
-iug
-iug
-iug
+aag
+aag
+aag
 aag
 aag
 aag
@@ -45844,25 +46346,6 @@ aab
 aab
 aab
 aab
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
-aJj
 aab
 aab
 aab
@@ -45877,6 +46360,25 @@ aab
 aab
 aab
 aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aiR
+aiR
+aiR
+aiR
+mkF
+mkF
+mkF
+mkF
 aag
 aag
 aag
@@ -46275,10 +46777,10 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
+mkF
+mkF
+mkF
+mkF
 aag
 aag
 aag
@@ -46678,9 +47180,9 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+mkF
+mkF
+mkF
 aag
 aag
 aag
@@ -47081,8 +47583,8 @@ aab
 aab
 aab
 aab
-aab
-aab
+mkF
+mkF
 aag
 aag
 aag
@@ -47484,7 +47986,7 @@ aab
 aab
 aab
 aab
-aab
+mkF
 aag
 aag
 aag
@@ -47886,7 +48388,7 @@ aab
 aab
 aab
 aab
-aab
+mkF
 aag
 aag
 aag
@@ -48985,55 +49487,55 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aaa
 aiR
 aix
@@ -49387,7 +49889,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -49789,6 +50291,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -49822,10 +50325,9 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -50191,6 +50693,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -50222,14 +50725,13 @@ aab
 aab
 aab
 aab
+aKh
+aKh
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -50593,6 +51095,22 @@ aab
 aab
 aab
 aab
+aaa
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
 aab
 aab
 aab
@@ -50609,29 +51127,13 @@ aab
 aab
 aab
 aab
+aKh
 aab
 aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -50995,6 +51497,22 @@ aab
 aab
 aab
 aab
+aaa
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
 aab
 aab
 aab
@@ -51010,28 +51528,12 @@ aab
 aab
 aab
 aab
+aKh
+aKh
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+bog
 aab
 aab
 aab
@@ -51397,6 +51899,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -51411,6 +51914,15 @@ aab
 aab
 aab
 aab
+aKh
+aKh
+aab
+aab
+aab
+bog
+bog
+aab
+bog
 aab
 aab
 aab
@@ -51418,21 +51930,11 @@ aab
 aab
 aab
 aab
+aKh
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+bog
+bog
 aab
 aab
 aab
@@ -51799,6 +52301,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -51814,8 +52317,12 @@ aab
 aab
 aab
 aab
+aKh
 aab
 aab
+bog
+bog
+bog
 aab
 aab
 aab
@@ -51825,8 +52332,12 @@ aab
 aab
 aab
 aab
+aKh
 aab
 aab
+bog
+bog
+bog
 aab
 aab
 aab
@@ -51853,58 +52364,49 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aab
 aab
 aag
@@ -52201,6 +52703,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -52216,8 +52719,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -52306,7 +52808,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aag
@@ -52603,16 +53105,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -52630,11 +53123,21 @@ aab
 aab
 aKh
 aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aKh
 aKh
 aKh
 aKh
 aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -52707,8 +53210,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aaa
 aab
 aab
 aag
@@ -53005,6 +53507,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -53021,9 +53524,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
@@ -53110,7 +53612,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aag
@@ -53407,11 +53909,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -53431,6 +53929,10 @@ aab
 aab
 aKh
 aKh
+aKh
+aKh
+aKh
+aKh
 aab
 aKh
 aKh
@@ -53512,7 +54014,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aag
@@ -53809,6 +54311,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -53821,9 +54324,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+bog
 aab
 aab
 aab
@@ -53832,6 +54333,7 @@ aab
 aab
 aKh
 aKh
+aKh
 aab
 aab
 aKh
@@ -53914,7 +54416,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -54211,6 +54713,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -54220,35 +54723,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
+bog
+bog
 aab
 aab
 aab
@@ -54260,6 +54736,32 @@ aab
 aKh
 aKh
 aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aKh
+aKh
 aab
 aKh
 aKh
@@ -54316,7 +54818,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -54613,7 +55115,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -54635,8 +55137,8 @@ aab
 aab
 aKh
 aKh
+aab
 aKh
-bqq
 aKh
 aKh
 aab
@@ -54648,19 +55150,6 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aab
 aKh
 aKh
 aKh
@@ -54671,6 +55160,13 @@ aab
 aab
 aab
 aab
+aKh
+aKh
+aab
+aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -54719,6 +55215,12 @@ aab
 aab
 aab
 aab
+aab
+aab
+aab
+aab
+aab
+aaa
 aab
 aab
 aab
@@ -55015,6 +55517,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -55023,11 +55526,10 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
+bog
+bog
+bog
+bog
 aab
 aab
 aab
@@ -55037,8 +55539,8 @@ aab
 aab
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aab
 aab
@@ -55120,7 +55622,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -55417,6 +55919,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -55425,8 +55928,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+bog
 aab
 aab
 aab
@@ -55439,8 +55941,8 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aab
 aab
@@ -55819,7 +56321,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -56221,6 +56723,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -56228,9 +56731,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
@@ -56252,7 +56754,7 @@ aab
 aab
 aab
 aab
-aab
+aKh
 aKh
 aKh
 aKh
@@ -56623,6 +57125,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -56631,9 +57134,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
@@ -56654,10 +57156,10 @@ aab
 aab
 aab
 aab
-aab
 aKh
 aKh
-bqq
+aKh
+aKh
 aKh
 aKh
 aKh
@@ -56727,8 +57229,8 @@ aaa
 aKh
 aKh
 aKh
-aKh
-aKh
+aab
+aab
 aKh
 aKh
 aaa
@@ -57025,31 +57527,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -57068,6 +57546,30 @@ aKh
 aKh
 aKh
 aKh
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aab
+aab
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aab
 aKh
 aKh
 aab
@@ -57129,7 +57631,7 @@ aKh
 aKh
 aKh
 aKh
-aKh
+aab
 aKh
 aKh
 aaa
@@ -57427,7 +57929,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -57444,16 +57946,11 @@ aab
 aKh
 aKh
 aKh
-bpY
 aKh
 aKh
 aKh
 aKh
-aab
-aab
-aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -57464,13 +57961,18 @@ aab
 aKh
 aKh
 aab
+aab
+aab
+aKh
+aKh
+aab
 aKh
 aKh
 aKh
 aKh
-aKh
-aKh
-bqq
+aab
+aab
+aab
 aKh
 aab
 aKh
@@ -57829,28 +58331,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-bqq
-aKh
-aKh
-aKh
-aKh
+aaa
 aab
 aab
 aab
@@ -57864,15 +58345,36 @@ aab
 aab
 aab
 aKh
+aKh
+aKh
+aKh
+aKh
+aab
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aKh
+aab
+aab
 aab
 aab
 aKh
 aab
 aab
 aKh
+aab
+aab
 aKh
 aKh
-aKh
+aab
+aab
 aKh
 aab
 aKh
@@ -58231,31 +58733,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -58269,12 +58747,36 @@ aab
 aab
 aab
 aKh
+aKh
+aKh
+aKh
 aab
 aab
 aKh
 aKh
 aKh
+aab
+aab
+aab
+aab
+bog
 aKh
+aab
+bog
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aab
+aab
+aKh
+aKh
+aab
+aab
 aKh
 aKh
 aKh
@@ -58308,7 +58810,7 @@ aab
 aKh
 aKh
 aKh
-aab
+aaa
 aab
 aab
 aab
@@ -58633,30 +59135,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aab
-aKh
-aKh
-aKh
-aKh
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -58674,11 +59153,34 @@ aKh
 aKh
 aKh
 aab
+aab
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aKh
+bog
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aKh
 aKh
 aKh
 aKh
+aaa
 aKh
+aKh
+aab
+aab
+aab
 aKh
 aKh
 aab
@@ -58696,8 +59198,8 @@ aab
 bog
 bog
 aab
-bog
-bog
+aab
+aab
 aGS
 aab
 aab
@@ -58709,9 +59211,9 @@ aab
 aab
 aKh
 aKh
-aab
+aaa
 bog
-aab
+aaa
 aab
 aab
 aKh
@@ -59035,35 +59537,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -59077,6 +59551,34 @@ aab
 aab
 aab
 aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aab
+bog
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
 aKh
 aKh
 aKh
@@ -59099,7 +59601,7 @@ bog
 aab
 bog
 bog
-bog
+aab
 bog
 aab
 xgY
@@ -59110,11 +59612,11 @@ aKh
 aKh
 aKh
 aKh
+aaa
+bog
+bog
 aab
-bog
-bog
-aKh
-aKh
+aaa
 aKh
 aKh
 aKh
@@ -59437,32 +59939,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -59477,10 +59954,35 @@ aab
 aab
 aKh
 aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
 aab
+aab
+aab
+aab
+bog
+bog
+bog
+aab
+aab
+aab
+aab
+aab
+aab
+bog
+bog
+bog
+aKh
 aKh
 aab
 aKh
+aaa
+aaa
 aKh
 aKh
 aKh
@@ -59513,9 +60015,9 @@ aKh
 aab
 aab
 aab
-aab
+aaa
 bog
-aKh
+aab
 aKh
 aKh
 aKh
@@ -59839,34 +60341,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -59880,11 +60355,38 @@ aab
 aab
 aab
 aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
 aab
+aab
+aab
+aab
+aab
+aab
+bog
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+bog
+bog
 aab
 aab
 aKh
 aab
+bog
+aab
+aaa
+aaa
 aKh
 aKh
 aab
@@ -59911,11 +60413,11 @@ aab
 aaa
 aKh
 aKh
+aaa
 aab
 aab
 aKh
-aKh
-aKh
+aaa
 bog
 aab
 aKh
@@ -60241,7 +60743,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -60258,7 +60760,7 @@ aab
 aKh
 aKh
 aab
-aab
+aKh
 aKh
 aKh
 aab
@@ -60283,10 +60785,10 @@ aab
 bog
 aab
 aab
-aab
+bog
 bog
 aab
-aab
+aaa
 aKh
 aKh
 aab
@@ -60315,10 +60817,10 @@ aKh
 aKh
 bog
 aab
-aKh
-aKh
-aKh
 aab
+aKh
+aKh
+aaa
 aab
 aKh
 aKh
@@ -60643,6 +61145,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -60661,8 +61164,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -60688,7 +61190,7 @@ bog
 aab
 bog
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -60715,8 +61217,8 @@ aab
 aKh
 aKh
 aKh
-aab
-aab
+aaa
+aaa
 aKh
 aKh
 aKh
@@ -61045,6 +61547,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -61063,9 +61566,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
@@ -61089,7 +61591,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -61447,6 +61949,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -61459,38 +61962,37 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aKh
 aKh
-aKh
-aKh
-aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aKh
 aKh
 aKh
@@ -61532,14 +62034,14 @@ aKh
 aKh
 aaa
 aab
-aab
+bog
 aaa
 aaa
 aKh
 aaa
 bog
 bog
-aab
+aaa
 aKh
 aKh
 aab
@@ -61849,6 +62351,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -61868,9 +62371,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aaa
+aKh
 aab
 aab
 aab
@@ -61905,7 +62407,7 @@ aKh
 aKh
 aaa
 bog
-bog
+aab
 bog
 bog
 bog
@@ -61923,8 +62425,8 @@ aKh
 aKh
 aKh
 aKh
-aab
-aab
+aaa
+aaa
 aKh
 aKh
 aKh
@@ -61933,15 +62435,15 @@ aKh
 aab
 aKh
 aaa
+bog
 aab
 aab
-aaa
 aKh
 aKh
 aaa
 bog
 bog
-bog
+aaa
 aKh
 aKh
 aKh
@@ -62251,6 +62753,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -62264,16 +62767,15 @@ aab
 aab
 aab
 aab
+bog
 aab
 aab
+bog
+bog
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aKh
+aKh
 aab
 aab
 aab
@@ -62307,7 +62809,7 @@ aKh
 aKh
 aaa
 aaa
-bog
+aab
 bog
 aab
 aab
@@ -62320,14 +62822,14 @@ aKh
 aKh
 aab
 aKh
-aKh
-aKh
-aab
+aaa
+aaa
+aaa
 aab
 aKh
 bog
 bog
-aKh
+aaa
 aKh
 aKh
 aKh
@@ -62653,6 +63155,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -62669,13 +63172,12 @@ aab
 aab
 aab
 aab
+bog
+bog
 aab
+aaa
 aab
-aab
-aab
-aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -62722,10 +63224,10 @@ aKh
 aKh
 bog
 aKh
+aaa
+aab
+aab
 aKh
-aab
-aab
-aab
 aKh
 aab
 bog
@@ -63055,6 +63557,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -63068,16 +63571,15 @@ aab
 aab
 aab
 aab
+bog
+bog
+bog
+bog
+bog
 aab
+aaa
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
 aab
 aab
 aab
@@ -63119,16 +63621,16 @@ bog
 aaa
 aKh
 aKh
-aKh
+aaa
 aKh
 aKh
 aab
 aKh
 bog
 bog
-aab
+aaa
 aKh
-aKh
+aaa
 bog
 bog
 aab
@@ -63457,6 +63959,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -63475,11 +63978,10 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
+bog
+aaa
+aKh
+aKh
 aab
 aab
 aab
@@ -63520,24 +64022,24 @@ aKh
 aaa
 aaa
 aKh
+aaa
+aab
+aaa
 aKh
 aab
+bog
+bog
+aaa
 aKh
 aKh
 aab
 bog
-bog
-aab
-aKh
-aKh
-aab
-bog
-aab
+aaa
 aKh
 aKh
 aKh
 aab
-aab
+aaa
 aab
 bog
 bog
@@ -63859,6 +64361,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -63874,13 +64377,12 @@ aab
 aab
 aab
 aab
+bog
+bog
+bog
 aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aKh
 aab
 aab
 aab
@@ -63924,21 +64426,21 @@ aaa
 aKh
 aab
 aab
-aKh
+aaa
 aKh
 bog
 aab
-aab
+aaa
 aKh
 aKh
 aKh
 aab
-aab
-aab
+aaa
+aaa
 aKh
 aKh
 aKh
-aab
+aaa
 bog
 aab
 aab
@@ -64261,6 +64763,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -64279,11 +64782,10 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -64329,17 +64831,17 @@ aab
 aab
 aKh
 aKh
-aab
 aKh
 aKh
 aKh
-aKh
-aKh
-aab
 aKh
 aKh
 aKh
 aab
+aKh
+aKh
+aKh
+aaa
 aab
 aab
 aKh
@@ -64663,6 +65165,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -64675,15 +65178,14 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aKh
+aKh
 aab
 aab
 aab
@@ -64733,15 +65235,15 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aab
-aKh
-aKh
-aKh
+aaa
+aaa
+aaa
 aKh
 aKh
 aKh
-aab
+aKh
+aKh
+aaa
 bog
 aab
 aKh
@@ -65065,6 +65567,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -65078,13 +65581,12 @@ aab
 aab
 aab
 aab
+aKh
 aab
-aab
-aab
-aab
-aab
-aab
-aab
+aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -65134,17 +65636,17 @@ aab
 aKh
 aKh
 aKh
-aab
+aaa
 aab
 bog
 aab
-aab
+aaa
 aKh
 aKh
 aKh
 aKh
-aab
-aab
+aaa
+aaa
 aab
 aKh
 aKh
@@ -65467,6 +65969,7 @@ aab
 aab
 aab
 aab
+aaa
 aab
 aab
 aab
@@ -65480,9 +65983,8 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
@@ -65541,7 +66043,7 @@ bog
 bog
 bog
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -65556,7 +66058,7 @@ aKh
 aKh
 aKh
 aKh
-aKh
+aaa
 aKh
 aKh
 aKh
@@ -65567,7 +66069,7 @@ aaa
 aaa
 aaa
 bog
-bog
+aab
 bog
 bog
 aaa
@@ -65869,7 +66371,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -65942,25 +66444,25 @@ aKh
 aKh
 aab
 aab
-aab
-aKh
-aKh
-aKh
-aab
-aKh
-aKh
-aab
-aab
-aKh
-aKh
-aKh
-aab
-aKh
-aKh
-aKh
-bog
 bog
 aKh
+aKh
+aKh
+aab
+aKh
+aKh
+aaa
+aab
+aKh
+aKh
+aKh
+aab
+aKh
+aKh
+aaa
+bog
+bog
+aaa
 aKh
 aKh
 aKh
@@ -66271,7 +66773,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -66332,7 +66834,7 @@ aab
 aab
 aab
 bog
-bog
+aab
 bog
 bog
 aaa
@@ -66351,19 +66853,19 @@ aKh
 aab
 bog
 aKh
-aab
+aaa
 aab
 aab
 aab
 aab
 aab
 aKh
-aKh
+aaa
 bog
 bog
 bog
 bog
-aKh
+aaa
 aKh
 aKh
 aKh
@@ -66372,7 +66874,7 @@ aKh
 aKh
 aKh
 aaa
-bog
+aab
 bog
 aab
 aKh
@@ -66673,7 +67175,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -66731,10 +67233,10 @@ aab
 aKh
 aab
 bog
+aab
 bog
 bog
-bog
-bog
+aab
 bog
 aaa
 aKh
@@ -66753,19 +67255,19 @@ aKh
 aab
 aab
 aKh
-aab
+aaa
 aab
 bog
 aab
 aab
 aab
 aKh
-aKh
+aaa
 bog
 bog
 aab
 bog
-aKh
+aaa
 aKh
 aKh
 aab
@@ -67075,7 +67577,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -67156,19 +67658,19 @@ aKh
 aKh
 aKh
 aKh
-aab
+aaa
 bog
 aab
 aKh
 aKh
 aKh
 aKh
-aKh
+aaa
 bog
 bog
 bog
 bog
-aKh
+aaa
 aKh
 aab
 aab
@@ -67477,7 +67979,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -67558,19 +68060,19 @@ aKh
 aKh
 aKh
 aKh
-aab
+aaa
 bog
 aab
-aab
+aaa
 aKh
 aKh
 aKh
-aKh
+aaa
 bog
 bog
-aKh
-aKh
-aKh
+aaa
+aaa
+aaa
 aKh
 aKh
 aKh
@@ -67586,7 +68088,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -67879,7 +68381,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -67933,45 +68435,11 @@ aaa
 aKh
 aKh
 aaa
-bog
+aab
 bog
 bog
 bog
 aaa
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aaa
-bog
-bog
-aab
-aab
-aab
-aab
-aab
-bog
-aaa
-aaa
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-bog
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
-aKh
 aKh
 aKh
 aKh
@@ -67982,13 +68450,47 @@ aKh
 aaa
 bog
 bog
+aab
+aab
+aab
+aab
+aab
+bog
+aaa
+aaa
+aKh
+aKh
+aKh
+aKh
+aKh
+aaa
+bog
+aaa
+aaa
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aaa
+bog
+bog
 bog
 aaa
 aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -68281,7 +68783,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -68335,62 +68837,62 @@ aaa
 aKh
 aKh
 aaa
-bog
-bog
-bog
-aaa
-aaa
-aKh
-aKh
-aaa
-aaa
-aaa
-aaa
-aKh
-aaa
-aab
-aab
-aab
-aab
-bog
-aab
 aab
 bog
 bog
 aaa
 aaa
-aaa
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aKh
 aKh
 aKh
 aaa
 aaa
 aaa
 aaa
+aKh
+aaa
+aab
+aab
+aab
+aab
+bog
+aab
+aab
+bog
+bog
+aaa
+aaa
+aaa
+aKh
+aKh
+aKh
+aaa
+aab
+aab
+aaa
+aKh
+aKh
+aKh
+aKh
+aKh
+aab
+aab
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aKh
+aaa
+aaa
+aaa
+aaa
 aaa
 aKh
 aKh
 aKh
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -68683,7 +69185,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -68766,9 +69268,9 @@ aaa
 aKh
 aKh
 aKh
-aKh
-aKh
-aab
+aaa
+aaa
+aaa
 aKh
 aKh
 aKh
@@ -68792,7 +69294,7 @@ aKh
 aKh
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -69085,7 +69587,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -69194,7 +69696,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -69487,7 +69989,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -69596,7 +70098,7 @@ aKh
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -69889,7 +70391,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -69989,7 +70491,7 @@ aab
 aKh
 aab
 bog
-bog
+aab
 bog
 aab
 bog
@@ -69998,7 +70500,7 @@ aKh
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -70291,7 +70793,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -70390,7 +70892,7 @@ aKh
 aKh
 aKh
 aab
-bog
+aab
 bog
 bog
 bog
@@ -70400,7 +70902,7 @@ aKh
 aKh
 aKh
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -70693,7 +71195,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -70768,8 +71270,8 @@ aab
 aab
 aKh
 aKh
-aab
-aab
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -70802,7 +71304,7 @@ aab
 aab
 aKh
 aKh
-aab
+aaa
 aab
 aab
 aab
@@ -71095,7 +71597,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -71135,7 +71637,7 @@ aab
 aKh
 aKh
 aKh
-bpY
+aKh
 aKh
 aKh
 aKh
@@ -71204,7 +71706,7 @@ aKh
 aKh
 aab
 aKh
-aab
+aaa
 aab
 aab
 aab
@@ -71497,32 +71999,32 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aab
 aab
 aab
@@ -71567,11 +72069,11 @@ aKh
 aaa
 aab
 aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
 aKh
 aKh
 aab
@@ -71606,7 +72108,7 @@ aKh
 aKh
 aKh
 aKh
-aab
+aaa
 aab
 aab
 aab
@@ -71924,7 +72426,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -71968,8 +72470,8 @@ bog
 aKh
 aaa
 aab
-aKh
 aab
+aaa
 aab
 aab
 aab
@@ -72008,7 +72510,7 @@ aKh
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -72326,7 +72828,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -72409,8 +72911,8 @@ aab
 aab
 aab
 aab
-aab
-aab
+aaa
+aaa
 aab
 aab
 aab
@@ -72728,7 +73230,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -72811,7 +73313,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -73130,7 +73632,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -73160,12 +73662,12 @@ aab
 aab
 aab
 aab
+aKh
+bog
+bog
 aKh
 bog
 bog
-aKh
-bog
-bog
 aab
 aKh
 aab
@@ -73213,7 +73715,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -73532,7 +74034,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -73615,7 +74117,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -73934,7 +74436,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -74017,7 +74519,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -74336,7 +74838,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aKh
@@ -74419,7 +74921,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -74738,7 +75240,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aKh
@@ -74812,6 +75314,7 @@ aKh
 aKh
 aab
 aKh
+aKh
 aab
 aab
 aab
@@ -74820,8 +75323,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -75140,7 +75642,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aKh
 aKh
@@ -75210,9 +75712,10 @@ aKh
 aKh
 aKh
 aKh
-aab
+aaa
+aaa
 bog
-bog
+aaa
 aKh
 aab
 aab
@@ -75222,8 +75725,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -75542,8 +76044,12 @@ aab
 aab
 aab
 aab
+aaa
 aab
-aab
+aKh
+aKh
+aKh
+aKh
 aKh
 aKh
 aKh
@@ -75553,10 +76059,6 @@ aKh
 aKh
 aKh
 aKh
-aKh
-aKh
-aKh
-aKh
 aab
 aab
 aab
@@ -75610,11 +76112,12 @@ aab
 aKh
 aKh
 aKh
+aaa
+aaa
+aaa
 bog
 bog
-bog
-bog
-bog
+aaa
 aKh
 aab
 aab
@@ -75624,8 +76127,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -75944,7 +76446,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -75994,7 +76496,7 @@ aKh
 aab
 aKh
 aKh
-bog
+aaa
 aKh
 aKh
 aab
@@ -76011,14 +76513,14 @@ aab
 aKh
 aKh
 aKh
-aKh
-bog
-bog
+aaa
 bog
 bog
 bog
+bog
+aab
+aaa
 aKh
-aKh
 aab
 aab
 aab
@@ -76027,7 +76529,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -76346,6 +76848,7 @@ aab
 aab
 aab
 aab
+aaa
 aKh
 aKh
 aKh
@@ -76359,7 +76862,6 @@ aKh
 aKh
 aKh
 aKh
-aKh
 aab
 aab
 aab
@@ -76394,32 +76896,32 @@ aab
 aab
 aKh
 aKh
+aaa
+aaa
+bog
+aaa
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aKh
+aab
+aKh
+aKh
+aab
+aKh
+aKh
+aaa
+aab
+bog
 aab
 bog
 bog
-aab
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aab
-aKh
-aKh
-aab
-aKh
-aKh
-aKh
-aab
-bog
-bog
-bog
-bog
-aab
+aaa
 aKh
 aab
 aab
@@ -76429,7 +76931,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -76748,6 +77250,7 @@ aab
 aab
 aab
 aab
+aaa
 aKh
 aKh
 aKh
@@ -76761,7 +77264,6 @@ aKh
 aKh
 aKh
 aKh
-aKh
 aab
 aab
 aab
@@ -76795,10 +77297,11 @@ aKh
 aKh
 aab
 aKh
+aaa
 bog
+aab
 bog
-bog
-bog
+aaa
 aKh
 aKh
 aab
@@ -76812,15 +77315,14 @@ aab
 aab
 aab
 aab
+aaa
+aaa
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
 aab
 aKh
 aKh
@@ -76831,7 +77333,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -77150,7 +77652,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -77189,18 +77691,19 @@ aab
 aab
 aab
 aKh
-aab
+aKh
 aab
 aab
 aab
 aab
 aKh
 aKh
-aKh
+aaa
 bog
 bog
 bog
 bog
+aaa
 aKh
 aKh
 aab
@@ -77218,7 +77721,6 @@ aab
 aab
 aab
 aab
-aab
 aKh
 aKh
 aab
@@ -77233,7 +77735,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -77552,7 +78054,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -77598,34 +78100,12 @@ aab
 aab
 aab
 aab
-aKh
+aaa
 bog
 bog
 aab
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aab
-aab
+aaa
+aaa
 aab
 aKh
 aab
@@ -77636,6 +78116,28 @@ aab
 aab
 aab
 aab
+aab
+aab
+aab
+aab
+aab
+aab
+aKh
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
 aab
 aab
 aab
@@ -77954,7 +78456,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aKh
 aKh
@@ -77994,27 +78496,27 @@ aab
 aab
 aab
 aKh
+aKh
 aab
 aab
 aab
 aab
 aab
+aaa
+aab
+bog
+aab
+aaa
 aab
 aKh
+aKh
+aab
+aab
+aab
+aab
 bog
 bog
 aab
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-bog
-bog
-aab
 aab
 aab
 aab
@@ -78023,10 +78525,10 @@ aab
 aab
 aKh
 aKh
-aab
-aab
-aKh
-aab
+aaa
+aaa
+aaa
+aaa
 aab
 aab
 aKh
@@ -78037,7 +78539,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -78356,7 +78858,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aKh
@@ -78402,11 +78904,11 @@ aab
 aab
 aab
 aab
-aKh
+aaa
 bog
 bog
 bog
-aKh
+aaa
 aab
 aKh
 aab
@@ -78424,11 +78926,11 @@ aab
 aab
 aKh
 aKh
-aab
+aaa
 bog
 bog
 bog
-aab
+aaa
 aab
 aKh
 aKh
@@ -78439,7 +78941,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -78758,7 +79260,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aKh
 aKh
@@ -78804,44 +79306,44 @@ aab
 aab
 aab
 aab
+aaa
+bog
+bog
+bog
+aaa
 aKh
-bog
-bog
-bog
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-bog
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aab
-bog
-bog
-bog
-bog
-aab
-aab
 aKh
 aab
 aab
 aab
 aab
 aab
+bog
 aab
 aab
 aab
 aab
+aab
+aab
+aKh
+aKh
+aaa
+bog
+bog
+bog
+bog
+aaa
+aab
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
 aab
 aab
 aab
@@ -79160,7 +79662,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -79207,7 +79709,7 @@ aab
 aab
 aab
 aKh
-aKh
+aaa
 aab
 bog
 bog
@@ -79225,16 +79727,16 @@ aab
 aab
 aab
 aab
+aKh
+aaa
+bog
+bog
+bog
+bog
+aab
+aaa
 aab
 aKh
-bog
-bog
-bog
-bog
-aab
-aab
-aab
-aKh
 aab
 aab
 aab
@@ -79243,7 +79745,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -79562,7 +80064,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aKh
 aKh
 aKh
@@ -79610,7 +80112,7 @@ aab
 aab
 aab
 aKh
-aKh
+aaa
 aab
 bog
 aab
@@ -79627,13 +80129,13 @@ aab
 aab
 aab
 aab
-aab
 aKh
-aab
+aKh
+aaa
 bog
 aab
 bog
-aab
+aaa
 aKh
 aKh
 aKh
@@ -79645,7 +80147,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -79964,7 +80466,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aKh
@@ -79997,42 +80499,23 @@ aab
 aab
 aab
 aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aab
 aab
-aab
-aab
+aKh
+aKh
 aab
 aab
 aab
 aab
 aab
 aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aab
 aKh
 aKh
 aKh
@@ -80048,6 +80531,25 @@ aab
 aab
 aab
 aab
+aab
+aKh
+aKh
+aab
+aab
+aaa
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
 aab
 aab
 aab
@@ -80366,9 +80868,9 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
 aex
 aex
 ahl
@@ -80399,42 +80901,24 @@ aab
 aab
 aab
 aab
+aaa
+bog
+bog
+bog
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
 aKh
 aKh
+aab
+aab
+aab
+aab
+aab
+aab
 aKh
 aab
 aab
@@ -80450,6 +80934,24 @@ aab
 aab
 aab
 aab
+aab
+aKh
+aKh
+aKh
+aab
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aab
+aaa
 aab
 aab
 aab
@@ -80801,6 +81303,32 @@ aab
 aab
 aab
 aab
+aaa
+aab
+bog
+aab
+bog
+bog
+aaa
+aab
+aab
+aab
+aKh
+aKh
+aKh
+aab
+aab
+aab
+aab
+aKh
+aKh
+aab
+aab
+aab
+aab
+aab
+aab
+aab
 aab
 aab
 aab
@@ -80818,8 +81346,6 @@ aab
 aab
 aab
 aab
-aKh
-aKh
 aab
 aab
 aab
@@ -80827,31 +81353,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -81203,24 +81705,24 @@ aab
 aab
 aab
 aab
+aaa
+aab
+bog
 aab
 aab
+bog
+aaa
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aKh
 aab
 aab
 aab
 aKh
 aKh
 aKh
+aKh
+aKh
+aKh
+aKh
 aab
 aab
 aab
@@ -81253,7 +81755,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -81605,6 +82107,21 @@ aab
 aab
 aab
 aab
+aaa
+bog
+aab
+bog
+bog
+bog
+aaa
+aab
+aab
+aab
+aab
+aKh
+aab
+aab
+aKh
 aab
 aab
 aab
@@ -81640,22 +82157,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -82010,10 +82512,15 @@ aab
 aab
 aKh
 aKh
+aaa
+aaa
+aaa
+aaa
+aKh
 aab
 aab
 aab
-aab
+aKh
 aKh
 aab
 aab
@@ -82052,12 +82559,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -82421,6 +82923,7 @@ aKh
 aKh
 aKh
 aKh
+aKh
 aab
 aab
 aab
@@ -82458,8 +82961,7 @@ aab
 aab
 aab
 aab
-aab
-aab
+aaa
 aab
 aab
 aab
@@ -82861,7 +83363,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -83263,7 +83765,7 @@ aab
 aab
 aab
 aab
-aab
+aaa
 aab
 aab
 aab
@@ -83611,61 +84113,61 @@ afD
 afD
 afD
 afD
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
+aaa
 aab
 aab
 aab
